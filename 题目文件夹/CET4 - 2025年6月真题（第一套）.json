@@ -1,0 +1,815 @@
+{
+  "exam_meta": {
+    "exam_id": "2025.06-set-1",
+    "exam_date": "2025.06",
+    "set_id": 1,
+    "set_label": "第1套",
+    "source_type": "listening"
+  },
+  "answer_key": {
+    "1": "A",
+    "2": "B",
+    "3": "A",
+    "4": "D",
+    "5": "C",
+    "6": "D",
+    "7": "B",
+    "8": "A",
+    "9": "C",
+    "10": "C",
+    "11": "B",
+    "12": "D",
+    "13": "B",
+    "14": "C",
+    "15": "D",
+    "16": "B",
+    "17": "A",
+    "18": "D",
+    "19": "C",
+    "20": "A",
+    "21": "D",
+    "22": "B",
+    "23": "C",
+    "24": "D",
+    "25": "A"
+  },
+  "listening": {
+    "exists": true,
+    "sections": [
+      {
+        "section_label": "Section A",
+        "directions": "In this section, you will hear three news reports. At the end of each news report, you will hear two or three questions. Both the news report and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+        "groups": [
+          {
+            "group_id": "section_a_group_1",
+            "group_type": "news_report",
+            "question_range": {
+              "start": 1,
+              "end": 2,
+              "raw_text": "Questions 1 and 2 are based on the news report you have just heard."
+            },
+            "group_intro": "Questions 1 and 2 are based on the news report you have just heard.",
+            "material": {
+              "title": "News Report One",
+              "transcript": "Everything changed for 7-year-old Tarig when he slapped some butter on an ear of corn. He knew it tasted good, but butter made it better. His passion for produce got him a position as South Dakota's official Corn Ambassador. Tarig's profession of love for his favorite vegetable earned him the name \"the Corn Kid\". This was after his online interview attracted millions of views and was made into a song. South Dakota is one of the top corn producers in America. The corn provides nourishment across the globe. Tarig said, \"Not everyone has to like corn, but everyone should definitely try it, especially with butter.\" Tarig and his family were invited to South Dakota to attend the honorary ceremony at the state's Corn Palace. Officials wanted to highlight South Dakota's two largest industries: tourism and agriculture. Tarig couldn't believe his eyes when he saw the palace made of corn."
+            },
+            "questions": [
+              {
+                "question_no": 1,
+                "stem": "How did Tarig make corn taste better?",
+                "options": {
+                  "A": "By slapping some butter on it.",
+                  "B": "By enhancing its nourishment.",
+                  "C": "By growing it in South Dakota.",
+                  "D": "By cooking it in vegetable oil."
+                },
+                "raw_text": "1. A) By slapping some butter on it. C) By growing it in South Dakota.\nB) By enhancing its nourishment. D) By cooking it in vegetable oil.",
+                "answer": "A",
+                "answer_detail": {
+                  "correct_option_text": "By slapping some butter on it.",
+                  "evidence": [
+                    {
+                      "quote": "Everything changed for 7-year-old Tarig when he slapped some butter on an ear of corn.",
+                      "reason": "The transcript directly states that Tarig added butter to the corn, which made it taste better."
+                    }
+                  ],
+                  "analysis": "The transcript directly states Tarig added butter to make corn taste better, which matches option A.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 2,
+                "stem": "Why were Tarig and his family invited to South Dakota?",
+                "options": {
+                  "A": "To introduce their corn to tourists.",
+                  "B": "To attend an honorary ceremony.",
+                  "C": "To share experience with other corn growers.",
+                  "D": "To exhibit their corn at the state's Corn Palace."
+                },
+                "raw_text": "2. A) To introduce their corn to tourists.\nB) To attend an honorary ceremony.\nC) To share experience with other corn growers.\nD) To exhibit their corn at the state's Corn Palace.",
+                "answer": "B",
+                "answer_detail": {
+                  "correct_option_text": "To attend an honorary ceremony.",
+                  "evidence": [
+                    {
+                      "quote": "Tarig and his family were invited to South Dakota to attend the honorary ceremony at the state's Corn Palace.",
+                      "reason": "The text directly states the invitation was to attend the honorary ceremony."
+                    }
+                  ],
+                  "analysis": "The transcript states they were invited to attend an honorary ceremony, matching option B.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 2,
+              "actual_count": 2,
+              "is_complete": true
+            }
+          },
+          {
+            "group_id": "section_a_group_2",
+            "group_type": "news_report",
+            "question_range": {
+              "start": 3,
+              "end": 4,
+              "raw_text": "Questions 3 and 4 are based on the news report you have just heard."
+            },
+            "group_intro": "Questions 3 and 4 are based on the news report you have just heard.",
+            "material": {
+              "title": "News Report Two",
+              "transcript": "Two arrests were announced Thursday. The arrests were in connection with a string of mail thefts from U.S. Postal Service's collection boxes in Marion County and for the possession of a stolen postal key, according to the Department of Justice.\nJordan Jax and Tarod Goodman, both 23, were arrested after evidence gathered in an investigation showed the pair stole mail on multiple occasions using a postal key, according to a news release.\nJax and Goodman stole mail for around four months. Investigators reviewed videos of the collection boxes; the video showed the two men loading the stolen mail into Jax's vehicle. Investigators were also able to recover the key that was used to open the collection boxes.\nJax and Goodman each face up to five years in federal prison in the mail thefts and up to ten years for possession of the postal key."
+            },
+            "questions": [
+              {
+                "question_no": 3,
+                "stem": "What did Jordan Jax and Tarod Goodman do according to a news release?",
+                "options": {
+                  "A": "Stole mail several times.",
+                  "B": "Forged postal keys illegally.",
+                  "C": "Attacked postmen on multiple occasions.",
+                  "D": "Broke a number of postal collection boxes."
+                },
+                "raw_text": "3. A) Stole mail several times.\nB) Forged postal keys illegally.\nC) Attacked postmen on multiple occasions.\nD) Broke a number of postal collection boxes.",
+                "answer": "A",
+                "answer_detail": {
+                  "correct_option_text": "Stole mail several times.",
+                  "evidence": [
+                    {
+                      "quote": "the pair stole mail on multiple occasions using a postal key",
+                      "reason": "Stealing mail on multiple occasions is equivalent to stealing mail several times."
+                    }
+                  ],
+                  "analysis": "The news release states they stole mail on multiple occasions, which corresponds to option A.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 4,
+                "stem": "What do Jordan Jax and Tarod Goodman face?",
+                "options": {
+                  "A": "A sentence for life.",
+                  "B": "Loss of all their possessions.",
+                  "C": "Twenty-three years' hard labor.",
+                  "D": "Up to fifteen years in prison."
+                },
+                "raw_text": "4. A) A sentence for life. C) Twenty-three years' hard labor.\nB) Loss of all their possessions. D) Up to fifteen years in prison.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "Up to fifteen years in prison.",
+                  "evidence": [
+                    {
+                      "quote": "Jax and Goodman each face up to five years in federal prison in the mail thefts and up to ten years for possession of the postal key.",
+                      "reason": "Combining the consecutive/cumulative penalties (five years and ten years) results in up to fifteen years."
+                    }
+                  ],
+                  "analysis": "The text states they face up to 5 years for mail theft and up to 10 years for possession of the key, totaling up to 15 years, matching option D.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 2,
+              "actual_count": 2,
+              "is_complete": true
+            }
+          },
+          {
+            "group_id": "section_a_group_3",
+            "group_type": "news_report",
+            "question_range": {
+              "start": 5,
+              "end": 7,
+              "raw_text": "Questions 5 to 7 are based on the news report you have just heard."
+            },
+            "group_intro": "Questions 5 to 7 are based on the news report you have just heard.",
+            "material": {
+              "title": "News Report Three",
+              "transcript": "Can fast-fashion be sustainable? Researchers think yes. Identifying why the fast fashion business model creates waste and determining whether regulators can establish incentives for consumers and manufacturers are steps to reduce waste.\nRecently, the clothing industry has come under attack for creating a waste problem with serious environmental consequences. In the absence of environmentally and economically feasible recycling options, fast-fashion manufacturers pump out low-quality clothes produced in high volumes that are worn only a few times and then discarded.\nThe researchers put forth policy contributions, ranging from sustainable disposal of leftover stock to production tax to incentivize both manufacturers and consumers to be more waste conscious.\nIn order to devise effective policies to curb the environmental impact of the clothing industry, it is important to identify the source of the problem in the supply chain. Manufacturers, consumers, and regulatory bodies can then take an informed approach to recognize the environmental impact of fast-fashion and to design an ecosystem to reduce waste, incentivize innovation, and create new business models to manage waste."
+            },
+            "questions": [
+              {
+                "question_no": 5,
+                "stem": "Why has the clothing industry come under attack?",
+                "options": {
+                  "A": "It escapes regulation and misleads consumers.",
+                  "B": "It ignores economically feasible recycling options.",
+                  "C": "It creates waste and severely impacts the environment.",
+                  "D": "It produces clothes affordable only to a tiny minority."
+                },
+                "raw_text": "5. A) It escapes regulation and misleads consumers.\nB) It ignores economically feasible recycling options.\nC) It creates waste and severely impacts the environment.\nD) It produces clothes affordable only to a tiny minority.",
+                "answer": "C",
+                "answer_detail": {
+                  "correct_option_text": "It creates waste and severely impacts the environment.",
+                  "evidence": [
+                    {
+                      "quote": "Recently, the clothing industry has come under attack for creating a waste problem with serious environmental consequences.",
+                      "reason": "The text explicitly connects the attack to the waste problem and its environmental consequences."
+                    }
+                  ],
+                  "analysis": "The industry is criticized for creating waste and causing serious environmental consequences, matching option C.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 6,
+                "stem": "Why did the researchers put forth such policies as production tax?",
+                "options": {
+                  "A": "To cut consumers' expenses in buying quality clothes.",
+                  "B": "To enable the whole fast-fashion industry to be sustainable.",
+                  "C": "To incentivize manufacturers to be more consumer-friendly.",
+                  "D": "To urge manufacturers and consumers to reduce waste."
+                },
+                "raw_text": "6. A) To cut consumers' expenses in buying quality clothes.\nB) To enable the whole fast-fashion industry to be sustainable.\nC) To incentivize manufacturers to be more consumer-friendly.\nD) To urge manufacturers and consumers to reduce waste.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "To urge manufacturers and consumers to reduce waste.",
+                  "evidence": [
+                    {
+                      "quote": "to incentivize both manufacturers and consumers to be more waste conscious.",
+                      "reason": "Incentivizing them to be waste conscious aligns with urging them to reduce waste."
+                    }
+                  ],
+                  "analysis": "The researchers proposed policies like production tax to make manufacturers and consumers more waste conscious, which aligns with option D.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 7,
+                "stem": "What should be done first to eliminate the harm caused by the clothing industry?",
+                "options": {
+                  "A": "Recognizing the impact on consumers.",
+                  "B": "Identifying the source of the problem.",
+                  "C": "Abandoning the current business model.",
+                  "D": "Establishing powerful regulatory bodies."
+                },
+                "raw_text": "7. A) Recognizing the impact on consumers.\nB) Identifying the source of the problem.\nC) Abandoning the current business model.\nD) Establishing powerful regulatory bodies.",
+                "answer": "B",
+                "answer_detail": {
+                  "correct_option_text": "Identifying the source of the problem.",
+                  "evidence": [
+                    {
+                      "quote": "it is important to identify the source of the problem in the supply chain.",
+                      "reason": "The text states that to devise effective policies, identifying the source of the problem is the first important step."
+                    }
+                  ],
+                  "analysis": "The transcript emphasizes identifying the source of the problem in the supply chain as an essential step, matching option B.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 3,
+              "actual_count": 3,
+              "is_complete": true
+            }
+          }
+        ],
+        "integrity": {
+          "group_count": 3,
+          "question_count": 7
+        }
+      },
+      {
+        "section_label": "Section B",
+        "directions": "In this section, you will hear two long conversations. At the end of each conversation, you will hear four questions. Both the conversation and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+        "groups": [
+          {
+            "group_id": "section_b_group_1",
+            "group_type": "conversation",
+            "question_range": {
+              "start": 8,
+              "end": 11,
+              "raw_text": "Questions 8 to 11 are based on the conversation you have just heard."
+            },
+            "group_intro": "Questions 8 to 11 are based on the conversation you have just heard.",
+            "material": {
+              "title": "Conversation One",
+              "transcript": "M: Hey Mary, you seem to be very much annoyed. What happened?\nW: Rush hour in this city is killing me.\nM: Ah, yes. Rush hour is terrible, especially in the morning between 8 and 9. But what else can you expect in a city this big?\nW: Well, I think the local government could help improve things. I mean, getting rid of rush hour may be impossible, but it could be made more tolerable, don't you think?\nM: Um... but I'm not sure how.\nW: Well, for example, the subway system could have air conditioning. I know many cities in the world have air conditioning in their subway, so why can't we? It gets so hot in the summer. I can hardly breathe down there. And add to that the rush-hour crowds with strangers packed close together in the subway carriages, the whole thing is just horrible.\nM: Ah, yes, you are completely right. The trains here are too old. The government should definitely invest in new ones with air conditioning. I guess I'm fortunate I take the bus instead.\nW: Oh, that's much better.\nM: Yeah, it's more convenient. Bus No. 36 goes straight from my house to the office. It's a 30-minute ride and I don't have to make any changes.\nW: That sounds nice. I tell you, my current commute is killing me. Maybe I should move closer to the office.\nM: Well, I know a great housing agent. I found the flat I'm living in now through him. And I love it.\nW: Hmm, could you send me his number, please?\nM: Sure thing. Just tell him exactly what you are looking for and I'm sure he will find something good."
+            },
+            "questions": [
+              {
+                "question_no": 8,
+                "stem": "Why is the woman complaining?",
+                "options": {
+                  "A": "The city's rush-hour traffic is intolerable.",
+                  "B": "She cannot avoid rush-hour traffic.",
+                  "C": "The local government is inefficient.",
+                  "D": "The city is too big to move around easily."
+                },
+                "raw_text": "8. A) The city's rush-hour traffic is intolerable.\nB) She cannot avoid rush-hour traffic.\nC) The local government is inefficient.\nD) The city is too big to move around easily.",
+                "answer": "A",
+                "answer_detail": {
+                  "correct_option_text": "The city's rush-hour traffic is intolerable.",
+                  "evidence": [
+                    {
+                      "quote": "W: Rush hour in this city is killing me.",
+                      "reason": "She states that rush hour is killing her, showing that it is intolerable."
+                    }
+                  ],
+                  "analysis": "The woman starts by saying rush hour is killing her, meaning the traffic is intolerable. This matches option A.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 9,
+                "stem": "What does the woman suggest doing?",
+                "options": {
+                  "A": "Upgrading subway carriages.",
+                  "B": "Increasing the number of bus routes.",
+                  "C": "Air conditioning the city's subway.",
+                  "D": "Learning from other big cities."
+                },
+                "raw_text": "9. A) Upgrading subway carriages.\nB) Increasing the number of bus routes.\nC) Air conditioning the city's subway.\nD) Learning from other big cities.",
+                "answer": "C",
+                "answer_detail": {
+                  "correct_option_text": "Air conditioning the city's subway.",
+                  "evidence": [
+                    {
+                      "quote": "Well, for example, the subway system could have air conditioning.",
+                      "reason": "She explicitly suggests adding air conditioning to the subway system."
+                    }
+                  ],
+                  "analysis": "The woman directly suggests adding air conditioning to the subway, matching option C.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 10,
+                "stem": "What do we learn about the man from the conversation?",
+                "options": {
+                  "A": "He suffers from rush-hour crowding too.",
+                  "B": "He is fortunate to live very near to work.",
+                  "C": "He takes a half-hour bus ride to work.",
+                  "D": "He is going to move closer to his office."
+                },
+                "raw_text": "10. A) He suffers from rush-hour crowding too\nB) He is fortunate to live very near to work.\nC) He takes a half-hour bus ride to work.\nD) He is going to move closer to his office.",
+                "answer": "C",
+                "answer_detail": {
+                  "correct_option_text": "He takes a half-hour bus ride to work.",
+                  "evidence": [
+                    {
+                      "quote": "Bus No. 36 goes straight from my house to the office. It's a 30-minute ride...",
+                      "reason": "A 30-minute ride is a half-hour ride by bus."
+                    }
+                  ],
+                  "analysis": "The man explains that he takes Bus No. 36, which is a 30-minute (half-hour) ride, matching option C.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 11,
+                "stem": "What does the woman ask the man to do at the end of the conversation?",
+                "options": {
+                  "A": "Recommend to her a good house near his office.",
+                  "B": "Send her his housing agent's telephone number.",
+                  "C": "Tell her exactly what kind of property to look for.",
+                  "D": "Make sure the agent finds something good for her."
+                },
+                "raw_text": "11. A) Recommend to her a good house near his office.\nB) Send her his housing agent's telephone number.\nC) Tell her exactly what kind of property to look for.\nD) Make sure the agent finds something good for her.",
+                "answer": "B",
+                "answer_detail": {
+                  "correct_option_text": "Send her his housing agent's telephone number.",
+                  "evidence": [
+                    {
+                      "quote": "W: Hmm, could you send me his number, please?",
+                      "reason": "After the man mentions finding his flat through a great housing agent, she asks for his number."
+                    }
+                  ],
+                  "analysis": "The woman asks the man to send her his housing agent's phone number, matching option B.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 4,
+              "actual_count": 4,
+              "is_complete": true
+            }
+          },
+          {
+            "group_id": "section_b_group_2",
+            "group_type": "conversation",
+            "question_range": {
+              "start": 12,
+              "end": 15,
+              "raw_text": "Questions 12 to 15 are based on the conversation you have just heard."
+            },
+            "group_intro": "Questions 12 to 15 are based on the conversation you have just heard.",
+            "material": {
+              "title": "Conversation Two",
+              "transcript": "M: Did you hear about Johnny?\nW: No. Why? Is he okay?\nM: He had some plastic surgery done.\nW: What? Why?\nM: Do you remember he had a scar on his face?\nW: Yes, of course. He always had that. I've known him since primary school, and I always remember him having that on his cheek.\nM: Well, he had it fixed.\nW: Fixed? What do you mean? You can't fix a scar.\nM: You know what I mean? He had an operation done on it, plastic surgery, in order to cover it and make it less noticeable.\nW: Oh, well, that's ridiculous, isn't it? It was noticeable, sure. But it wasn't an ugly scar. It never occurred to me that he should have it taken care of like that.\nM: I agree. I can understand some scars and physical defects can be ugly and distracting, but not Johnny's. In fact, I thought it added character... like it gave him a certain uniqueness.\nW: He must have felt differently though. He must have felt self-conscious and insecure, perhaps.\nM: No, no, that's not the reason. He was totally fine with his scar. As you said, he had had it for most of his life.\nW: Then why did he have the operation?\nM: Because his girlfriend wanted him to.\nW: What? That's so superficial and selfish of her. If Johnny's girlfriend doesn't like him for who he is, then she does not deserve to be his girlfriend.\nM: You are right. So he is insane to give in to her like that. But when I told him, he said he loves her and would just do what she wants him to. W: What a fool he is."
+            },
+            "questions": [
+              {
+                "question_no": 12,
+                "stem": "What does the man say about Johnny?",
+                "options": {
+                  "A": "He was remembered for the scar on his cheek.",
+                  "B": "He received a heart operation a few days ago.",
+                  "C": "He used to wear a sad face in school.",
+                  "D": "He had some plastic surgery done."
+                },
+                "raw_text": "12. A) He was remembered for the scar on his cheek.\nB) He received a heart operation a few days ago.\nC) He used to wear a sad face in school.\nD) He had some plastic surgery done.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "He had some plastic surgery done.",
+                  "evidence": [
+                    {
+                      "quote": "M: He had some plastic surgery done.",
+                      "reason": "The man explicitly says Johnny had plastic surgery done."
+                    }
+                  ],
+                  "analysis": "The transcript directly states Johnny had some plastic surgery done, matching option D.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 13,
+                "stem": "What does the woman find puzzling?",
+                "options": {
+                  "A": "The man's deep sympathy for Johnny.",
+                  "B": "The man's use of the expression 'fixed'.",
+                  "C": "The man's covering up of what happened.",
+                  "D": "The man's good memory of his childhood."
+                },
+                "raw_text": "13. A) The man's deep sympathy for Johnny.\nB) The man's use of the expression 'fixed'.\nC) The man's covering up of what happened.\nD) The man's good memory of his childhood.",
+                "answer": "B",
+                "answer_detail": {
+                  "correct_option_text": "The man's use of the expression 'fixed'.",
+                  "evidence": [
+                    {
+                      "quote": "W: Fixed? What do you mean? You can't fix a scar.",
+                      "reason": "The woman questions the word 'fixed' because she believes a scar cannot be fixed."
+                    }
+                  ],
+                  "analysis": "The woman is puzzled by and questions the word 'fixed' as applied to a scar, matching option B.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 14,
+                "stem": "What did the man think of Johnny's scar?",
+                "options": {
+                  "A": "It gave him a noticeable smartness.",
+                  "B": "It made him appear even more manly.",
+                  "C": "It seemed to give him a certain uniqueness.",
+                  "D": "It seemed to make up for his physical defects."
+                },
+                "raw_text": "14. A) It gave him a noticeable smartness.\nB) It made him appear even more manly.\nC) It seemed to give him a certain uniqueness.\nD) It seemed to make up for his physical defects.",
+                "answer": "C",
+                "answer_detail": {
+                  "correct_option_text": "It seemed to give him a certain uniqueness.",
+                  "evidence": [
+                    {
+                      "quote": "In fact, I thought it added character... like it gave him a certain uniqueness.",
+                      "reason": "The man says he thought the scar gave Johnny a certain uniqueness."
+                    }
+                  ],
+                  "analysis": "The man directly shares that he thought the scar added character and gave Johnny a certain uniqueness, matching option C.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 15,
+                "stem": "How could we describe the speakers' attitude towards Johnny's girlfriend?",
+                "options": {
+                  "A": "Liberal.",
+                  "B": "Hostile.",
+                  "C": "Indifferent.",
+                  "D": "Critical."
+                },
+                "raw_text": "15. A) Liberal. C) Indifferent.\nB) Hostile. D) Critical.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "Critical.",
+                  "evidence": [
+                    {
+                      "quote": "W: What? That's so superficial and selfish of her.",
+                      "reason": "The woman calls the girlfriend superficial and selfish, representing a highly critical attitude."
+                    }
+                  ],
+                  "analysis": "The speakers express strong disapproval of the girlfriend's behavior, calling her selfish and superficial, which is a critical attitude (option D).",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 4,
+              "actual_count": 4,
+              "is_complete": true
+            }
+          }
+        ],
+        "integrity": {
+          "group_count": 2,
+          "question_count": 8
+        }
+      },
+      {
+        "section_label": "Section C",
+        "directions": "In this section, you will hear three passages. At the end of each passage, you will hear three or four questions. Both the passage and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+        "groups": [
+          {
+            "group_id": "section_c_group_1",
+            "group_type": "passage",
+            "question_range": {
+              "start": 16,
+              "end": 18,
+              "raw_text": "Questions 16 to 18 are based on the passage you have just heard."
+            },
+            "group_intro": "Questions 16 to 18 are based on the passage you have just heard.",
+            "material": {
+              "title": "Passage One",
+              "transcript": "Talking is unique to humans. An animal might make 10 different sounds, but an adult human knows more than 20,000 words. Additionally, we're the only animal that expresses thoughts in full sentences. Researchers don't think language was invented; instead, they think it evolved. How did talking evolve? There are two main theories.\nThe first theory is that language started with people making different sounds, mostly imitating the things around them, like animal calls, nature sounds, and the sounds of tools. Perhaps they made the sound of wind to comment on the weather or imitated the sound of a bird to tell a friend that there was a bird nearby. Then over hundreds of thousands of years, those sounds turned into words that people began to learn as part of their language. At some point, people started stringing the words together to form sentences.\nThe other main theory, which is more recent, is that people started off by gesturing—pointing at things with their hands and imitating actions using their bodies. Eventually these gestures turned into a full sign language. This theory guesses that after developing sign languages, people eventually started making sounds along with their gestures. At some point, they switched to mostly making sounds that became words instead of just using their bodies. The reason they switched to making sounds, the theory goes, is that talking out loud lets you communicate with someone even when you can't see them."
+            },
+            "questions": [
+              {
+                "question_no": 16,
+                "stem": "How did language come into being according to researchers?",
+                "options": {
+                  "A": "Through deliberation.",
+                  "B": "Through evolution.",
+                  "C": "Through invention.",
+                  "D": "Through collaboration."
+                },
+                "raw_text": "16. A) Through deliberation. C) Through invention.\nB) Through evolution. D) Through collaboration.",
+                "answer": "B",
+                "answer_detail": {
+                  "correct_option_text": "Through evolution.",
+                  "evidence": [
+                    {
+                      "quote": "Researchers don't think language was invented; instead, they think it evolved.",
+                      "reason": "The text directly states that researchers believe language evolved."
+                    }
+                  ],
+                  "analysis": "The transcript notes that researchers do not think language was invented, but rather that it evolved, matching option B.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 17,
+                "stem": "How did language start according to the first theory?",
+                "options": {
+                  "A": "With people imitating sounds around them.",
+                  "B": "With people interacting with animals close by.",
+                  "C": "With people showing each other things nearby.",
+                  "D": "With people trying to string sounds together."
+                },
+                "raw_text": "17. A) With people imitating sounds around them.\nB) With people interacting with animals close by.\nC) With people showing each other things nearby.\nD) With people trying to string sounds together.",
+                "answer": "A",
+                "answer_detail": {
+                  "correct_option_text": "With people imitating sounds around them.",
+                  "evidence": [
+                    {
+                      "quote": "The first theory is that language started with people making different sounds, mostly imitating the things around them...",
+                      "reason": "The text explicitly states that the first theory relies on imitating environmental sounds."
+                    }
+                  ],
+                  "analysis": "The transcript explains that the first theory holds that language began with people imitating the sounds around them, matching option A.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 18,
+                "stem": "Why did people switch from gesturing to making sounds according to the more recent theory?",
+                "options": {
+                  "A": "Making sounds can free one's hands for doing other things.",
+                  "B": "Making sounds proves markedly easier than sign languages.",
+                  "C": "Making sounds enables one to express their ideas more explicitly.",
+                  "D": "Making sounds helps one communicate with people they can't see."
+                },
+                "raw_text": "18. A) Making sounds can free one's hands for doing other things.\nB) Making sounds proves markedly easier than sign languages.\nC) Making sounds enables one to express their ideas more explicitly.\nD) Making sounds helps one communicate with people they can't see.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "Making sounds helps one communicate with people they can't see.",
+                  "evidence": [
+                    {
+                      "quote": "The reason they switched to making sounds, the theory goes, is that talking out loud lets you communicate with someone even when you can't see them.",
+                      "reason": "The text states the switch occurred because vocal communication does not require visual line of sight."
+                    }
+                  ],
+                  "analysis": "The transcript directly links the switch to sounds with the ability to communicate when people cannot see each other, matching option D.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 3,
+              "actual_count": 3,
+              "is_complete": true
+            }
+          },
+          {
+            "group_id": "section_c_group_2",
+            "group_type": "passage",
+            "question_range": {
+              "start": 19,
+              "end": 21,
+              "raw_text": "Questions 19 to 21 are based on the passage you have just heard."
+            },
+            "group_intro": "Questions 19 to 21 are based on the passage you have just heard.",
+            "material": {
+              "title": "Passage Two",
+              "transcript": "Is it a good idea to display luxury brands and other signals of status? It depends on the situation. Studies have shown that people who appear to be wealthy tend to be considered more intelligent, disciplined, and competent than those who do not. But new research found that people believe someone who shows off their social status cares more about benefiting themselves than helping others. This means people are less willing to collaborate with them. Modesty may be key when cooperation is essential, but the researchers also found that in some cases, status signaling has advantages.\nExperiments showed that participants were less likely to choose someone who signals their wealth or status to join a group seeking cooperative members. But participants were more likely to choose that person when they're looking for a competitive team member. These findings suggest that people should change how they present themselves depending on their social goal.\nThis is the era of social media. People can easily share their wealth and status to large audiences, but they need to consider the consequences. Posting about luxury purchases and expensive vacations online may help you to persuade others and frighten competitors, but it could also signal to potential friends of future employers that you are unlikely to think about the needs of others. This makes things tricky for people who may want to impress others while also demonstrating that they are a team player."
+            },
+            "questions": [
+              {
+                "question_no": 19,
+                "stem": "How would people describe someone who shows off their social status according to new research?",
+                "options": {
+                  "A": "Well disciplined.",
+                  "B": "Quite confident.",
+                  "C": "Somewhat selfish.",
+                  "D": "Highly intelligent."
+                },
+                "raw_text": "19. A) Well disciplined. C) Somewhat selfish.\nB) Quite confident. D) Highly intelligent.",
+                "answer": "C",
+                "answer_detail": {
+                  "correct_option_text": "Somewhat selfish.",
+                  "evidence": [
+                    {
+                      "quote": "new research found that people believe someone who shows off their social status cares more about benefiting themselves than helping others.",
+                      "reason": "Caring more about self-benefit than helping others is the definition of being somewhat selfish."
+                    }
+                  ],
+                  "analysis": "The text states that people who show off status are perceived as caring more about self-benefit than helping others, which is synonymous with being somewhat selfish (option C).",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 20,
+                "stem": "When were participants more likely to choose someone who signaled their wealth or status?",
+                "options": {
+                  "A": "When they wanted to have a competitive team member.",
+                  "B": "When they were looking for a cooperative workmate.",
+                  "C": "When they found collaboration essential to them.",
+                  "D": "When they were seeking someone to help them."
+                },
+                "raw_text": "20. A) When they wanted to have a competitive team member.\nB) When they were looking for a cooperative workmate.\nC) When they found collaboration essential to them.\nD) When they were seeking someone to help them.",
+                "answer": "A",
+                "answer_detail": {
+                  "correct_option_text": "When they wanted to have a competitive team member.",
+                  "evidence": [
+                    {
+                      "quote": "participants were more likely to choose that person when they're looking for a competitive team member.",
+                      "reason": "They choose status signalers specifically when seeking competitive team members."
+                    }
+                  ],
+                  "analysis": "The transcript directly states they choose status signalers when looking for a competitive team member, matching option A.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 21,
+                "stem": "What should people do when sharing their wealth and status online?",
+                "options": {
+                  "A": "Avoid frightening competitors.",
+                  "B": "Make clear their social goal.",
+                  "C": "Adopt persuasive strategies.",
+                  "D": "Consider the consequences."
+                },
+                "raw_text": "21. A) Avoid frightening competitors. C) Adopt persuasive strategies.\nB) Make clear their social goal. D) Consider the consequences.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "Consider the consequences.",
+                  "evidence": [
+                    {
+                      "quote": "People can easily share their wealth and status to large audiences, but they need to consider the consequences.",
+                      "reason": "The text directly states the necessity of considering the consequences when sharing online."
+                    }
+                  ],
+                  "analysis": "The text explicitly advises people sharing status online to consider the consequences, matching option D.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 3,
+              "actual_count": 3,
+              "is_complete": true
+            }
+          },
+          {
+            "group_id": "section_c_group_3",
+            "group_type": "passage",
+            "question_range": {
+              "start": 22,
+              "end": 25,
+              "raw_text": "Questions 22 to 25 are based on the passage you have just heard."
+            },
+            "group_intro": "Questions 22 to 25 are based on the passage you have just heard.",
+            "material": {
+              "title": "Passage Three",
+              "transcript": "Human fascination with animals goes back as far as humans do. Of the oldest cave paintings discovered, some are up to 40,000 years old, and there are more images of animals than humans. At some point, humans began to capture and hold animals.\nThe first-known collections were held by royalty and were not open to the public. In Egypt, researchers have found buildings from around 3500 B.C., containing the remains of animals, including elephants, which were not native to Egypt. But life wasn't easy for these animals. They probably had short lives, and their remains show evidence of severe injuries.\nThe first public exhibit of animals may have been created by Egypt's Queen Hatshepsut around 1480 B.C. Researchers think the zoo was started with animals brought home from a far-off land known as Punt. It's unclear why the Queen built the zoo, but it might have been to show off her wealth and power.\nEarly zoos are found all over the world. In China, Emperor Wenwang is said to have built a \"Garden of Intelligence\" around 1060 B.C. It included deer, birds, and many fish. In England, King Henry I set up a collection of animals in about 1110 as part of the royal estate. His collection included tigers and lions. This collection eventually moved to the Tower of London in 1235. The collection stayed at that location for 600 years."
+            },
+            "questions": [
+              {
+                "question_no": 22,
+                "stem": "What can we see in the oldest cave paintings?",
+                "options": {
+                  "A": "Much evidence of humans capturing animals.",
+                  "B": "More images of animals than humans.",
+                  "C": "Fewer images of buildings than animals.",
+                  "D": "Little proof of human fascination with animals."
+                },
+                "raw_text": "22. A) Much evidence of humans capturing animals.\nB) More images of animals than humans.\nC) Fewer images of buildings than animals.\nD) Little proof of human fascination with animals.",
+                "answer": "B",
+                "answer_detail": {
+                  "correct_option_text": "More images of animals than humans.",
+                  "evidence": [
+                    {
+                      "quote": "and there are more images of animals than humans.",
+                      "reason": "The oldest cave paintings contain more animal depictions than human ones."
+                    }
+                  ],
+                  "analysis": "The text directly states there are more images of animals than humans in the oldest cave paintings, matching option B.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 23,
+                "stem": "What do we learn about the first-known collections of animals?",
+                "options": {
+                  "A": "They were open to the public.",
+                  "B": "They were primarily native.",
+                  "C": "They were kept by royalty.",
+                  "D": "They were hardly injured."
+                },
+                "raw_text": "23. A) They were open to the public. C) They were kept by royalty.\nB) They were primarily native. D) They were hardly injured.",
+                "answer": "C",
+                "answer_detail": {
+                  "correct_option_text": "They were kept by royalty.",
+                  "evidence": [
+                    {
+                      "quote": "The first-known collections were held by royalty and were not open to the public.",
+                      "reason": "The text states they were held by royalty."
+                    }
+                  ],
+                  "analysis": "The transcript directly states the first-known collections were held by royalty, matching option C.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 24,
+                "stem": "What might be the reason the Egyptian Queen created the zoo?",
+                "options": {
+                  "A": "To enable the public to watch animals close by.",
+                  "B": "To introduce to Egyptians animals from Punt.",
+                  "C": "To protect the endangered animals.",
+                  "D": "To show off her riches and power."
+                },
+                "raw_text": "24. A) To enable the public to watch animals close by.\nB) To introduce to Egyptians animals from Punt.\nC) To protect the endangered animals.\nD) To show off her riches and power.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "To show off her riches and power.",
+                  "evidence": [
+                    {
+                      "quote": "it might have been to show off her wealth and power.",
+                      "reason": "The Queen likely created the zoo to display her wealth and power."
+                    }
+                  ],
+                  "analysis": "The text suggests the zoo was built to show off her wealth (riches) and power, matching option D.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 25,
+                "stem": "What do we learn about King Henry I's collection of animals in England?",
+                "options": {
+                  "A": "It was part of the royal estate.",
+                  "B": "It was a shelter for wild animals.",
+                  "C": "It was the kingdom's best-equipped zoo.",
+                  "D": "It was the first public exhibit of animals."
+                },
+                "raw_text": "25. A) It was part of the royal estate.\nB) It was a shelter for wild animals.\nC) It was the kingdom's best-equipped zoo.\nD) It was the first public exhibit of animals.",
+                "answer": "A",
+                "answer_detail": {
+                  "correct_option_text": "It was part of the royal estate.",
+                  "evidence": [
+                    {
+                      "quote": "In England, King Henry I set up a collection of animals in about 1110 as part of the royal estate.",
+                      "reason": "The collection was set up as part of the royal estate."
+                    }
+                  ],
+                  "analysis": "The transcript directly notes that King Henry I's collection was part of the royal estate, matching option A.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 4,
+              "actual_count": 4,
+              "is_complete": true
+            }
+          }
+        ],
+        "integrity": {
+          "group_count": 3,
+          "question_count": 10
+        }
+      }
+    ]
+  },
+  "warnings": []
+}
