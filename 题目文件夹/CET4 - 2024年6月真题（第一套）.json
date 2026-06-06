@@ -1,0 +1,815 @@
+{
+  "exam_meta": {
+    "exam_id": "2024.06-set-1",
+    "exam_date": "2024.06",
+    "set_id": 1,
+    "set_label": "第1套",
+    "source_type": "listening"
+  },
+  "answer_key": {
+    "1": "B",
+    "2": "A",
+    "3": "C",
+    "4": "D",
+    "5": "D",
+    "6": "D",
+    "7": "D",
+    "8": "A",
+    "9": "D",
+    "10": "A",
+    "11": "C",
+    "12": "C",
+    "13": "B",
+    "14": "D",
+    "15": "A",
+    "16": "B",
+    "17": "C",
+    "18": "B",
+    "19": "C",
+    "20": "A",
+    "21": "B",
+    "22": "D",
+    "23": "A",
+    "24": "D",
+    "25": "C"
+  },
+  "listening": {
+    "exists": true,
+    "sections": [
+      {
+        "section_label": "Section A",
+        "directions": "In this section, you will hear three news reports. At the end of each news report, you will hear two or three questions. Both the news report and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+        "groups": [
+          {
+            "group_id": "section_a_group_1",
+            "group_type": "news_report",
+            "question_range": {
+              "start": 1,
+              "end": 2,
+              "raw_text": "Questions 1 and 2 are based on the news report you have just heard."
+            },
+            "group_intro": "Questions 1 and 2 are based on the news report you have just heard.",
+            "material": {
+              "title": "News Report One",
+              "transcript": "Six people had to move away from their home to another place after a fire broke out in a building on main street Saturday, officials said. Firefighters responded to the three-story building shortly after 1 p.m. for a reported structure fire, according to Norwalk Deputy Fire Chief Adam Markowitz.\nMarkowitz said crews encountered heavy smoke coming from the second floor when they arrived. A team of about 25 firefighters then spent about 25 minutes extinguishing the flames. Officials described the structure as a mixed-use building that features commercial businesses on the first floor and residential on the second and third floors.\nTown records list four apartments in the building. Due to smoke and heat damage, the four apartments were declared uninhabitable, and the six residents had to move to another place, officials said. No injuries were reported in connection with the fire. The Norwalk Fire Marshal is investigating the cause and origin of the fire."
+            },
+            "questions": [
+              {
+                "question_no": 1,
+                "stem": "Why did the six residents have to find another place to stay?",
+                "options": {
+                  "A": "Due to a fire alarm in their apartments.",
+                  "B": "Because of the smoke and heat damage.",
+                  "C": "Due to the water used to extinguish the flames.",
+                  "D": "Because of the collapse of the three-story building."
+                },
+                "raw_text": "1. A) Due to a fire alarm in their apartments,\nB) Because of the smoke and heat damage.\nC) Due to the water used to extinguish the flames.\nD) Because of the collapse of the three-story building.",
+                "answer": "B",
+                "answer_detail": {
+                  "correct_option_text": "Because of the smoke and heat damage.",
+                  "evidence": [
+                    {
+                      "quote": "Due to smoke and heat damage, the four apartments were declared uninhabitable, and the six residents had to move to another place",
+                      "reason": "The transcript explicitly states that the apartments were declared uninhabitable and the residents had to move due to smoke and heat damage."
+                    }
+                  ],
+                  "analysis": "The transcript links the relocation of the residents directly to 'smoke and heat damage', matching Option B.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 2,
+                "stem": "What does the news report say the Norwalk Fire Marshal is doing?",
+                "options": {
+                  "A": "Investigating the cause of the incident.",
+                  "B": "Helping search for the suspect of the crime.",
+                  "C": "Rescuing the businessmen trapped in the building.",
+                  "D": "Checking town records for the property developer."
+                },
+                "raw_text": "2. A) Investigating the cause of the incident.\nB) Helping search for the suspect of the crime.\nC) Rescuing the businessmen trapped in the building.\nD) Checking town records for the property developer.",
+                "answer": "A",
+                "answer_detail": {
+                  "correct_option_text": "Investigating the cause of the incident.",
+                  "evidence": [
+                    {
+                      "quote": "The Norwalk Fire Marshal is investigating the cause and origin of the fire.",
+                      "reason": "The fire marshal is stated to be investigating the cause and origin of the fire incident."
+                    }
+                  ],
+                  "analysis": "The transcript explicitly states the marshal is 'investigating the cause and origin of the fire', which corresponds directly to Option A.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 2,
+              "actual_count": 2,
+              "is_complete": true
+            }
+          },
+          {
+            "group_id": "section_a_group_2",
+            "group_type": "news_report",
+            "question_range": {
+              "start": 3,
+              "end": 4,
+              "raw_text": "Questions 3 and 4 are based on the news report you have just heard."
+            },
+            "group_intro": "Questions 3 and 4 are based on the news report you have just heard.",
+            "material": {
+              "title": "News Report Two",
+              "transcript": "A new study has cast doubt on historic research suggesting that the season or month of someone's birth is associated with an increased risk of certain mental health conditions. The study looks at symptoms of anxiety and depression among more than 70,000 older adults in Europe. A number of past studies have found the link between season of birth and mental health diagnoses.\nResearchers have suggested that such links could arise from various things. These include nutrient intake, sun exposure, climate, and disease exposure varying across the course of the year. However, evidence has been mixed, more recent studies have suggested that factors such as social class or economic background have more to do with these diagnoses than month of birth.\nOverall, the new study found no significant relationship between participants' month of birth and symptoms of depression or anxiety. There was some variability in some countries. In Poland, depressive symptoms fluctuated a little depending on birth month. In the Czech republic, the same was true of anxiety symptoms. But on the whole, there was no systematic pattern."
+            },
+            "questions": [
+              {
+                "question_no": 3,
+                "stem": "What have a number of past studies found about season of birth?",
+                "options": {
+                  "A": "It plays a less important role in one's health than nutrient intake.",
+                  "B": "It impacts people's health to a lesser degree than sun exposure.",
+                  "C": "It is associated with people's mental health conditions.",
+                  "D": "It is linked with older adults' symptoms of depression."
+                },
+                "raw_text": "3. A) It plays a less important role in one's health than nutrient intake.\nB) It impacts people's health to a lesser degree than sun exposure.\nC) It is associated with people's mental health conditions.\nD) It is linked with older adults' symptoms of depression.",
+                "answer": "C",
+                "answer_detail": {
+                  "correct_option_text": "It is associated with people's mental health conditions.",
+                  "evidence": [
+                    {
+                      "quote": "A number of past studies have found the link between season of birth and mental health diagnoses.",
+                      "reason": "The passage confirms that past studies linked birth season to mental health diagnoses."
+                    }
+                  ],
+                  "analysis": "The transcript directly states that past studies found a link between season of birth and mental health diagnoses, matching Option C.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 4,
+                "stem": "What did the new study find about the relationship between participants' month of birth and symptoms of depression?",
+                "options": {
+                  "A": "It was indefinite.",
+                  "B": "It was systematic.",
+                  "C": "It was straightforward.",
+                  "D": "It was insignificant."
+                },
+                "raw_text": "4. A ) It was indefinite. C) It was straightforward.\nB) It was systematic. D) It was insignificant.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "It was insignificant.",
+                  "evidence": [
+                    {
+                      "quote": "Overall, the new study found no significant relationship between participants' month of birth and symptoms of depression or anxiety.",
+                      "reason": "The study found 'no significant relationship', meaning the relationship was insignificant."
+                    }
+                  ],
+                  "analysis": "The expression 'no significant relationship' equates to 'insignificant', which is Option D.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 2,
+              "actual_count": 2,
+              "is_complete": true
+            }
+          },
+          {
+            "group_id": "section_a_group_3",
+            "group_type": "news_report",
+            "question_range": {
+              "start": 5,
+              "end": 7,
+              "raw_text": "Questions 5 to 7 are based on the news report you have just heard."
+            },
+            "group_intro": "Questions 5 to 7 are based on the news report you have just heard.",
+            "material": {
+              "title": "News Report Three",
+              "transcript": "Genetic researchers in China have made a clone of a star police dog, the clone was born in a laboratory in Beijing in December. Tests show that the clone and her mother are almost identical genetically. The mother dog helped solve multiple murders and many other crimes. The clone has already performed better than traditionally bred dogs on several tests.\nIf the clone continues to perform as well as expected, it could mean a huge reduction in the training time for police dogs, which usually takes about five years. The ultimate goal of scientists is to produce clones of talented police dogs that can be trained in months instead of years. However, this goal is not yet possible due to the current costs of the technology.\nThis is not the first time a clone has been made of a star police dog. In South Korea, six clones began working with the police in 2008."
+            },
+            "questions": [
+              {
+                "question_no": 5,
+                "stem": "What do the researchers' tests show about the cloned dog?",
+                "options": {
+                  "A": "It has helped solve several murder cases.",
+                  "B": "It has become a star police dog in Beijing.",
+                  "C": "It has surpassed its mother in performance.",
+                  "D": "It has done better than naturally born dogs."
+                },
+                "raw_text": "5. A) It has helped solve several murder cases.\nB) It has become a star police dog in Beijing.\nC) It has surpassed its mother in performance.\nD) It has done better than naturally born dogs.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "It has done better than naturally born dogs.",
+                  "evidence": [
+                    {
+                      "quote": "The clone has already performed better than traditionally bred dogs on several tests.",
+                      "reason": "Traditionally bred dogs correspond directly to naturally born dogs."
+                    }
+                  ],
+                  "analysis": "The transcript states the clone performed better than traditionally bred dogs, which matches Option D.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 6,
+                "stem": "What is the scientist's purpose in cloning police dogs?",
+                "options": {
+                  "A": "To speed up investigation into criminal cases.",
+                  "B": "To test the feasibility of cloning technology.",
+                  "C": "To cut down training expenses.",
+                  "D": "To reduce their training time."
+                },
+                "raw_text": "6. A) To speed up investigation into criminal cases. C) To cut down training expenses.\nB) To test the feasibility of cloning technology. D) To reduce their training time.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "To reduce their training time.",
+                  "evidence": [
+                    {
+                      "quote": "The ultimate goal of scientists is to produce clones of talented police dogs that can be trained in months instead of years.",
+                      "reason": "Training in months instead of years directly points to reducing their training time."
+                    }
+                  ],
+                  "analysis": "The ultimate goal is to enable dogs to be trained in months rather than years, which is a reduction in training time, corresponding to Option D.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 7,
+                "stem": "Why does the news report say the scientists' goal is not yet possible?",
+                "options": {
+                  "A": "Cloning is too complicated a process.",
+                  "B": "The technology is yet to be accepted.",
+                  "C": "Cloning is ethically controversial.",
+                  "D": "The technology is too expensive."
+                },
+                "raw_text": "7. A) Cloning is too complicated a process. C) Cloning is ethically controversial.\nB) The technology is yet to be accepted. D) The technology is too expensive.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "The technology is too expensive.",
+                  "evidence": [
+                    {
+                      "quote": "However, this goal is not yet possible due to the current costs of the technology.",
+                      "reason": "The current costs make it not yet possible, indicating the technology is too expensive."
+                    }
+                  ],
+                  "analysis": "The transcript attributes the limitation directly to 'the current costs of the technology', which matches Option D.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 3,
+              "actual_count": 3,
+              "is_complete": true
+            }
+          }
+        ],
+        "integrity": {
+          "group_count": 3,
+          "question_count": 7
+        }
+      },
+      {
+        "section_label": "Section B",
+        "directions": "In this section, you will hear two long conversations. At the end of each conversation, you will hear four questions. Both the conversation and the questions will be spoken only once.",
+        "groups": [
+          {
+            "group_id": "section_b_group_1",
+            "group_type": "conversation",
+            "question_range": {
+              "start": 8,
+              "end": 11,
+              "raw_text": "Questions 8 to 11 are based on the conversation you have just heard."
+            },
+            "group_intro": "Questions 8 to 11 are based on the conversation you have just heard.",
+            "material": {
+              "title": "Conversation One",
+              "transcript": "M: Tom, did you see the article online about the new TV series based on the book The Three Body Problem?\nW: A colleague mentioned the book, but I've been so busy writing my thesis that I haven't been able to read for pleasure in months.\nM: Well, sounds like if you're going to read anything for fun, this is the book. It's written by a Chinese science fiction writer. I can't remember his name, but he's written three books in all, and The Three Body Problem is the first in the series. I don't want to say too much and spoil it for you, but it's definitely got some amazing technological and sociological concepts in it.\nW: It does sound like it would suit my taste, but if they are making a TV series based on it now, I don't know if I should read the book or watch the show first.\nM: I think it's better to read the book first. It's rare for the show or movie to be better than the book. And then, you just end up ruining the book for yourself, if the show isn't very good.\nW: When is the show supposed to start? I'm a bit overwhelmed with the amount of data I still need to collect to finish my thesis. But I still need to relax sometimes.\nM: I can't remember exactly. It's pretty soon, and it's going to be quite long. There are 24 episodes. Well, maybe you could download an electronic copy of the book and try to read it before the show starts.\nW: That's a good idea, and then, maybe we can watch the series together. Thanks for the tip, Alice.\nM: No problem."
+            },
+            "questions": [
+              {
+                "question_no": 8,
+                "stem": "How did the man get to know about the book The Three Body Problem?",
+                "options": {
+                  "A": "He read it somewhere online.",
+                  "B": "He heard about it from a coworker.",
+                  "C": "He read an article reviewing it.",
+                  "D": "He watched a TV series based on it."
+                },
+                "raw_text": "8. A) He read it somewhere online. C) He read an article reviewing it.\nB) He heard about it from a coworker. D) He watched a TV series based on it.",
+                "answer": "A",
+                "answer_detail": {
+                  "correct_option_text": "He read it somewhere online.",
+                  "evidence": [
+                    {
+                      "quote": "did you see the article online about the new TV series based on the book The Three Body Problem?",
+                      "reason": "The man asks if the woman saw the article online, indicating he discovered it online."
+                    }
+                  ],
+                  "analysis": "The man brings up the topic after reading about the TV series/book in an online article, matching Option A.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 9,
+                "stem": "What does the woman say she can't remember about the book's author?",
+                "options": {
+                  "A": "His publications.",
+                  "B": "His first book.",
+                  "C": "His address.",
+                  "D": "His name."
+                },
+                "raw_text": "9. A) His publications. C) His address.\nB) His first book. D) His name.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "His name.",
+                  "evidence": [
+                    {
+                      "quote": "I can't remember his name",
+                      "reason": "The speaker explicitly mentions being unable to remember the author's name."
+                    }
+                  ],
+                  "analysis": "The speaker directly states 'I can't remember his name', which matches Option D.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 10,
+                "stem": "What does the man have to do to finish his thesis?",
+                "options": {
+                  "A": "Collect a lot more data.",
+                  "B": "Relax a bit less often.",
+                  "C": "Clarify many new concepts.",
+                  "D": "Read more reference books."
+                },
+                "raw_text": "10. A) Collect a lot more data. C) Clarify many new concepts.\nB) Relax a bit less often. D) Read more reference books.",
+                "answer": "A",
+                "answer_detail": {
+                  "correct_option_text": "Collect a lot more data.",
+                  "evidence": [
+                    {
+                      "quote": "I'm a bit overwhelmed with the amount of data I still need to collect to finish my thesis.",
+                      "reason": "The speaker mentions needing to collect a massive amount of data for the thesis."
+                    }
+                  ],
+                  "analysis": "The speaker expresses being overwhelmed by the amount of data still needing to be collected to finish the thesis, matching Option A.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 11,
+                "stem": null,
+                "options": {
+                  "A": "Find out the show's most interesting episodes.",
+                  "B": "Watch the series together with the woman.",
+                  "C": "Get an e-copy of the book to read.",
+                  "D": "Check to see when the show starts."
+                },
+                "raw_text": "11. A) Find out the show's most interesting episodes.\nB) Watch the series together with the woman.\nC) Get an e-copy of the book to read.\nD) Check to see when the show starts.",
+                "answer": "C",
+                "answer_detail": {
+                  "correct_option_text": "Get an e-copy of the book to read.",
+                  "evidence": [
+                    {
+                      "quote": "maybe you could download an electronic copy of the book and try to read it before the show starts.",
+                      "reason": "The suggestion is to download (get) an electronic copy (e-copy) of the book."
+                    }
+                  ],
+                  "analysis": "The advice given is to download an electronic copy of the book, which corresponds directly to Option C.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 4,
+              "actual_count": 4,
+              "is_complete": true
+            }
+          },
+          {
+            "group_id": "section_b_group_2",
+            "group_type": "conversation",
+            "question_range": {
+              "start": 12,
+              "end": 15,
+              "raw_text": "Questions 12 to 15 are based on the conversation you have just heard."
+            },
+            "group_intro": "Questions 12 to 15 are based on the conversation you have just heard.",
+            "material": {
+              "title": "Conversation Two",
+              "transcript": "M: Hello, good afternoon. I have an inquiry to make. It's about the vegetarian food festival you are holding on the 19th of August at the Newcastle City Hall.\nW: Yes, of course. My name's Philip. How can I help you?\nM: It says on your website that you are still looking for vendors, and I grow organic vegetables on my farm, as well as doing my own home baking. Would I be able to sell both the vegetables and items baked from them at the festival?\nW: That's exactly the type of thing we are looking for. We're getting close to the deadline, however. Do you prefer to fill out an application on the web, or to print it out and fill it in by hand and then post it back to us? Remember that you will have to have all your certificates to hand when you are filling out the forms, as the standards are high and they'll be carefully checked before anyone will be able to sell their produce at the event.\nM: I should be fine with doing it on your website, and I already have all my certificates, as we run a small farm shop too. But can you give me your details anyway?\nW: Sure, please address it to the Organic Organization, Vendor Applications, 112 Queens Road, Newcastle, Northumbria. The postcode is NU 29 3LJ. Remember that the closing date is next Tuesday, the 28th of June.\nM: That's absolutely wonderful. Thank you so much for your help, Goodbye."
+            },
+            "questions": [
+              {
+                "question_no": 12,
+                "stem": "Why does the woman call the man?",
+                "options": {
+                  "A": "To check the prices of his farm produce.",
+                  "B": "To ask the way to the Newcastle City Hall.",
+                  "C": "To inquire about the vegetarian food festival.",
+                  "D": "To seek the man's help with her work on the farm."
+                },
+                "raw_text": "12. A) To check the prices of his farm produce.\nB) To ask the way to the Newcastle City Hall.\nC) To inquire about the vegetarian food festival.\nD) To seek the man's help with her work on the farm.",
+                "answer": "C",
+                "answer_detail": {
+                  "correct_option_text": "To inquire about the vegetarian food festival.",
+                  "evidence": [
+                    {
+                      "quote": "I have an inquiry to make. It's about the vegetarian food festival you are holding on the 19th of August",
+                      "reason": "The caller initiates the conversation with an inquiry about the vegetarian food festival."
+                    }
+                  ],
+                  "analysis": "The conversation begins with the caller asking about the vegetarian food festival, matching Option C.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 13,
+                "stem": "What is the man still looking for?",
+                "options": {
+                  "A": "Bakers.",
+                  "B": "Vendors.",
+                  "C": "Vegetarians.",
+                  "D": "Organisers."
+                },
+                "raw_text": "13. A) Bakers. C) Vegetarians.\nB) Vendors. D) Organisers.",
+                "answer": "B",
+                "answer_detail": {
+                  "correct_option_text": "Vendors.",
+                  "evidence": [
+                    {
+                      "quote": "It says on your website that you are still looking for vendors",
+                      "reason": "The caller notes that the website indicates they are still looking for vendors."
+                    }
+                  ],
+                  "analysis": "The caller asks about selling items because the website said they are still looking for 'vendors', matching Option B.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 14,
+                "stem": "What does the man say they are getting close to?",
+                "options": {
+                  "A": "The issuing of certificates to vendors.",
+                  "B": "The completion of the baking task.",
+                  "C": "The festival they are organising.",
+                  "D": "The deadline for application."
+                },
+                "raw_text": "14. A) The issuing of certificates to vendors. C) The festival they are organising.\nB) The completion of the baking task. D) The deadline for application.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "The deadline for application.",
+                  "evidence": [
+                    {
+                      "quote": "We're getting close to the deadline, however. Do you prefer to fill out an application on the web...",
+                      "reason": "The host mentions they are getting close to the application deadline."
+                    }
+                  ],
+                  "analysis": "The host points out that they are getting close to the deadline for submitting applications, matching Option D.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 15,
+                "stem": "What does the man finally ask the woman to remember?",
+                "options": {
+                  "A": "The closing date of submission.",
+                  "B": "The website of his company.",
+                  "C": "The details of the ceremony.",
+                  "D": "The organiser's address."
+                },
+                "raw_text": "15. A) The closing date of submission. C) The details of the ceremony.\nB) The website of his company. D) The organiser's address.",
+                "answer": "A",
+                "answer_detail": {
+                  "correct_option_text": "The closing date of submission.",
+                  "evidence": [
+                    {
+                      "quote": "Remember that the closing date is next Tuesday, the 28th of June.",
+                      "reason": "The host reminds the caller of the final closing date for submissions."
+                    }
+                  ],
+                  "analysis": "The final reminder is about the 'closing date', which is next Tuesday, corresponding to Option A.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 4,
+              "actual_count": 4,
+              "is_complete": true
+            }
+          }
+        ],
+        "integrity": {
+          "group_count": 2,
+          "question_count": 8
+        }
+      },
+      {
+        "section_label": "Section C",
+        "directions": "In this section, you will hear three passages. At the end of each passage, you will hear three or four questions. Both the passage and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+        "groups": [
+          {
+            "group_id": "section_c_group_1",
+            "group_type": "passage",
+            "question_range": {
+              "start": 16,
+              "end": 18,
+              "raw_text": "Questions 16 to 18 are based on the passage you have just heard."
+            },
+            "group_intro": "Questions 16 to 18 are based on the passage you have just heard.",
+            "material": {
+              "title": "Passage One",
+              "transcript": "Supporters call it \"wild camping\"; opponents call it \"illegal camping\" What both sides accept is that there has been a boom in the past few months, with increasing numbers of visitors pitching their tents on any bit of land they fancy in the UK. In part, this reflects the fact that official campsites have been wholly or partially closed, or are overflowing in a summer when fewer people are going abroad. It is also cheap, at a time when many are worried about what the economic future holds. But it may also be an expression of a desire for going outdoors—a response to the months of lockdown.\nMost of the coverage of the boom in wild camping has been negative. Camping in public parks has now been banned for August and the early part of September because campers dump litter, human waste, and even their tents on the grassland. Similar action has been taken even in Scotland, where camping is usually permitted on most of its open land.\nClearly there have to be rules. It would make sense that wild campers need to ask for permission to camp from landowners, especially outside Scotland, where the law is far more restrictive. It would common sense for people to use small tents and leave no trace of their visit. They have been attracted by a patch of land this close to wilderness, and it is their responsibility to keep it that way."
+            },
+            "questions": [
+              {
+                "question_no": 16,
+                "stem": "Why has wild camping become popular in the UK?",
+                "options": {
+                  "A": "Most scenic sites have been closed.",
+                  "B": "Access to official campsites is limited.",
+                  "C": "Health experts advise going outdoors.",
+                  "D": "People have more time during the summer."
+                },
+                "raw_text": "16. A) Most scenic sites have been closed.\nB) Access to official campsites is limited.\nC) Health experts advise going outdoors.\nD) People have more time during the summer.",
+                "answer": "B",
+                "answer_detail": {
+                  "correct_option_text": "Access to official campsites is limited.",
+                  "evidence": [
+                    {
+                      "quote": "this reflects the fact that official campsites have been wholly or partially closed, or are overflowing",
+                      "reason": "Official campsites being closed or overflowing means that access to them is restricted or limited."
+                    }
+                  ],
+                  "analysis": "The passage explains the popularity is partly due to official campsites being closed or overflowing, which is paraphrased as Option B.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 17,
+                "stem": "Why is camping banned for part of the summer in public parks?",
+                "options": {
+                  "A": "It is strongly opposed by nearby residents.",
+                  "B": "It leads to much waste of public money.",
+                  "C": "It has caused environmental concerns.",
+                  "D": "It has created conflicts among campers."
+                },
+                "raw_text": "17. A) It is strongly opposed by nearby residents.\nB) It leads to much waste of public money.\nC) It has caused environmental concerns.\nD) It has created conflicts among campers.",
+                "answer": "C",
+                "answer_detail": {
+                  "correct_option_text": "It has caused environmental concerns.",
+                  "evidence": [
+                    {
+                      "quote": "because campers dump litter, human waste, and even their tents on the grassland.",
+                      "reason": "Dumping litter, human waste, and tents on public grasslands directly causes environmental concerns."
+                    }
+                  ],
+                  "analysis": "The dumping of waste and litter by campers represents serious environmental concerns, matching Option C.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 18,
+                "stem": "What does the speaker suggest campers do?",
+                "options": {
+                  "A": "Look for open land in Scotland.",
+                  "B": "Leave no trace of their camping.",
+                  "C": "Avoid getting close to wilderness.",
+                  "D": "Ask for permission from authorities."
+                },
+                "raw_text": "18. A) Look for open land in Scotland. C) Avoid getting close to wilderness.\nB) Leave no trace of their camping. D) Ask for permission from authorities.",
+                "answer": "B",
+                "answer_detail": {
+                  "correct_option_text": "Leave no trace of their camping.",
+                  "evidence": [
+                    {
+                      "quote": "It would be common sense for people to use small tents and leave no trace of their visit.",
+                      "reason": "The speaker advises that campers leave no trace of their visit."
+                    }
+                  ],
+                  "analysis": "The recommendation 'leave no trace of their visit' matches Option B ('Leave no trace of their camping').",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 3,
+              "actual_count": 3,
+              "is_complete": true
+            }
+          },
+          {
+            "group_id": "section_c_group_2",
+            "group_type": "passage",
+            "question_range": {
+              "start": 19,
+              "end": 21,
+              "raw_text": "Questions 19 to 21 are based on the passage you have just heard."
+            },
+            "group_intro": "Questions 19 to 21 are based on the passage you have just heard.",
+            "material": {
+              "title": "Passage Two",
+              "transcript": "Imagine boating down the amazon river, minding your own business—calmly keeping an eye out for alarmingly large snakes—and a curious pink dolphin appears to swim alongside. While this May seem like a mythical creature, pink dolphins do exist in the amazon region.\nThe Amazon river dolphin is a giant among its species, it can measure up to 2 meters long and weigh around 204 kilograms. Size isn't the only thing that sets the amazon river dolphin apart, thriving in south American rivers and temporary lakes caused by seasonal flooding, this freshwater dolphin is sometimes shockingly pink.\nAlthough born gray, males of the species are easily identified as they enter adulthood by a decisive pink shade. Their unusual coloring is believed to be the result of scar tissue from dolphin fights—whether play fighting or a serious bid for a mate. the deeper the pink, the more attractive the males are believed to be, and the older the male, the more pink it will have.\nThere's also a theory that this color helps the dolphins more readily blend in with their surroundings. During heavy rains, rivers along the Amazon rainforest turn a pink shade, and with it male dolphins are harder to detect. The Amazon wetland system, fed by the Amazon River, is a crucial place for pink dolphins to breed, and since 2018 has been granted internationally protected status."
+            },
+            "questions": [
+              {
+                "question_no": 19,
+                "stem": "What does the passage say about pink dolphins?",
+                "options": {
+                  "A": "They outcompete mythical creatures.",
+                  "B": "They usually mind their own business.",
+                  "C": "They truly exist in the Amazon region.",
+                  "D": "They resemble alarmingly large snakes."
+                },
+                "raw_text": "19. A) They outcompete mythical creatures.\nB) They usually mind their own business.\nC) They truly exist in the Amazon region.\nD) They resemble alarmingly large snakes.",
+                "answer": "C",
+                "answer_detail": {
+                  "correct_option_text": "They truly exist in the Amazon region.",
+                  "evidence": [
+                    {
+                      "quote": "While this May seem like a mythical creature, pink dolphins do exist in the amazon region.",
+                      "reason": "The passage confirms their existence despite their mythical appearance."
+                    }
+                  ],
+                  "analysis": "The passage directly confirms that pink dolphins exist in the Amazon region, aligning with Option C.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 20,
+                "stem": "What is the unusual coloring of pink dolphins believed to originate in?",
+                "options": {
+                  "A": "Scar tissue from dolphins' fighting.",
+                  "B": "Skin infection from water pollution.",
+                  "C": "Unhealed wounds from snake bites.",
+                  "D": "Swimming along in seasonal floods."
+                },
+                "raw_text": "20. A) Scar tissue from dolphins' fighting.\nB) Skin infection from water pollution.\nC) Unhealed wounds from snake bites.\nD) Swimming along in seasonal floods.",
+                "answer": "A",
+                "answer_detail": {
+                  "correct_option_text": "Scar tissue from dolphins' fighting.",
+                  "evidence": [
+                    {
+                      "quote": "Their unusual coloring is believed to be the result of scar tissue from dolphin fights",
+                      "reason": "The pink shade is attributed to scars left by fighting."
+                    }
+                  ],
+                  "analysis": "The coloring is believed to come from scar tissue built up during dolphin fights, which is Option A.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 21,
+                "stem": "What has become of the Amazon wetland system since 2018?",
+                "options": {
+                  "A": "It has been shrinking at an astonishing pace.",
+                  "B": "It has been placed under international protection.",
+                  "C": "It has been appealing to both freshwater and sea dolphins.",
+                  "D": "It has been abandoned as a battleground for male dolphins."
+                },
+                "raw_text": "21. A) It has been shrinking at an astonishing pace.\nB) It has been placed under international protection.\nC) It has been appealing to both freshwater and sea dolphins.\nD) It has been abandoned as a battleground for male dolphins.",
+                "answer": "B",
+                "answer_detail": {
+                  "correct_option_text": "It has been placed under international protection.",
+                  "evidence": [
+                    {
+                      "quote": "The Amazon wetland system... since 2018 has been granted internationally protected status.",
+                      "reason": "The system has received international protection status since 2018."
+                    }
+                  ],
+                  "analysis": "The text states the system has been granted internationally protected status, corresponding to Option B.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 3,
+              "actual_count": 3,
+              "is_complete": true
+            }
+          },
+          {
+            "group_id": "section_c_group_3",
+            "group_type": "passage",
+            "question_range": {
+              "start": 22,
+              "end": 25,
+              "raw_text": "Questions 22 to 25 are based on the passage you have just heard."
+            },
+            "group_intro": "Questions 22 to 25 are based on the passage you have just heard.",
+            "material": {
+              "title": "Passage Three",
+              "transcript": "In a new Merrill lynch /Age wave survey, a full 70 %of the early adults said they received financial support from their parents in the past year and 58%said they couldn't afford their current lifestyles without it. The most common types of financial support include cell phone plans, food, school costs and car expenses. Parental financial support of early adults, said Ken Dychtwald, CEO of Age Wave, is \"the new normal\".\nBut 64 %of the young adults surveyed said parents' financial support to children age 25 to 34 is “a bad thing”, because it makes those kids dependent. By contrast, only 29 % thought supporting men and women age 18 to 24 is bad; the remaining 71 % thought that assistance \"helps the adult children get ahead\".\nDychtwald believes the young women and men surveyed were saying that by 25, younger adults ought to be financially independent. In fact, the respondents said, financial independence defines adulthood. \"Financial independence is something they were struggling with and challenged by. And it scared them a bit ' Dychtwald said. One big reason they're struggling is attributed to college loans, of which the average amounts to $ 37,000. Many of the parents have taken on college loans for the kids, too, sometimes at the expense of their own finances. In the survey, 60 % of early adults define financial success as being debt-free. Whether that's likely or even possible, any time soon, is anyone's guess."
+            },
+            "questions": [
+              {
+                "question_no": 22,
+                "stem": "What do we learn from a new survey by Merrill Lynch/Age Wave?",
+                "options": {
+                  "A": "About 58% of young adults call parental support the new normal.",
+                  "B": "Most adult children enjoy increasing sources of financial support.",
+                  "C": "A full 70% of the young adults cannot afford to buy a car by themselves.",
+                  "D": "Most early adults cannot sustain their lifestyles without parental support."
+                },
+                "raw_text": "22. A) About 58% of young adults call parental support the new normal.\nB) Most adult children enjoy increasing sources of financial support.\nC) A full 70% of the young adults cannot afford to buy a car by themselves.\nD) Most early adults cannot sustain their lifestyles without parental support.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "Most early adults cannot sustain their lifestyles without parental support.",
+                  "evidence": [
+                    {
+                      "quote": "58%said they couldn't afford their current lifestyles without it.",
+                      "reason": "58% represents the majority (most) of early adults who need parental support to afford their lifestyle."
+                    }
+                  ],
+                  "analysis": "The survey notes that 58% of early adults cannot sustain their current lifestyles without support, matching Option D.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 23,
+                "stem": "Why did most young adults in the survey say financial support to children aged 25 to 34 is a bad thing?",
+                "options": {
+                  "A": "It renders them dependent.",
+                  "B": "It causes them to lose dignity.",
+                  "C": "It makes them mentally immature.",
+                  "D": "It hinders them from getting ahead."
+                },
+                "raw_text": "23. A) It renders them dependent.\nB) It causes them to lose dignity.\nC) It makes them mentally immature.\nD) It hinders them from getting ahead.",
+                "answer": "A",
+                "answer_detail": {
+                  "correct_option_text": "It renders them dependent.",
+                  "evidence": [
+                    {
+                      "quote": "financial support to children age 25 to 34 is “a bad thing”, because it makes those kids dependent.",
+                      "reason": "The support is considered bad precisely because it fosters dependency."
+                    }
+                  ],
+                  "analysis": "The text directly states that such support is a bad thing 'because it makes those kids dependent', corresponding to Option A.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 24,
+                "stem": "What did the respondents in the survey say regarding financial independence?",
+                "options": {
+                  "A": "It challenges one's willpower.",
+                  "B": "It results from education.",
+                  "C": "It calls for due assistance.",
+                  "D": "It defines adulthood."
+                },
+                "raw_text": "24. A) It challenges one's willpower. C) It calls for due assistance.\nB) It results from education. D) It defines adulthood.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "It defines adulthood.",
+                  "evidence": [
+                    {
+                      "quote": "In fact, the respondents said, financial independence defines adulthood.",
+                      "reason": "The respondents are quoted as saying financial independence defines adulthood."
+                    }
+                  ],
+                  "analysis": "The transcript directly asserts 'financial independence defines adulthood', making Option D the correct choice.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 25,
+                "stem": "What is one big reason young adults are struggling?",
+                "options": {
+                  "A": "Current lifestyles.",
+                  "B": "Poor budgeting.",
+                  "C": "College loans.",
+                  "D": "Emergency expenses."
+                },
+                "raw_text": "25. A) Current lifestyles. C) College loans.\nB) Poor budgeting. D) Emergency expenses.",
+                "answer": "C",
+                "answer_detail": {
+                  "correct_option_text": "College loans.",
+                  "evidence": [
+                    {
+                      "quote": "One big reason they're struggling is attributed to college loans",
+                      "reason": "College loans are highlighted as a major reason why early adults are struggling financially."
+                    }
+                  ],
+                  "analysis": "The passage explicitly attributes their financial struggle to college loans, matching Option C.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 4,
+              "actual_count": 4,
+              "is_complete": true
+            }
+          }
+        ],
+        "integrity": {
+          "group_count": 3,
+          "question_count": 10
+        }
+      }
+    ]
+  },
+  "warnings": []
+}
