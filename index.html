@@ -3,30 +3,26 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-<title>CET4 Listening iPad Simulator</title>
+<title>CET4 Listening Simulator</title>
 
 <style>
 :root {
     --bg1: #f7f9ff;
     --bg2: #edf4ff;
-    --glass: rgba(255, 255, 255, 0.62);
-    --glass-strong: rgba(255, 255, 255, 0.82);
-    --stroke: rgba(255, 255, 255, 0.65);
+    --glass: rgba(255, 255, 255, 0.64);
+    --glass-strong: rgba(255, 255, 255, 0.86);
+    --stroke: rgba(255, 255, 255, 0.7);
     --border: rgba(120, 140, 180, 0.22);
-    --text: #182033;
-    --muted: #6d7485;
+    --text: #172033;
+    --muted: #6e7586;
     --blue: #007aff;
     --blue2: #5ac8fa;
     --green: #34c759;
     --red: #ff3b30;
     --orange: #ff9500;
     --purple: #af52de;
-    --paper: rgba(255, 255, 255, 0.88);
     --shadow: 0 22px 70px rgba(31, 45, 80, 0.16);
-    --soft-shadow: 0 12px 34px rgba(31, 45, 80, 0.10);
-    --radius-xl: 32px;
-    --radius-lg: 24px;
-    --radius-md: 18px;
+    --soft-shadow: 0 12px 34px rgba(31, 45, 80, 0.1);
     --safe-top: env(safe-area-inset-top);
     --safe-bottom: env(safe-area-inset-bottom);
 }
@@ -42,15 +38,15 @@ html {
 
 body {
     margin: 0;
+    min-height: 100vh;
     color: var(--text);
     font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
-                 "Segoe UI", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+                 "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
     background:
-        radial-gradient(circle at 10% 5%, rgba(90, 200, 250, 0.35), transparent 32%),
-        radial-gradient(circle at 85% 10%, rgba(175, 82, 222, 0.22), transparent 30%),
-        radial-gradient(circle at 75% 85%, rgba(52, 199, 89, 0.18), transparent 34%),
+        radial-gradient(circle at 8% 8%, rgba(90, 200, 250, 0.36), transparent 32%),
+        radial-gradient(circle at 90% 12%, rgba(175, 82, 222, 0.22), transparent 30%),
+        radial-gradient(circle at 70% 88%, rgba(52, 199, 89, 0.16), transparent 34%),
         linear-gradient(145deg, var(--bg1), var(--bg2));
-    min-height: 100vh;
     overflow-x: hidden;
 }
 
@@ -63,25 +59,24 @@ body::before {
         linear-gradient(rgba(255,255,255,0.38) 1px, transparent 1px),
         linear-gradient(90deg, rgba(255,255,255,0.38) 1px, transparent 1px);
     background-size: 38px 38px;
+    opacity: 0.45;
     mask-image: linear-gradient(to bottom, black, transparent 80%);
-    opacity: 0.4;
     z-index: -1;
 }
 
-/* 顶部 iOS Liquid Glass 导航 */
 .app-header {
     position: sticky;
     top: 0;
     z-index: 1000;
     padding-top: var(--safe-top);
+    background: rgba(247,250,255,0.68);
     backdrop-filter: blur(28px) saturate(180%);
     -webkit-backdrop-filter: blur(28px) saturate(180%);
-    background: rgba(247, 250, 255, 0.68);
-    border-bottom: 1px solid rgba(255,255,255,0.7);
+    border-bottom: 1px solid rgba(255,255,255,0.75);
 }
 
 .header-inner {
-    max-width: 1360px;
+    max-width: 1380px;
     margin: 0 auto;
     padding: 14px 22px 16px;
     display: grid;
@@ -100,72 +95,68 @@ body::before {
 .logo {
     width: 54px;
     height: 54px;
-    border-radius: 18px;
-    background:
-        linear-gradient(145deg, rgba(255,255,255,0.92), rgba(255,255,255,0.38)),
-        linear-gradient(145deg, var(--blue), var(--purple));
-    box-shadow:
-        inset 0 1px 1px rgba(255,255,255,0.9),
-        0 14px 30px rgba(0, 122, 255, 0.28);
+    border-radius: 19px;
     display: grid;
     place-items: center;
     color: white;
     font-size: 25px;
-    font-weight: 800;
+    font-weight: 850;
+    background:
+        linear-gradient(145deg, rgba(255,255,255,0.85), rgba(255,255,255,0.18)),
+        linear-gradient(145deg, var(--blue), var(--purple));
+    box-shadow:
+        inset 0 1px 1px rgba(255,255,255,0.9),
+        0 14px 30px rgba(0,122,255,0.26);
 }
 
 .brand h1 {
     margin: 0;
     font-size: 24px;
+    letter-spacing: -0.35px;
     line-height: 1.15;
-    letter-spacing: -0.3px;
 }
 
 .brand p {
     margin: 5px 0 0;
     color: var(--muted);
     font-size: 14px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 .header-actions {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
     justify-content: flex-end;
+    gap: 10px;
 }
 
 button,
 .file-btn,
-select,
-input[type="text"] {
+select {
     font-family: inherit;
 }
 
 button,
 .file-btn {
+    min-height: 46px;
+    padding: 12px 16px;
+    border-radius: 999px;
     border: 1px solid rgba(255,255,255,0.72);
     color: #102033;
     background:
-        linear-gradient(145deg, rgba(255,255,255,0.92), rgba(255,255,255,0.48));
-    backdrop-filter: blur(20px) saturate(180%);
-    -webkit-backdrop-filter: blur(20px) saturate(180%);
+        linear-gradient(145deg, rgba(255,255,255,0.94), rgba(255,255,255,0.48));
+    backdrop-filter: blur(22px) saturate(180%);
+    -webkit-backdrop-filter: blur(22px) saturate(180%);
     box-shadow:
-        inset 0 1px 0 rgba(255,255,255,0.9),
-        0 8px 22px rgba(31, 45, 80, 0.10);
-    padding: 12px 15px;
-    border-radius: 999px;
+        inset 0 1px 0 rgba(255,255,255,0.92),
+        0 8px 22px rgba(31,45,80,0.1);
     font-size: 15px;
-    font-weight: 650;
+    font-weight: 700;
     cursor: pointer;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     gap: 7px;
-    min-height: 46px;
-    transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
+    transition: transform .16s ease;
 }
 
 button:active,
@@ -176,7 +167,6 @@ button:active,
 button.primary {
     color: white;
     background: linear-gradient(145deg, #0a84ff, #007aff);
-    border-color: rgba(255,255,255,0.55);
 }
 
 button.green {
@@ -203,18 +193,16 @@ input[type="file"] {
     display: none;
 }
 
-/* 主容器 */
 .app-shell {
-    max-width: 1360px;
+    max-width: 1380px;
     margin: 22px auto 80px;
-    padding: 0 22px calc(80px + var(--safe-bottom));
+    padding: 0 22px calc(90px + var(--safe-bottom));
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 360px;
+    grid-template-columns: minmax(0, 1fr) 380px;
     gap: 22px;
     align-items: start;
 }
 
-/* 左侧考试区 */
 .exam-area {
     min-width: 0;
 }
@@ -222,7 +210,7 @@ input[type="file"] {
 .glass-card {
     background: var(--glass);
     border: 1px solid var(--stroke);
-    border-radius: var(--radius-xl);
+    border-radius: 34px;
     backdrop-filter: blur(30px) saturate(180%);
     -webkit-backdrop-filter: blur(30px) saturate(180%);
     box-shadow: var(--shadow);
@@ -230,27 +218,26 @@ input[type="file"] {
 
 .paper-wrap {
     position: relative;
-    overflow: hidden;
     padding: 28px;
+    overflow: hidden;
 }
 
 .paper {
     position: relative;
-    background:
-        linear-gradient(180deg, rgba(255,255,255,0.96), rgba(255,255,255,0.86));
-    border: 1px solid rgba(255,255,255,0.88);
-    border-radius: 28px;
     min-height: 760px;
+    overflow: hidden;
+    border-radius: 28px;
+    border: 1px solid rgba(255,255,255,0.86);
+    background: linear-gradient(180deg, rgba(255,255,255,0.97), rgba(255,255,255,0.88));
     box-shadow:
         inset 0 1px 0 rgba(255,255,255,1),
         0 8px 30px rgba(31,45,80,0.08);
-    overflow: hidden;
 }
 
 .paper-content {
     position: relative;
     z-index: 2;
-    padding: 42px 46px 54px;
+    padding: 42px 46px 56px;
 }
 
 #drawCanvas {
@@ -263,13 +250,14 @@ input[type="file"] {
 #drawCanvas.enabled {
     pointer-events: auto;
     cursor: crosshair;
+    touch-action: none;
 }
 
 .exam-title {
     text-align: center;
-    border-bottom: 2px solid rgba(20, 25, 35, 0.75);
     padding-bottom: 20px;
     margin-bottom: 26px;
+    border-bottom: 2px solid rgba(20,25,35,0.75);
 }
 
 .exam-title h2 {
@@ -285,12 +273,12 @@ input[type="file"] {
 }
 
 .notice {
-    background: linear-gradient(145deg, rgba(0,122,255,0.11), rgba(90,200,250,0.08));
-    border: 1px solid rgba(0,122,255,0.16);
-    border-radius: 22px;
-    padding: 18px 20px;
-    line-height: 1.75;
     margin-bottom: 28px;
+    padding: 18px 20px;
+    border-radius: 22px;
+    border: 1px solid rgba(0,122,255,0.16);
+    background: linear-gradient(145deg, rgba(0,122,255,0.11), rgba(90,200,250,0.08));
+    line-height: 1.75;
     color: #173764;
 }
 
@@ -300,18 +288,17 @@ input[type="file"] {
 
 .section-heading {
     display: flex;
-    align-items: baseline;
     justify-content: space-between;
+    align-items: baseline;
     gap: 16px;
-    border-bottom: 1.5px solid rgba(20,25,35,0.65);
     padding-bottom: 10px;
     margin-bottom: 14px;
+    border-bottom: 1.5px solid rgba(20,25,35,0.65);
 }
 
 .section-heading h3 {
     margin: 0;
     font-size: 25px;
-    letter-spacing: -0.3px;
 }
 
 .section-heading span {
@@ -320,18 +307,18 @@ input[type="file"] {
 }
 
 .directions {
-    color: #3c465c;
+    margin-bottom: 22px;
+    color: #3d465c;
     line-height: 1.85;
     font-size: 15.5px;
-    margin-bottom: 22px;
 }
 
 .group {
     margin: 22px 0;
     padding: 24px;
-    background: rgba(255,255,255,0.74);
-    border: 1px solid rgba(120,140,180,0.20);
     border-radius: 26px;
+    border: 1px solid rgba(120,140,180,0.2);
+    background: rgba(255,255,255,0.74);
     box-shadow: var(--soft-shadow);
 }
 
@@ -345,33 +332,32 @@ input[type="file"] {
 
 .group-title {
     font-size: 20px;
-    font-weight: 800;
-    letter-spacing: -0.2px;
+    font-weight: 850;
 }
 
 .pill {
     padding: 7px 12px;
     border-radius: 999px;
-    background: rgba(0,122,255,0.10);
+    background: rgba(0,122,255,0.1);
     color: #075fb8;
     font-size: 13px;
-    font-weight: 700;
+    font-weight: 750;
     white-space: nowrap;
 }
 
 .group-intro {
+    margin-bottom: 16px;
     color: #40495b;
     font-style: italic;
     line-height: 1.7;
-    margin-bottom: 16px;
 }
 
 details {
     margin: 12px 0 18px;
     padding: 14px 16px;
     border-radius: 20px;
-    background: rgba(247,249,255,0.75);
     border: 1px dashed rgba(100,120,160,0.28);
+    background: rgba(247,249,255,0.75);
 }
 
 summary {
@@ -383,8 +369,8 @@ summary {
 
 .transcript {
     margin-top: 12px;
-    line-height: 1.85;
     color: #3d4657;
+    line-height: 1.85;
     white-space: pre-wrap;
     font-size: 15px;
 }
@@ -399,10 +385,10 @@ summary {
 }
 
 .q-stem {
+    margin-bottom: 13px;
     font-size: 17px;
     line-height: 1.65;
-    font-weight: 800;
-    margin-bottom: 13px;
+    font-weight: 850;
 }
 
 .options {
@@ -416,8 +402,7 @@ summary {
     padding: 14px 16px;
     border-radius: 20px;
     border: 1.5px solid rgba(120,140,180,0.22);
-    background:
-        linear-gradient(145deg, rgba(255,255,255,0.95), rgba(255,255,255,0.62));
+    background: linear-gradient(145deg, rgba(255,255,255,0.96), rgba(255,255,255,0.62));
     display: flex;
     align-items: flex-start;
     gap: 10px;
@@ -432,10 +417,10 @@ summary {
 }
 
 .option input {
-    margin-top: 3px;
-    accent-color: var(--blue);
     width: 18px;
     height: 18px;
+    margin-top: 3px;
+    accent-color: var(--blue);
 }
 
 .option.selected {
@@ -458,8 +443,8 @@ summary {
     margin-top: 14px;
     padding: 16px 18px;
     border-radius: 20px;
-    background: rgba(247,249,255,0.82);
     border: 1px solid rgba(120,140,180,0.22);
+    background: rgba(247,249,255,0.82);
     line-height: 1.75;
     font-size: 15px;
 }
@@ -470,12 +455,12 @@ summary {
 
 .correct-text {
     color: var(--green);
-    font-weight: 800;
+    font-weight: 850;
 }
 
 .wrong-text {
     color: var(--red);
-    font-weight: 800;
+    font-weight: 850;
 }
 
 .empty {
@@ -490,7 +475,6 @@ summary {
     font-size: 28px;
 }
 
-/* 右侧 iPad 控制面板 */
 .side-panel {
     position: sticky;
     top: calc(98px + var(--safe-top));
@@ -501,7 +485,7 @@ summary {
 
 .panel-card {
     padding: 18px;
-    border-radius: var(--radius-xl);
+    border-radius: 32px;
     background: var(--glass);
     border: 1px solid var(--stroke);
     backdrop-filter: blur(30px) saturate(180%);
@@ -512,26 +496,23 @@ summary {
 .panel-card h3 {
     margin: 0 0 14px;
     font-size: 18px;
-    letter-spacing: -0.2px;
+}
+
+select {
+    width: 100%;
+    min-height: 48px;
+    padding: 0 14px;
+    border-radius: 18px;
+    border: 1px solid rgba(120,140,180,0.25);
+    background: rgba(255,255,255,0.74);
+    color: var(--text);
+    font-size: 15px;
+    outline: none;
 }
 
 .builtin-row {
     display: grid;
-    grid-template-columns: 1fr;
     gap: 10px;
-}
-
-select,
-input[type="text"] {
-    width: 100%;
-    min-height: 48px;
-    border-radius: 18px;
-    border: 1px solid rgba(120,140,180,0.25);
-    background: rgba(255,255,255,0.74);
-    padding: 0 14px;
-    font-size: 15px;
-    color: var(--text);
-    outline: none;
 }
 
 .audio-player {
@@ -540,10 +521,32 @@ input[type="text"] {
     gap: 14px;
 }
 
-.audio-buttons {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
+.wave-box {
+    position: relative;
+}
+
+#waveform {
+    width: 100%;
+    height: 118px;
+    border-radius: 24px;
+    display: block;
+    background: #081426;
+    cursor: pointer;
+    touch-action: none;
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,0.08),
+        0 10px 24px rgba(0,0,0,0.12);
+}
+
+#waveform.locked-wave {
+    cursor: not-allowed;
+}
+
+.wave-tip {
+    margin-top: 8px;
+    color: var(--muted);
+    font-size: 13px;
+    line-height: 1.55;
 }
 
 .seek-wrap {
@@ -556,10 +559,10 @@ input[type="text"] {
 .time-row {
     display: flex;
     justify-content: space-between;
-    font-variant-numeric: tabular-nums;
+    margin-bottom: 8px;
     color: var(--muted);
     font-size: 13px;
-    margin-bottom: 8px;
+    font-variant-numeric: tabular-nums;
 }
 
 #seek {
@@ -572,12 +575,10 @@ input[type="text"] {
     pointer-events: none;
 }
 
-#waveform {
-    width: 100%;
-    height: 96px;
-    border-radius: 22px;
-    background: rgba(10, 20, 38, 0.92);
-    display: block;
+.audio-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
 }
 
 .progress-big {
@@ -606,28 +607,28 @@ input[type="text"] {
 }
 
 .progress-track {
-    margin-top: 14px;
     height: 12px;
-    background: rgba(120,140,180,0.20);
+    margin-top: 14px;
     border-radius: 999px;
     overflow: hidden;
+    background: rgba(120,140,180,0.2);
 }
 
 .progress-inner {
     height: 100%;
     width: 0%;
-    background: linear-gradient(90deg, var(--blue), var(--blue2));
     border-radius: 999px;
+    background: linear-gradient(90deg, var(--blue), var(--blue2));
     transition: width .22s ease;
 }
 
 .note-area {
     width: 100%;
     min-height: 180px;
-    border: 1px solid rgba(120,140,180,0.22);
-    border-radius: 22px;
-    background: rgba(255,255,255,0.72);
     padding: 14px;
+    border-radius: 22px;
+    border: 1px solid rgba(120,140,180,0.22);
+    background: rgba(255,255,255,0.72);
     resize: vertical;
     outline: none;
     font-family: inherit;
@@ -635,14 +636,12 @@ input[type="text"] {
     line-height: 1.65;
 }
 
-/* 结果面板 */
 .result-panel {
     display: none;
     margin-bottom: 18px;
     padding: 24px;
-    border-radius: var(--radius-xl);
-    background:
-        linear-gradient(145deg, rgba(255,255,255,0.82), rgba(255,255,255,0.54));
+    border-radius: 32px;
+    background: linear-gradient(145deg, rgba(255,255,255,0.82), rgba(255,255,255,0.54));
     border: 1px solid var(--stroke);
     backdrop-filter: blur(30px) saturate(180%);
     -webkit-backdrop-filter: blur(30px) saturate(180%);
@@ -678,8 +677,8 @@ input[type="text"] {
 }
 
 .result-tile span {
-    font-size: 13px;
     color: var(--muted);
+    font-size: 13px;
 }
 
 .wrong-list {
@@ -687,7 +686,6 @@ input[type="text"] {
     line-height: 1.8;
 }
 
-/* iPad / 移动端底部工具栏 */
 .floating-dock {
     display: none;
     position: fixed;
@@ -697,22 +695,21 @@ input[type="text"] {
     z-index: 1200;
     padding: 10px;
     border-radius: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
     background: rgba(255,255,255,0.72);
     border: 1px solid rgba(255,255,255,0.75);
     backdrop-filter: blur(30px) saturate(180%);
     -webkit-backdrop-filter: blur(30px) saturate(180%);
-    box-shadow: 0 18px 60px rgba(31,45,80,0.20);
-    grid-template-columns: repeat(4, 1fr);
-    gap: 8px;
+    box-shadow: 0 18px 60px rgba(31,45,80,0.2);
 }
 
 .floating-dock button {
-    padding: 10px 8px;
     min-height: 44px;
+    padding: 10px 8px;
     font-size: 13px;
 }
 
-/* 响应式 */
 @media (max-width: 1120px) {
     .app-shell {
         grid-template-columns: 1fr;
@@ -743,10 +740,6 @@ input[type="text"] {
         font-size: 22px;
     }
 
-    .brand p {
-        white-space: normal;
-    }
-
     .app-shell {
         padding-left: 12px;
         padding-right: 12px;
@@ -755,7 +748,6 @@ input[type="text"] {
 
     .paper-wrap {
         padding: 12px;
-        border-radius: 28px;
     }
 
     .paper-content {
@@ -782,7 +774,7 @@ input[type="text"] {
         display: grid;
     }
 
-    .header-actions .hide-small {
+    .hide-small {
         display: none;
     }
 }
@@ -823,7 +815,7 @@ input[type="text"] {
             <div class="logo">4</div>
             <div>
                 <h1>CET4 Listening Simulator</h1>
-                <p>iPad 优化 · Liquid Glass · 真题听力 · 真实分值 · 批注笔记</p>
+                <p>iPad 优化 · 波形拖动 · 真题听力 · 真实分值 · 批注笔记</p>
             </div>
         </div>
 
@@ -881,8 +873,14 @@ input[type="text"] {
 
         <section class="panel-card full">
             <h3>音频控制</h3>
+
             <div class="audio-player">
-                <canvas id="waveform" width="720" height="170"></canvas>
+                <div class="wave-box">
+                    <canvas id="waveform" class="locked-wave" width="760" height="236"></canvas>
+                    <div class="wave-tip" id="waveTip">
+                        当前波形已锁定。点击“进度锁定”解锁后，可直接拖动波形图定位音频。
+                    </div>
+                </div>
 
                 <div class="seek-wrap">
                     <div class="time-row">
@@ -894,7 +892,7 @@ input[type="text"] {
 
                 <div class="audio-buttons">
                     <button class="primary" id="playBtn">播放</button>
-                    <button class="orange" id="lockBtn">考试锁定</button>
+                    <button class="orange" id="lockBtn">进度锁定</button>
                 </div>
             </div>
         </section>
@@ -953,6 +951,9 @@ let submitted = false;
 let audioUnlocked = false;
 let audioBufferData = null;
 
+let isWaveDragging = false;
+let waveHoverX = null;
+
 let drawingEnabled = false;
 let isDrawing = false;
 let lastX = 0;
@@ -980,6 +981,7 @@ const durationTimeEl = document.getElementById("durationTime");
 
 const waveform = document.getElementById("waveform");
 const waveCtx = waveform.getContext("2d");
+const waveTip = document.getElementById("waveTip");
 
 const doneCount = document.getElementById("doneCount");
 const totalCount = document.getElementById("totalCount");
@@ -1013,10 +1015,11 @@ window.addEventListener("load", async () => {
 
 window.addEventListener("resize", () => {
     resizeDrawCanvas();
+    if (audioBufferData) drawWaveformFrame();
 });
 
 /* =========================
-   Manifest 内置题目
+   内置题目 manifest
 ========================= */
 
 async function loadManifest() {
@@ -1046,9 +1049,7 @@ async function loadManifest() {
 
     } catch (err) {
         console.warn(err);
-        builtinSelect.innerHTML = `
-            <option value="">未找到 manifest.json</option>
-        `;
+        builtinSelect.innerHTML = `<option value="">未找到 manifest.json</option>`;
     }
 }
 
@@ -1085,7 +1086,6 @@ loadBuiltinBtn.addEventListener("click", async () => {
 
         audio.src = audioUrl;
         audio.load();
-
         resetAudioState();
 
         try {
@@ -1179,9 +1179,9 @@ function renderExam() {
 
         <div class="notice">
             <b>听力考试说明：</b>
-            本页面按照 CET4 听力题组排列。默认情况下音频进度被锁定，模拟真实考试；
-            如需复盘练习，可以点击“进度锁定”解锁拖动。提交后按照 CET4 听力真实分值计算：
-            1-15 题每题 7.1 分，16-25 题每题 14.2 分，总分 248.5 分。
+            本页面按照 CET4 听力题组排列。默认情况下音频进度与波形图均被锁定，模拟正式考试；
+            解锁后可以拖动进度条，也可以直接拖动波形图定位音频。
+            分数按照 CET4 听力真实分值计算：1-15 题每题 7.1 分，16-25 题每题 14.2 分，总分 248.5 分。
         </div>
     `;
 
@@ -1282,19 +1282,14 @@ function bindOptionEvents() {
 }
 
 /* =========================
-   CET4 真实听力分值
+   CET4 听力真实分值
 ========================= */
 
 function getQuestionScore(questionNo) {
     const no = Number(questionNo);
 
-    if (no >= 1 && no <= 15) {
-        return 7.1;
-    }
-
-    if (no >= 16 && no <= 25) {
-        return 14.2;
-    }
+    if (no >= 1 && no <= 15) return 7.1;
+    if (no >= 16 && no <= 25) return 14.2;
 
     return 0;
 }
@@ -1306,9 +1301,7 @@ function getAllQuestions() {
 
     examData.listening.sections.forEach(section => {
         (section.groups || []).forEach(group => {
-            (group.questions || []).forEach(q => {
-                questions.push(q);
-            });
+            (group.questions || []).forEach(q => questions.push(q));
         });
     });
 
@@ -1345,7 +1338,6 @@ function submitExam() {
         const no = String(q.question_no);
         const correct = getCorrectAnswer(q);
         const user = userAnswers[no] || "";
-
         const isCorrect = user === correct;
 
         if (isCorrect) {
@@ -1365,6 +1357,7 @@ function submitExam() {
     });
 
     realScore = round1(realScore);
+
     const total = questions.length;
     const accuracy = Math.round(correctCount / total * 100);
     const maxScore = 248.5;
@@ -1396,9 +1389,9 @@ function submitExam() {
             <b>错题 / 未答：</b><br>
             ${
                 wrongList.length
-                ? wrongList.map(item => {
-                    return `第 ${item.no} 题：你的答案 ${item.user}，正确答案 ${item.correct}，本题 ${item.score} 分`;
-                }).join("<br>")
+                ? wrongList.map(item =>
+                    `第 ${item.no} 题：你的答案 ${item.user}，正确答案 ${item.correct}，本题 ${item.score} 分`
+                  ).join("<br>")
                 : "全部正确，非常优秀。"
             }
         </div>
@@ -1441,9 +1434,7 @@ function showAnalysis(q, user, correct) {
     box.classList.add("show");
 
     box.innerHTML = `
-        <div>
-            本题分值：<b>${score} 分</b>
-        </div>
+        <div>本题分值：<b>${score} 分</b></div>
 
         <div>
             正确答案：
@@ -1483,7 +1474,7 @@ function showAnalysis(q, user, correct) {
 }
 
 /* =========================
-   进度
+   答题进度
 ========================= */
 
 function updateProgress() {
@@ -1532,21 +1523,35 @@ function toggleAudioLock() {
 
     if (audioUnlocked) {
         seek.classList.remove("locked");
+        waveform.classList.remove("locked-wave");
+
         lockBtn.textContent = "已解锁";
         dockLockBtn.textContent = "解锁";
+
         lockBtn.classList.remove("orange");
         lockBtn.classList.add("green");
+
         dockLockBtn.classList.remove("orange");
         dockLockBtn.classList.add("green");
+
+        waveTip.textContent = "已解锁：可在波形图上点击或拖动，直接定位音频。";
     } else {
         seek.classList.add("locked");
+        waveform.classList.add("locked-wave");
+
         lockBtn.textContent = "进度锁定";
         dockLockBtn.textContent = "锁定";
+
         lockBtn.classList.remove("green");
         lockBtn.classList.add("orange");
+
         dockLockBtn.classList.remove("green");
         dockLockBtn.classList.add("orange");
+
+        waveTip.textContent = "当前波形已锁定。点击“进度锁定”解锁后，可直接拖动波形图定位音频。";
     }
+
+    drawWaveformFrame();
 }
 
 seek.addEventListener("input", () => {
@@ -1554,6 +1559,7 @@ seek.addEventListener("input", () => {
     if (!audio.duration) return;
 
     audio.currentTime = Number(seek.value);
+    drawWaveformFrame();
 });
 
 audio.addEventListener("loadedmetadata", () => {
@@ -1570,7 +1576,7 @@ audio.addEventListener("timeupdate", () => {
     currentTimeEl.textContent = formatTime(audio.currentTime);
     durationTimeEl.textContent = formatTime(audio.duration);
 
-    drawPlaybackLine();
+    drawWaveformFrame();
 });
 
 audio.addEventListener("ended", () => {
@@ -1580,9 +1586,12 @@ audio.addEventListener("ended", () => {
 
 function resetAudioState() {
     audioUnlocked = false;
+    isWaveDragging = false;
+    waveHoverX = null;
 
     seek.value = 0;
     seek.classList.add("locked");
+    waveform.classList.add("locked-wave");
 
     playBtn.textContent = "播放";
     dockPlayBtn.textContent = "播放";
@@ -1598,10 +1607,12 @@ function resetAudioState() {
 
     currentTimeEl.textContent = "00:00";
     durationTimeEl.textContent = "00:00";
+
+    waveTip.textContent = "当前波形已锁定。点击“进度锁定”解锁后，可直接拖动波形图定位音频。";
 }
 
 /* =========================
-   音频波形
+   可拖动波形图
 ========================= */
 
 async function drawWaveformFromArrayBuffer(arrayBuffer) {
@@ -1609,16 +1620,29 @@ async function drawWaveformFromArrayBuffer(arrayBuffer) {
     const audioCtx = new AudioCtx();
 
     const buffer = await audioCtx.decodeAudioData(arrayBuffer.slice(0));
-    audioBufferData = buffer;
 
-    drawWaveform(buffer);
+    audioBufferData = buffer;
+    drawWaveformFrame();
 
     audioCtx.close();
 }
 
-function drawWaveform(buffer) {
+function drawWaveformFrame() {
+    if (!audioBufferData) {
+        drawWaveformPlaceholder("请加载音频");
+        return;
+    }
+
+    drawWaveformBase(audioBufferData);
+    drawWaveformProgress();
+    drawWaveformCursor();
+    drawWaveformLockOverlay();
+}
+
+function drawWaveformBase(buffer) {
     const width = waveform.width;
     const height = waveform.height;
+
     const data = buffer.getChannelData(0);
     const step = Math.ceil(data.length / width);
     const amp = height / 2;
@@ -1626,10 +1650,20 @@ function drawWaveform(buffer) {
     waveCtx.clearRect(0, 0, width, height);
 
     const bg = waveCtx.createLinearGradient(0, 0, width, height);
-    bg.addColorStop(0, "#071426");
-    bg.addColorStop(1, "#101b35");
+    bg.addColorStop(0, "#061224");
+    bg.addColorStop(1, "#111d38");
     waveCtx.fillStyle = bg;
     waveCtx.fillRect(0, 0, width, height);
+
+    waveCtx.strokeStyle = "rgba(255,255,255,0.13)";
+    waveCtx.lineWidth = 1;
+    for (let i = 0; i <= 4; i++) {
+        const y = height * i / 4;
+        waveCtx.beginPath();
+        waveCtx.moveTo(0, y);
+        waveCtx.lineTo(width, y);
+        waveCtx.stroke();
+    }
 
     const grad = waveCtx.createLinearGradient(0, 0, width, 0);
     grad.addColorStop(0, "#5ac8fa");
@@ -1656,7 +1690,7 @@ function drawWaveform(buffer) {
 
     waveCtx.stroke();
 
-    waveCtx.strokeStyle = "rgba(255,255,255,0.18)";
+    waveCtx.strokeStyle = "rgba(255,255,255,0.2)";
     waveCtx.lineWidth = 1;
     waveCtx.beginPath();
     waveCtx.moveTo(0, height / 2);
@@ -1664,35 +1698,169 @@ function drawWaveform(buffer) {
     waveCtx.stroke();
 }
 
-function drawPlaybackLine() {
-    if (!audioBufferData || !audio.duration) return;
+function drawWaveformProgress() {
+    if (!audio.duration) return;
 
-    drawWaveform(audioBufferData);
+    const width = waveform.width;
+    const height = waveform.height;
+    const progressX = audio.currentTime / audio.duration * width;
 
-    const x = audio.currentTime / audio.duration * waveform.width;
+    const fill = waveCtx.createLinearGradient(0, 0, progressX, 0);
+    fill.addColorStop(0, "rgba(255,149,0,0.22)");
+    fill.addColorStop(1, "rgba(255,204,0,0.14)");
+
+    waveCtx.fillStyle = fill;
+    waveCtx.fillRect(0, 0, progressX, height);
 
     waveCtx.strokeStyle = "#ff9500";
     waveCtx.lineWidth = 4;
     waveCtx.beginPath();
-    waveCtx.moveTo(x, 0);
-    waveCtx.lineTo(x, waveform.height);
+    waveCtx.moveTo(progressX, 0);
+    waveCtx.lineTo(progressX, height);
     waveCtx.stroke();
+
+    waveCtx.fillStyle = "#ff9500";
+    waveCtx.beginPath();
+    waveCtx.arc(progressX, height / 2, 8, 0, Math.PI * 2);
+    waveCtx.fill();
+}
+
+function drawWaveformCursor() {
+    if (waveHoverX === null || !audioUnlocked) return;
+
+    const height = waveform.height;
+
+    waveCtx.strokeStyle = "rgba(255,255,255,0.72)";
+    waveCtx.lineWidth = 2;
+    waveCtx.setLineDash([6, 6]);
+    waveCtx.beginPath();
+    waveCtx.moveTo(waveHoverX, 0);
+    waveCtx.lineTo(waveHoverX, height);
+    waveCtx.stroke();
+    waveCtx.setLineDash([]);
+
+    if (audio.duration) {
+        const seconds = waveHoverX / waveform.width * audio.duration;
+        const label = formatTime(seconds);
+        const labelWidth = 64;
+        const x = Math.min(Math.max(waveHoverX - labelWidth / 2, 6), waveform.width - labelWidth - 6);
+
+        waveCtx.fillStyle = "rgba(255,255,255,0.9)";
+        roundRect(waveCtx, x, 10, labelWidth, 28, 12);
+        waveCtx.fill();
+
+        waveCtx.fillStyle = "#102033";
+        waveCtx.font = "15px -apple-system, BlinkMacSystemFont, sans-serif";
+        waveCtx.textAlign = "center";
+        waveCtx.textBaseline = "middle";
+        waveCtx.fillText(label, x + labelWidth / 2, 24);
+    }
+}
+
+function drawWaveformLockOverlay() {
+    if (audioUnlocked) return;
+
+    const width = waveform.width;
+    const height = waveform.height;
+
+    waveCtx.fillStyle = "rgba(0,0,0,0.22)";
+    waveCtx.fillRect(0, 0, width, height);
+
+    waveCtx.fillStyle = "rgba(255,255,255,0.86)";
+    waveCtx.font = "22px -apple-system, BlinkMacSystemFont, sans-serif";
+    waveCtx.textAlign = "center";
+    waveCtx.textBaseline = "middle";
+    waveCtx.fillText("进度已锁定", width / 2, height / 2 - 10);
+
+    waveCtx.fillStyle = "rgba(255,255,255,0.62)";
+    waveCtx.font = "16px -apple-system, BlinkMacSystemFont, sans-serif";
+    waveCtx.fillText("解锁后可拖动波形", width / 2, height / 2 + 20);
 }
 
 function drawWaveformPlaceholder(text) {
     waveCtx.clearRect(0, 0, waveform.width, waveform.height);
 
     const bg = waveCtx.createLinearGradient(0, 0, waveform.width, waveform.height);
-    bg.addColorStop(0, "#071426");
-    bg.addColorStop(1, "#101b35");
+    bg.addColorStop(0, "#061224");
+    bg.addColorStop(1, "#111d38");
 
     waveCtx.fillStyle = bg;
     waveCtx.fillRect(0, 0, waveform.width, waveform.height);
 
     waveCtx.fillStyle = "rgba(255,255,255,0.78)";
     waveCtx.font = "24px -apple-system, BlinkMacSystemFont, sans-serif";
-    waveCtx.fillText(text, 28, waveform.height / 2 + 8);
+    waveCtx.textAlign = "left";
+    waveCtx.textBaseline = "middle";
+    waveCtx.fillText(text, 28, waveform.height / 2);
 }
+
+function seekAudioByWavePointer(event) {
+    if (!audioUnlocked) return;
+    if (!audio.duration) return;
+
+    const rect = waveform.getBoundingClientRect();
+    const ratio = clamp((event.clientX - rect.left) / rect.width, 0, 1);
+    const newTime = ratio * audio.duration;
+
+    audio.currentTime = newTime;
+    seek.value = newTime;
+    currentTimeEl.textContent = formatTime(newTime);
+
+    waveHoverX = ratio * waveform.width;
+    drawWaveformFrame();
+}
+
+function updateWaveHover(event) {
+    const rect = waveform.getBoundingClientRect();
+    const ratio = clamp((event.clientX - rect.left) / rect.width, 0, 1);
+    waveHoverX = ratio * waveform.width;
+    drawWaveformFrame();
+}
+
+waveform.addEventListener("pointerdown", event => {
+    if (!audio.src) {
+        alert("请先加载音频。");
+        return;
+    }
+
+    if (!audioUnlocked) {
+        waveTip.textContent = "波形图当前被锁定，请先点击“进度锁定”解锁。";
+        drawWaveformFrame();
+        return;
+    }
+
+    isWaveDragging = true;
+    waveform.setPointerCapture(event.pointerId);
+    seekAudioByWavePointer(event);
+});
+
+waveform.addEventListener("pointermove", event => {
+    if (!audioBufferData) return;
+
+    updateWaveHover(event);
+
+    if (isWaveDragging && audioUnlocked) {
+        seekAudioByWavePointer(event);
+    }
+});
+
+waveform.addEventListener("pointerup", event => {
+    isWaveDragging = false;
+    try {
+        waveform.releasePointerCapture(event.pointerId);
+    } catch (e) {}
+});
+
+waveform.addEventListener("pointercancel", () => {
+    isWaveDragging = false;
+});
+
+waveform.addEventListener("pointerleave", () => {
+    if (!isWaveDragging) {
+        waveHoverX = null;
+        drawWaveformFrame();
+    }
+});
 
 /* =========================
    批注功能
@@ -1706,6 +1874,7 @@ function toggleDrawing() {
 
     if (drawingEnabled) {
         drawCanvas.classList.add("enabled");
+
         drawToggleBtn.textContent = "批注：开";
         dockDrawBtn.textContent = "批注开";
 
@@ -1716,6 +1885,7 @@ function toggleDrawing() {
         dockDrawBtn.classList.add("green");
     } else {
         drawCanvas.classList.remove("enabled");
+
         drawToggleBtn.textContent = "批注：关";
         dockDrawBtn.textContent = "批注";
 
@@ -1737,7 +1907,10 @@ function resizeDrawCanvas() {
     const old = document.createElement("canvas");
     old.width = drawCanvas.width;
     old.height = drawCanvas.height;
-    old.getContext("2d").drawImage(drawCanvas, 0, 0);
+
+    if (drawCanvas.width && drawCanvas.height) {
+        old.getContext("2d").drawImage(drawCanvas, 0, 0);
+    }
 
     drawCanvas.width = paper.scrollWidth;
     drawCanvas.height = paper.scrollHeight;
@@ -1754,28 +1927,21 @@ function clearDrawing() {
     drawCtx.clearRect(0, 0, drawCanvas.width, drawCanvas.height);
 }
 
-drawCanvas.addEventListener("mousedown", startDraw);
-drawCanvas.addEventListener("mousemove", draw);
-drawCanvas.addEventListener("mouseup", stopDraw);
-drawCanvas.addEventListener("mouseleave", stopDraw);
-
-drawCanvas.addEventListener("touchstart", startDrawTouch, { passive: false });
-drawCanvas.addEventListener("touchmove", drawTouch, { passive: false });
-drawCanvas.addEventListener("touchend", stopDraw);
-
-function startDraw(e) {
+drawCanvas.addEventListener("pointerdown", event => {
     if (!drawingEnabled) return;
 
     isDrawing = true;
-    const pos = getCanvasPos(e);
+    drawCanvas.setPointerCapture(event.pointerId);
+
+    const pos = getCanvasPos(event);
     lastX = pos.x;
     lastY = pos.y;
-}
+});
 
-function draw(e) {
+drawCanvas.addEventListener("pointermove", event => {
     if (!drawingEnabled || !isDrawing) return;
 
-    const pos = getCanvasPos(e);
+    const pos = getCanvasPos(event);
 
     drawCtx.beginPath();
     drawCtx.moveTo(lastX, lastY);
@@ -1784,48 +1950,25 @@ function draw(e) {
 
     lastX = pos.x;
     lastY = pos.y;
-}
+});
 
-function stopDraw() {
+drawCanvas.addEventListener("pointerup", event => {
     isDrawing = false;
-}
+    try {
+        drawCanvas.releasePointerCapture(event.pointerId);
+    } catch (e) {}
+});
 
-function startDrawTouch(e) {
-    if (!drawingEnabled) return;
+drawCanvas.addEventListener("pointercancel", () => {
+    isDrawing = false;
+});
 
-    e.preventDefault();
-
-    const touch = e.touches[0];
-    const pos = getCanvasPos(touch);
-
-    isDrawing = true;
-    lastX = pos.x;
-    lastY = pos.y;
-}
-
-function drawTouch(e) {
-    if (!drawingEnabled || !isDrawing) return;
-
-    e.preventDefault();
-
-    const touch = e.touches[0];
-    const pos = getCanvasPos(touch);
-
-    drawCtx.beginPath();
-    drawCtx.moveTo(lastX, lastY);
-    drawCtx.lineTo(pos.x, pos.y);
-    drawCtx.stroke();
-
-    lastX = pos.x;
-    lastY = pos.y;
-}
-
-function getCanvasPos(e) {
+function getCanvasPos(event) {
     const rect = drawCanvas.getBoundingClientRect();
 
     return {
-        x: e.clientX - rect.left,
-        y: e.clientY - rect.top
+        x: event.clientX - rect.left,
+        y: event.clientY - rect.top
     };
 }
 
@@ -1842,7 +1985,7 @@ function restoreNote() {
 }
 
 /* =========================
-   底部按钮
+   底部 Dock
 ========================= */
 
 dockTopBtn.addEventListener("click", () => {
@@ -1888,6 +2031,20 @@ function formatTime(seconds) {
 
 function round1(num) {
     return Math.round(num * 10) / 10;
+}
+
+function clamp(num, min, max) {
+    return Math.min(Math.max(num, min), max);
+}
+
+function roundRect(ctx, x, y, w, h, r) {
+    ctx.beginPath();
+    ctx.moveTo(x + r, y);
+    ctx.arcTo(x + w, y, x + w, y + h, r);
+    ctx.arcTo(x + w, y + h, x, y + h, r);
+    ctx.arcTo(x, y + h, x, y, r);
+    ctx.arcTo(x, y, x + w, y, r);
+    ctx.closePath();
 }
 </script>
 
