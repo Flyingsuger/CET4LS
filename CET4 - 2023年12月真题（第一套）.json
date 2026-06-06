@@ -1,0 +1,815 @@
+{
+  "exam_meta": {
+    "exam_id": "2023.12-set-1",
+    "exam_date": "2023.12",
+    "set_id": 1,
+    "set_label": "第1套",
+    "source_type": "listening"
+  },
+  "answer_key": {
+    "1": "C",
+    "2": "A",
+    "3": "B",
+    "4": "C",
+    "5": "D",
+    "6": "B",
+    "7": "A",
+    "8": "D",
+    "9": "C",
+    "10": "A",
+    "11": "B",
+    "12": "C",
+    "13": "B",
+    "14": "D",
+    "15": "B",
+    "16": "D",
+    "17": "A",
+    "18": "C",
+    "19": "B",
+    "20": "C",
+    "21": "A",
+    "22": "D",
+    "23": "A",
+    "24": "B",
+    "25": "D"
+  },
+  "listening": {
+    "exists": true,
+    "sections": [
+      {
+        "section_label": "Section A",
+        "directions": "Directions: In this section, you will hear three news reports. At the end of each news report, you will hear two or three questions. Both the news report and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+        "groups": [
+          {
+            "group_id": "section_a_group_1",
+            "group_type": "news_report",
+            "question_range": {
+              "start": 1,
+              "end": 2,
+              "raw_text": "Questions 1 and 2 are based on the news report you have just heard."
+            },
+            "group_intro": "Questions 1 and 2 are based on the news report you have just heard.",
+            "material": {
+              "title": "News Report One",
+              "transcript": "A police officer in the U.S. stopped a large SUV car that was going very slowly and drifting across lanes on a highway. He expected to find the driver who was either very drunk or having a medical emergency. Instead, the officer discovered a five-year-old boy sat on the edge of the driver's seat. His feet could barely reach the brake, and his head was only just high enough to see out of the windows. The child had taken the keys to the family car while his teenage sister was napping. He then drove three kilometers across town before getting on the highway. The boy later told confused officers that he was planning to travel to California and buy a Lamborghini sports car. Although he only had $3 in his wallet, at least he was driving in the right direction."
+            },
+            "questions": [
+              {
+                "question_no": 1,
+                "stem": "Why did the police officer stop the SUV car?",
+                "options": {
+                  "A": "He noticed the driver was too young to drive.",
+                  "B": "He found there was no one sitting at the wheel.",
+                  "C": "He thought something must be wrong with the driver.",
+                  "D": "He saw the driver changing lanes much too frequently."
+                },
+                "raw_text": "1. A) He noticed the driver was too young to drive.\nB) He found there was no one sitting at the wheel.\nC) He thought something must be wrong with the driver.\nD) He saw the driver changing lanes much too frequently.",
+                "answer": "C",
+                "answer_detail": {
+                  "correct_option_text": "He thought something must be wrong with the driver.",
+                  "evidence": [
+                    {
+                      "quote": "He expected to find the driver who was either very drunk or having a medical emergency.",
+                      "reason": "The officer's expectation of finding a drunk driver or one with a medical emergency shows he suspected something was wrong with the driver."
+                    }
+                  ],
+                  "analysis": "The transcript states the officer expected to find a driver who was drunk or having a medical emergency, indicating he thought something was wrong with the driver.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 2,
+                "stem": "What did the boy tell the police officers he was planning to do?",
+                "options": {
+                  "A": "Buy a sports car.",
+                  "B": "Drive across town.",
+                  "C": "Leave California.",
+                  "D": "Visit his sister."
+                },
+                "raw_text": "2. A) Buy a sports car. C) Leave California.\nB) Drive across town. D) Visit his sister.",
+                "answer": "A",
+                "answer_detail": {
+                  "correct_option_text": "Buy a sports car.",
+                  "evidence": [
+                    {
+                      "quote": "The boy later told confused officers that he was planning to travel to California and buy a Lamborghini sports car.",
+                      "reason": "The transcript explicitly mentions the boy was planning to buy a Lamborghini sports car."
+                    }
+                  ],
+                  "analysis": "The boy told officers he was planning to buy a Lamborghini sports car, matching Option A.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 2,
+              "actual_count": 2,
+              "is_complete": true
+            }
+          },
+          {
+            "group_id": "section_a_group_2",
+            "group_type": "news_report",
+            "question_range": {
+              "start": 3,
+              "end": 4,
+              "raw_text": "Questions 3 and 4 are based on the news report you have just heard."
+            },
+            "group_intro": "Questions 3 and 4 are based on the news report you have just heard.",
+            "material": {
+              "title": "News Report Two",
+              "transcript": "Mobile phones have changed the way we live- how we read, work, communicate, and shop. But we already know this.\nWhat we have not yet understood is the way the tiny machines in front of us are changing our skeletons, possibly altering not just the way we behave but even the very shape of our bodies.\nNew scientific research at the University of the Sunshine Coast in Queensland, Australia, suggests that young people are developing extra pieces of bone at the backs of their heads. These pieces of bone are caused by the way people bend their heads when they use the phone. This shifts weight onto the muscles at the back of the head and causes the bone to grow in a way that is not normal. This process can be compared to the way the skin hardens in response to constant rubbing or pressure. The result is a piece of bone like a horn that sticks out from the head by the neck."
+            },
+            "questions": [
+              {
+                "question_no": 3,
+                "stem": "What does the report say we have not yet understood about mobile phones?",
+                "options": {
+                  "A": "How they change the way we shop.",
+                  "B": "How they alter human skeletons.",
+                  "C": "How they cause increased headaches.",
+                  "D": "How they affect our communication."
+                },
+                "raw_text": "3. A) How they change the way we shop.\nB) How they alter human skeletons.\nC) How they cause increased headaches.\nD) How they affect our communication.",
+                "answer": "B",
+                "answer_detail": {
+                  "correct_option_text": "How they alter human skeletons.",
+                  "evidence": [
+                    {
+                      "quote": "What we have not yet understood is the way the tiny machines in front of us are changing our skeletons",
+                      "reason": "The text explicitly states we have not yet understood how they change our skeletons."
+                    }
+                  ],
+                  "analysis": "The phrase 'altering human skeletons' directly matches the transcript's 'changing our skeletons'.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 4,
+                "stem": "What happens to the skin when rubbed or pressed constantly?",
+                "options": {
+                  "A": "It loosens.",
+                  "B": "It brightens.",
+                  "C": "It hardens.",
+                  "D": "It softens."
+                },
+                "raw_text": "4. A) It loosens. C) It hardens.\nB) It brightens. D) It softens.",
+                "answer": "C",
+                "answer_detail": {
+                  "correct_option_text": "It hardens.",
+                  "evidence": [
+                    {
+                      "quote": "This process can be compared to the way the skin hardens in response to constant rubbing or pressure.",
+                      "reason": "The transcript mentions that skin hardens when subjected to constant rubbing or pressure."
+                    }
+                  ],
+                  "analysis": "The text directly states that skin hardens in response to constant rubbing or pressure.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 2,
+              "actual_count": 2,
+              "is_complete": true
+            }
+          },
+          {
+            "group_id": "section_a_group_3",
+            "group_type": "news_report",
+            "question_range": {
+              "start": 5,
+              "end": 7,
+              "raw_text": "Questions 5 to 7 are based on the news report you have just heard."
+            },
+            "group_intro": "Questions 5 to 7 are based on the news report you have just heard.",
+            "material": {
+              "title": "News Report Three",
+              "transcript": "A village is going to throw a birthday party for an orange cat named Wilbur, who has become famous for making a regular appearance at local shops.\nWilbur has his own Internet pages as he approaches his 10th birthday on July 7. Wilbur is both bold and friendly. He spends most of his time in shops and businesses around the village. He'll just take himself into any shop, anywhere. There was one time when the doctor's receptionist came back and he was sitting on her chair. Among his favorite haunts are a local hairdresser, two pubs, and the Nottingham Primary School.\nLesley Harper, who runs one of the pubs, said the cat has been a big hit with their customers. \"He's been a regular visitor for most of this year,\" she told the Press Association. \"He's a very relaxed cat, happy for customers and villagers young and old to come in and say hello.\" She also said he is a cat of expensive tastes who likes his high priced cat food.\nSarah Godfrey, who is organizing Wilbur's party, told the local newspaper, \"Wilbur is part of our lives, as he is for everyone who lives in the village.\""
+            },
+            "questions": [
+              {
+                "question_no": 5,
+                "stem": "What does the report say the village is going to do for the cat Wilbur?",
+                "options": {
+                  "A": "Create Internet pages for him.",
+                  "B": "Ask a local pet shop to adopt him.",
+                  "C": "Name an orange tree after him.",
+                  "D": "Hold a birthday party for him."
+                },
+                "raw_text": "5. A) Create Internet pages for him. C) Name an orange tree after him.\nB) Ask a local pet shop to adopt him. D) Hold a birthday party for him.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "Hold a birthday party for him.",
+                  "evidence": [
+                    {
+                      "quote": "A village is going to throw a birthday party for an orange cat named Wilbur",
+                      "reason": "The text directly states that the village is going to throw a birthday party for him."
+                    }
+                  ],
+                  "analysis": "Throwing a birthday party is directly equivalent to holding a birthday party.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 6,
+                "stem": "What do we learn from the report about the cat?",
+                "options": {
+                  "A": "He is a bold and aggressive pet.",
+                  "B": "He pays regular visits to village shops.",
+                  "C": "He once bit a doctor's receptionist.",
+                  "D": "He likes to sit on the hairdresser's chair."
+                },
+                "raw_text": "6. A) He is a bold and aggressive pet.\nB) He pays regular visits to village shops.\nC) He once bit a doctor's receptionist.\nD) He likes to sit on the hairdresser's chair.",
+                "answer": "B",
+                "answer_detail": {
+                  "correct_option_text": "He pays regular visits to village shops.",
+                  "evidence": [
+                    {
+                      "quote": "who has become famous for making a regular appearance at local shops.",
+                      "reason": "The cat regularly appears (visits) local shops in the village."
+                    }
+                  ],
+                  "analysis": "Making regular appearances at local shops means he pays regular visits to village shops.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 7,
+                "stem": "What does the pub owner Lesley Harper say about the cat?",
+                "options": {
+                  "A": "He is fond of luxury cat food.",
+                  "B": "He likes to stay in villagers' houses.",
+                  "C": "He knows everybody in the village.",
+                  "D": "He often seeks food around her pub."
+                },
+                "raw_text": "7. A) He is fond of luxury cat food.\nB) He likes to stay in villagers' houses.\nC) He knows everybody in the village.\nD) He often seeks food around her pub.",
+                "answer": "A",
+                "answer_detail": {
+                  "correct_option_text": "He is fond of luxury cat food.",
+                  "evidence": [
+                    {
+                      "quote": "She also said he is a cat of expensive tastes who likes his high priced cat food.",
+                      "reason": "Lesley Harper mentions the cat likes high priced (luxury) cat food."
+                    }
+                  ],
+                  "analysis": "The expression 'high priced cat food' is directly paraphrased as 'luxury cat food'.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 3,
+              "actual_count": 3,
+              "is_complete": true
+            }
+          }
+        ],
+        "integrity": {
+          "group_count": 3,
+          "question_count": 7
+        }
+      },
+      {
+        "section_label": "Section B",
+        "directions": "Directions: In this section, you will hear two long conversations. At the end of each conversation, you will hear four questions. Both the conversation and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+        "groups": [
+          {
+            "group_id": "section_b_group_1",
+            "group_type": "conversation",
+            "question_range": {
+              "start": 8,
+              "end": 11,
+              "raw_text": "Questions 8 to 11 are based on the conversation you have just heard."
+            },
+            "group_intro": "Questions 8 to 11 are based on the conversation you have just heard.",
+            "material": {
+              "title": "Conversation One",
+              "transcript": "M: So, where do you want to go for lunch?\nW: I don't know. Do you have anything in mind?\nM: What about the Sandwich Place on Camden Street?\nW: Um, No, sorry. I don't feel like sandwiches today. It's a great place, but I think we go there too often.\nM: That's true. Remember that's where we saw Brigette Clark, the famous movie star.\nW: Of course. How could I ever forget? There were crowds of people around her, asking for a photo with her.\nM: What about hamburgers, then? There's that American style diner on the way to the mall.\nW: I like that place. Their chips are great, but their service takes a long time. And I need to get back by 2:30 for a conference call. How about trying something new? We could try Mario's, the new Italian restaurant on the corner. It looks all right. Have you been there?\nM: No, I haven't, but I've noticed that it has great reviews on the Internet. It's supposed to be one of the best Italian's in town. I think Jeremy has been there and said it was amazing. I'm up for that.\nW: Cool. Have you asked Jeremy if he would like to come with us?\nM: I already have. He says he can't. He has brought his own lunch today, so he will stay in. I think his wife made him soup.\nW: Poor Jeremy. His wife is a terrible cook. He should throw that soup in the bin and join us."
+            },
+            "questions": [
+              {
+                "question_no": 8,
+                "stem": "What are the speakers talking about in this conversation?",
+                "options": {
+                  "A": "Who to order the food.",
+                  "B": "Whether to have sandwiches.",
+                  "C": "When to go for their meal.",
+                  "D": "Where to have their lunch."
+                },
+                "raw_text": "8. A) Who to order the food. C) When to go for their meal.\nB) Whether to have sandwiches. D) Where to have their lunch.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "Where to have their lunch.",
+                  "evidence": [
+                    {
+                      "quote": "M: So, where do you want to go for lunch?",
+                      "reason": "The opening line of the conversation initiates a discussion about where to go for lunch."
+                    }
+                  ],
+                  "analysis": "The conversation consists of the speakers discussing various restaurant options to choose where to have lunch.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 9,
+                "stem": "Where did the speakers see Brigette Clark, the famous movie star?",
+                "options": {
+                  "A": "In the shopping center nearby.",
+                  "B": "In the expensive Italian style diner.",
+                  "C": "At the Sandwich Place on Camden Street.",
+                  "D": "At the American restaurant they frequent."
+                },
+                "raw_text": "9. A) In the shopping center nearby.\nB) In the expensive Italian style diner.\nC) At the Sandwich Place on Camden Street.\nD) At the American restaurant they frequent.",
+                "answer": "C",
+                "answer_detail": {
+                  "correct_option_text": "At the Sandwich Place on Camden Street.",
+                  "evidence": [
+                    {
+                      "quote": "M: What about the Sandwich Place on Camden Street?... M: That's true. Remember that's where we saw Brigette Clark, the famous movie star.",
+                      "reason": "The man reminds the woman that they saw Brigette Clark at the Sandwich Place on Camden Street."
+                    }
+                  ],
+                  "analysis": "The transcript directly states they saw the movie star at the Sandwich Place on Camden Street.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 10,
+                "stem": "Why does the woman say she needs to get back by 2:30?",
+                "options": {
+                  "A": "There is to be a conference call.",
+                  "B": "She has to meet with her boss then.",
+                  "C": "There will be crowds of people waiting for her.",
+                  "D": "She will have a photo taken with Brigette Clark."
+                },
+                "raw_text": "10. A) There is to be a conference call.\nB) She has to meet with her boss then.\nC) There will be crowds of people waiting for her.\nD) She will have a photo taken with Brigette Clark.",
+                "answer": "A",
+                "answer_detail": {
+                  "correct_option_text": "There is to be a conference call.",
+                  "evidence": [
+                    {
+                      "quote": "And I need to get back by 2:30 for a conference call.",
+                      "reason": "The woman explicitly mentions that she must return by 2:30 because of a conference call."
+                    }
+                  ],
+                  "analysis": "The transcript directly states she needs to get back for a conference call.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 11,
+                "stem": "Why does the woman say Jeremy should throw his soup in the bin?",
+                "options": {
+                  "A": "She doesn't deem homemade soup tasty.",
+                  "B": "She doesn't think his wife cooks well.",
+                  "C": "She feels Jeremy would rather dine out.",
+                  "D": "She has found the soup smells terrible."
+                },
+                "raw_text": "11. A) She doesn't deem homemade soup tasty.\nB) She doesn't think his wife cooks well.\nC) She feels Jeremy would rather dine out.\nD) She has found the soup smells terrible.",
+                "answer": "B",
+                "answer_detail": {
+                  "correct_option_text": "She doesn't think his wife cooks well.",
+                  "evidence": [
+                    {
+                      "quote": "Poor Jeremy. His wife is a terrible cook. He should throw that soup in the bin and join us.",
+                      "reason": "She states he should throw the soup in the bin because his wife is a terrible cook."
+                    }
+                  ],
+                  "analysis": "'His wife is a terrible cook' directly corresponds to option B, 'She doesn't think his wife cooks well'.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 4,
+              "actual_count": 4,
+              "is_complete": true
+            }
+          },
+          {
+            "group_id": "section_b_group_2",
+            "group_type": "conversation",
+            "question_range": {
+              "start": 12,
+              "end": 15,
+              "raw_text": "Questions 12 to 15 are based on the conversation you have just heard."
+            },
+            "group_intro": "Questions 12 to 15 are based on the conversation you have just heard.",
+            "material": {
+              "title": "Conversation Two",
+              "transcript": "W: Hi, there. How are you today? Do you have a reservation with us already?\nM: Good afternoon. Yes, we reserved our rooms yesterday morning on your website for three nights. The name's Patterson.\nW: Okay. Let me have a look. Yes, we have it here. You brought the whole family with you, I see.\nM: Yes, the two kids, my wife and I, and her parents too.\nW: Great. So we have a family room for you and your wife and the kids, and another double room for your parents-in-law. They are right next to each other on the ground floor, since you mentioned in your message that they have trouble with stairs.\nM: That's wonderful. My father-in-law has had terrible problems getting up and down stairs since his knee operation last April.\nW: I'm sorry to hear that. And if you need any help to find transportation for the whole family, we can definitely recommend someone for you.\nM: We were thinking of renting a car, but we will explore all the options available for sure. So, yes, that would be very helpful in comparing prices. We're also wondering what tours and day trips are available.\nW: We have bunches of brochures here. I would recommend getting out on a boat trip. The kids will love it and there are so many islands nearby to explore. There's also a great night market further into town that has all kinds of food and cool little shops selling souvenirs and local jewelry and clothing made by hand.\nM: That all sounds marvelous.\nW: Now, all I need is to photocopy your passports, and then I can get you all checked in and show you to your rooms."
+            },
+            "questions": [
+              {
+                "question_no": 12,
+                "stem": "Who is the man talking to in the conversation?",
+                "options": {
+                  "A": "A landlady.",
+                  "B": "A waitress.",
+                  "C": "A receptionist.",
+                  "D": "A saleswoman."
+                },
+                "raw_text": "12. A) A landlady. C) A receptionist.\nB) A waitress. D) A saleswoman.",
+                "answer": "C",
+                "answer_detail": {
+                  "correct_option_text": "A receptionist.",
+                  "evidence": [
+                    {
+                      "quote": "Do you have a reservation with us already?... then I can get you all checked in and show you to your rooms.",
+                      "reason": "The female speaker asks about reservations, handles the check-in process, and shows the guest to their rooms, identifying her as a hotel receptionist."
+                    }
+                  ],
+                  "analysis": "The woman is checking the guest in and discussing room reservations, which is the role of a receptionist.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 13,
+                "stem": "What do we learn about the man's father-in-law from the conversation?",
+                "options": {
+                  "A": "He was involved in a terrible car accident last April.",
+                  "B": "He has much difficulty getting up and down stairs.",
+                  "C": "He is expected to undergo a knee operation.",
+                  "D": "He prefers to stay next door to the children."
+                },
+                "raw_text": "13. A) He was involved in a terrible car accident last April.\nB) He has much difficulty getting up and down stairs.\nC) He is expected to undergo a knee operation.\nD) He prefers to stay next door to the children.",
+                "answer": "B",
+                "answer_detail": {
+                  "correct_option_text": "He has much difficulty getting up and down stairs.",
+                  "evidence": [
+                    {
+                      "quote": "My father-in-law has had terrible problems getting up and down stairs since his knee operation last April.",
+                      "reason": "The man states that his father-in-law has had 'terrible problems' with stairs."
+                    }
+                  ],
+                  "analysis": "'Terrible problems getting up and down stairs' corresponds to 'much difficulty getting up and down stairs'.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 14,
+                "stem": "Why does the man say they will explore all the options available?",
+                "options": {
+                  "A": "To please his parents-in-law.",
+                  "B": "To find the best trip for his kids.",
+                  "C": "To satisfy his curiosity.",
+                  "D": "To compare prices."
+                },
+                "raw_text": "14. A) To please his parents-in-law. C) To satisfy his curiosity.\nB) To find the best trip for his kids. D) To compare prices.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "To compare prices.",
+                  "evidence": [
+                    {
+                      "quote": "So, yes, that would be very helpful in comparing prices.",
+                      "reason": "The man mentions that looking at options is helpful for comparing prices."
+                    }
+                  ],
+                  "analysis": "The transcript directly links exploring options to comparing prices.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 15,
+                "stem": "What does the woman suggest the man and his family do close to the end of the conversation?",
+                "options": {
+                  "A": "Visit a local art gallery.",
+                  "B": "Go on a boat trip.",
+                  "C": "Take some photos of the islands.",
+                  "D": "Try her hand-made clothing."
+                },
+                "raw_text": "15. A) Visit a local art gallery. C) Take some photos of the islands.\nB) Go on a boat trip. D)Try her hand-made clothing.",
+                "answer": "B",
+                "answer_detail": {
+                  "correct_option_text": "Go on a boat trip.",
+                  "evidence": [
+                    {
+                      "quote": "I would recommend getting out on a boat trip.",
+                      "reason": "The woman explicitly recommends going on a boat trip near the end of the dialogue."
+                    }
+                  ],
+                  "analysis": "The woman recommends getting out on a boat trip, matching option B.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 4,
+              "actual_count": 4,
+              "is_complete": true
+            }
+          }
+        ],
+        "integrity": {
+          "group_count": 2,
+          "question_count": 8
+        }
+      },
+      {
+        "section_label": "Section C",
+        "directions": "Directions: In this section, you will hear three passages. At the end of each passage, you will hear three or four questions. Both the passage and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+        "groups": [
+          {
+            "group_id": "section_c_group_1",
+            "group_type": "passage",
+            "question_range": {
+              "start": 16,
+              "end": 18,
+              "raw_text": "Questions 16 to 18 are based on the passage you have just heard."
+            },
+            "group_intro": "Questions 16 to 18 are based on the passage you have just heard.",
+            "material": {
+              "title": "Passage One",
+              "transcript": "Artificial intelligence agents play ever more influential roles in our lives. They do everything from suggesting new friends to recommending purchases. They're even beginning to drive our cars. Another role that they are expected to take over is negotiating on our behalf in commercial transactions or legal disputes.\nSo, it's important to know whether using an artificial intelligence agent might affect how we negotiate. Research indicates that it does.\nIn a new study, participants were told to imagine that they were negotiating for something important to them, like a house. Next, they were told either that they would negotiate for themselves, or they would program an artificial intelligence agent to negotiate for them. Participants then completed a survey indicating how tough, deceptive and pleasant or otherwise they wanted to be or wanted their agent to be in the negotiations. For example, participants could choose to be tough by making an opening demand far greater than what they'd be willing to accept. They could also choose to express sympathy with their opponent to appear pleasant. But they could also indicate that they, or their agent, would strategically express anger toward the opponent to gain advantage, or they could opt to convey dissatisfaction with the encounter so that the other party would think they were losing interest. These are both examples of deceptive strategies. Participants were more willing to employ deceptive strategies when assigned an agent to negotiate on their behalf."
+            },
+            "questions": [
+              {
+                "question_no": 16,
+                "stem": "What does the passage say about artificial intelligence agents?",
+                "options": {
+                  "A": "They are more intelligent than many of us.",
+                  "B": "They have already become our new friends.",
+                  "C": "They have begun to affect our social behavior.",
+                  "D": "They play increasingly more important roles."
+                },
+                "raw_text": "16. A) They are more intelligent than many of us.\nB) They have already become our new friends.\nC) They have begun to affect our social behavior.\nD) They play increasingly more important roles.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "They play increasingly more important roles.",
+                  "evidence": [
+                    {
+                      "quote": "Artificial intelligence agents play ever more influential roles in our lives.",
+                      "reason": "The opening sentence of the text mentions AI agents play 'ever more influential roles'."
+                    }
+                  ],
+                  "analysis": "The phrase 'ever more influential roles' is a paraphrase of 'increasingly more important roles'.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 17,
+                "stem": "What does the new study want to find out about using an artificial intelligence agent?",
+                "options": {
+                  "A": "Whether it might have any effect on the way we negotiate.",
+                  "B": "Whether it might actually outperform human negotiators.",
+                  "C": "Whether it can facilitate business transactions.",
+                  "D": "Whether it can speed up legal procedures."
+                },
+                "raw_text": "17. A) Whether it might have any effect on the way we negotiate.\nB) Whether it might actually outperform human negotiators.\nC) Whether it can facilitate business transactions.\nD) Whether it can speed up legal procedures.",
+                "answer": "A",
+                "answer_detail": {
+                  "correct_option_text": "Whether it might have any effect on the way we negotiate.",
+                  "evidence": [
+                    {
+                      "quote": "it's important to know whether using an artificial intelligence agent might affect how we negotiate.",
+                      "reason": "The text directly states the research question is to know if AI affects how we negotiate."
+                    }
+                  ],
+                  "analysis": "The passage states that the research focuses on whether using an AI agent might affect how we negotiate.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 18,
+                "stem": "What did participants tend to do when assigned an AI agent to negotiate on their behalf?",
+                "options": {
+                  "A": "Choose to be tough.",
+                  "B": "Sympathize with their opponent.",
+                  "C": "Use deceptive strategies.",
+                  "D": "Appear to be pleasant."
+                },
+                "raw_text": "18. A) Choose to be tough. C) Use deceptive strategies.\nB) Sympathize with their opponent. D) Appear to be pleasant.",
+                "answer": "C",
+                "answer_detail": {
+                  "correct_option_text": "Use deceptive strategies.",
+                  "evidence": [
+                    {
+                      "quote": "Participants were more willing to employ deceptive strategies when assigned an agent to negotiate on their behalf.",
+                      "reason": "The passage notes that participants were more willing to employ deceptive strategies with an AI agent."
+                    }
+                  ],
+                  "analysis": "The text directly states participants were more willing to employ deceptive strategies.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 3,
+              "actual_count": 3,
+              "is_complete": true
+            }
+          },
+          {
+            "group_id": "section_c_group_2",
+            "group_type": "passage",
+            "question_range": {
+              "start": 19,
+              "end": 21,
+              "raw_text": "Questions 19 to 21 are based on the passage you have just heard."
+            },
+            "group_intro": "Questions 19 to 21 are based on the passage you have just heard.",
+            "material": {
+              "title": "Passage Two",
+              "transcript": "New research has studied the effects of a seven-week healthy cooking course.\nAcademics measured the program's effect on cooking confidence and self-perceived mental health. Researchers also measured participants' overall satisfaction around cooking and diet-related behaviors. What were the findings? Course participants saw significant improvements in general health. They also reported improved mental health and subjective vitality immediately after the program. These benefits remained six months after the completion of the course.\nWhat caused these improvements? Researchers have previously found the link between eating more fruits and vegetables, and improved longer term mental health. This would imply that the participants in the current study may have felt better due to improved diet.\nHowever, the study showed participants' mental health improved even if their reported diets did not change after completing the program.\nAlso, the mental health benefits were equal among participants who were overweight or obese, and those in a healthy weight range. This suggests a link between cooking confidence and satisfaction around cooking, and mental health benefits.\nWho benefits most from learning to cook? Gender plays a part. At the start of the program, 77% of female participants were confident about cooking, but just 23% of males were confident. At the end of the program, cooking confidence and skills were equal across both counterparts.\nThis change in confidence could lead to a gender balance in home cooking. This, in turn, could reduce consumption of unhealthy, high-calorie processed meals."
+            },
+            "questions": [
+              {
+                "question_no": 19,
+                "stem": "What do we learn about the benefits the participants gained from the healthy cooking course?",
+                "options": {
+                  "A": "They were perceived differently by some academics.",
+                  "B": "They still existed six months after the course ended.",
+                  "C": "They varied greatly among the course participants.",
+                  "D": "They were only measurable within seven weeks."
+                },
+                "raw_text": "19. A) They were perceived differently by some academics.\nB) They still existed six months after the course ended.\nC) They varied greatly among the course participants.\nD) They were only measurable within seven weeks.",
+                "answer": "B",
+                "answer_detail": {
+                  "correct_option_text": "They still existed six months after the course ended.",
+                  "evidence": [
+                    {
+                      "quote": "These benefits remained six months after the completion of the course.",
+                      "reason": "The benefits 'remained six months after' indicates they still existed at that time."
+                    }
+                  ],
+                  "analysis": "The term 'remained six months after' translates to 'still existed six months after the course ended'.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 20,
+                "stem": "What do the new research findings suggest about mental health benefits?",
+                "options": {
+                  "A": "They can be easily seen among participants in a healthy weight range.",
+                  "B": "They should be attributed to participants' change in diet behaviors.",
+                  "C": "They are linked to cooking confidence and cooking satisfaction.",
+                  "D": "They actually result from eating more fruits and vegetables."
+                },
+                "raw_text": "20. A) They can be easily seen among participants in a healthy weight range.\nB) They should be attributed to participants' change in diet behaviors.\nC) They are linked to cooking confidence and cooking satisfaction.\nD) They actually result from eating more fruits and vegetables.",
+                "answer": "C",
+                "answer_detail": {
+                  "correct_option_text": "They are linked to cooking confidence and cooking satisfaction.",
+                  "evidence": [
+                    {
+                      "quote": "This suggests a link between cooking confidence and satisfaction around cooking, and mental health benefits.",
+                      "reason": "The passage explicitly states a link between cooking confidence, satisfaction, and mental health benefits."
+                    }
+                  ],
+                  "analysis": "The findings directly suggest a link between cooking confidence, cooking satisfaction, and mental health benefits.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 21,
+                "stem": "What plays a role in determining who benefits most from learning to cook?",
+                "options": {
+                  "A": "Gender.",
+                  "B": "Confidence.",
+                  "C": "Health.",
+                  "D": "Practice."
+                },
+                "raw_text": "21. A) Gender. C) Health.\nB) Confidence. D) Practice.",
+                "answer": "A",
+                "answer_detail": {
+                  "correct_option_text": "Gender.",
+                  "evidence": [
+                    {
+                      "quote": "Who benefits most from learning to cook? Gender plays a part.",
+                      "reason": "The text directly states 'Gender plays a part' in who benefits most."
+                    }
+                  ],
+                  "analysis": "The transcript directly links who benefits most from learning to cook to gender.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 3,
+              "actual_count": 3,
+              "is_complete": true
+            }
+          },
+          {
+            "group_id": "section_c_group_3",
+            "group_type": "passage",
+            "question_range": {
+              "start": 22,
+              "end": 25,
+              "raw_text": "Questions 22 to 25 are based on the passage you have just heard."
+            },
+            "group_intro": "Questions 22 to 25 are based on the passage you have just heard.",
+            "material": {
+              "title": "Passage Three",
+              "transcript": "What is personal space? We often think of it as an invisible bubble of space surrounding us that others can't enter, without causing discomfort. Research shows, however, that we actually have bubbles of different sizes. Each of these bubbles applies to a different set of people.\nThe smallest zone, called \"intimate space\", extends outward from our bodies 18 inches in every direction. Only family, pets and one's closest friends may enter it. A mere acquaintance entering our intimate space makes us uncomfortable. Next is the bubble called \"personal space\", extending from 1.5 feet to 4 feet away. Friends and acquaintances can comfortably occupy this zone, especially during informal conversations, but strangers are forbidden. Extending from 4 to 12 feet away from us is \"social space\". Here people feel comfortable conducting routine social interactions with new acquaintances or total strangers.\nThose are the average sizes of American's personal bubbles, anyway. It is important to keep in mind that personal space varies depending on culture and context. Furthermore, there are significant individual differences. As we all know, cultural or individual differences in personal bubble diameters are all too often the cause of discomfort. How did these personal bubbles arise? According to research, we begin to develop our individual sense of personal space around age 3 or 4. The sizes of our bubbles are fixed by our teens. These bubbles are constructed and monitored by the brain region involved in fear."
+            },
+            "questions": [
+              {
+                "question_no": 22,
+                "stem": "What does research show about our personal space?",
+                "options": {
+                  "A": "It keeps others away.",
+                  "B": "It causes discomfort.",
+                  "C": "It remains visible.",
+                  "D": "It varies in size."
+                },
+                "raw_text": "22. A) It keeps others away. C) It remains visible.\nB) It causes discomfort. D) It varies in size.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "It varies in size.",
+                  "evidence": [
+                    {
+                      "quote": "Research shows, however, that we actually have bubbles of different sizes.",
+                      "reason": "The fact that we have bubbles of different sizes indicates personal space varies in size."
+                    }
+                  ],
+                  "analysis": "The passage notes that we have bubbles of different sizes, meaning personal space varies in size.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 23,
+                "stem": "What happens if a mere acquaintance enters our intimate space?",
+                "options": {
+                  "A": "It makes us feel uncomfortable.",
+                  "B": "It renders the acquaintance a stranger.",
+                  "C": "It brings the acquaintance closer to us.",
+                  "D": "It causes the bubble around us to vanish."
+                },
+                "raw_text": "23. A) It makes us feel uncomfortable.\nB) It renders the acquaintance a stranger.\nC) It brings the acquaintance closer to us.\nD) It causes the bubble around us to vanish.",
+                "answer": "A",
+                "answer_detail": {
+                  "correct_option_text": "It makes us feel uncomfortable.",
+                  "evidence": [
+                    {
+                      "quote": "A mere acquaintance entering our intimate space makes us uncomfortable.",
+                      "reason": "The passage explicitly states that an acquaintance entering intimate space makes us uncomfortable."
+                    }
+                  ],
+                  "analysis": "The text directly states that an acquaintance entering intimate space 'makes us uncomfortable'.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 24,
+                "stem": "Where do people feel comfortable interacting with new acquaintances or strangers?",
+                "options": {
+                  "A": "In personal space.",
+                  "B": "In social space.",
+                  "C": "Within a distance of 18 inches.",
+                  "D": "Over 2 feet away from one another."
+                },
+                "raw_text": "24. A) In personal space.\nB) In social space.\nC) Within a distance of 18 inches.\nD) Over 2 feet away from one another.",
+                "answer": "B",
+                "answer_detail": {
+                  "correct_option_text": "In social space.",
+                  "evidence": [
+                    {
+                      "quote": "Extending from 4 to 12 feet away from us is \"social space\". Here people feel comfortable conducting routine social interactions with new acquaintances or total strangers.",
+                      "reason": "The text states that people feel comfortable interacting with acquaintances and strangers in 'social space'."
+                    }
+                  ],
+                  "analysis": "The social space is defined as the zone where routine social interactions with strangers or acquaintances feel comfortable.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 25,
+                "stem": "When are the sizes of our bubbles fixed?",
+                "options": {
+                  "A": "When we begin to feel fear.",
+                  "B": "When we develop a sense of space.",
+                  "C": "When we are 3 or 4 years old.",
+                  "D": "When we enter our teens."
+                },
+                "raw_text": "25. A) When we begin to feel fear.\nB) When we develop a sense of space.\nC) When we are 3 or 4 years old.\nD)When we enter our teens.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "When we enter our teens.",
+                  "evidence": [
+                    {
+                      "quote": "The sizes of our bubbles are fixed by our teens.",
+                      "reason": "The passage says that the sizes of personal bubbles are fixed 'by our teens'."
+                    }
+                  ],
+                  "analysis": "'Fixed by our teens' is equivalent to 'When we enter our teens'.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 4,
+              "actual_count": 4,
+              "is_complete": true
+            }
+          }
+        ],
+        "integrity": {
+          "group_count": 3,
+          "question_count": 10
+        }
+      }
+    ]
+  },
+  "warnings": []
+}
