@@ -1,0 +1,815 @@
+{
+  "exam_meta": {
+    "exam_id": "2024.12-set-1",
+    "exam_date": "2024.12",
+    "set_id": 1,
+    "set_label": "第1套",
+    "source_type": "listening"
+  },
+  "answer_key": {
+    "1": "D",
+    "2": "A",
+    "3": "C",
+    "4": "B",
+    "5": "D",
+    "6": "A",
+    "7": "B",
+    "8": "B",
+    "9": "C",
+    "10": "D",
+    "11": "B",
+    "12": "D",
+    "13": "A",
+    "14": "A",
+    "15": "C",
+    "16": "B",
+    "17": "C",
+    "18": "A",
+    "19": "C",
+    "20": "A",
+    "21": "D",
+    "22": "C",
+    "23": "D",
+    "24": "A",
+    "25": "B"
+  },
+  "listening": {
+    "exists": true,
+    "sections": [
+      {
+        "section_label": "Section A",
+        "directions": "In this section, you will hear three news reports. At the end of each news report, you will hear two or three questions. Both the news report and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+        "groups": [
+          {
+            "group_id": "section_a_group_1",
+            "group_type": "news_report",
+            "question_range": {
+              "start": 1,
+              "end": 2,
+              "raw_text": "Questions 1 and 2 are based on the news report you have just heard."
+            },
+            "group_intro": "Questions 1 and 2 are based on the news report you have just heard.",
+            "material": {
+              "title": "News Report One",
+              "transcript": "The City of Fayetteville is making a special effort to recognize its bus drivers ahead of the newly proclaimed Transit Driver Appreciation Day happening Saturday. As part of the event, the city is celebrating its longest-serving driver on the force. That driver is Sherry Christian. Christian has been a driver for 25 years. The Fayetteville native believes driving a school bus allows her to give back to her community. She says that the best part of the job is watching the children who ride her bus grow up. Transit Driver Appreciation Day has been celebrated across the country as far back as 2009. However, this week, the City of Fayetteville issued a proclamation for the day to take place March 18th. Officials said they want bus drivers to know how important they are to Fayetteville, serving almost 1.6 million riders a year."
+            },
+            "questions": [
+              {
+                "question_no": 1,
+                "stem": "What do we learn about Sherry Christian?",
+                "options": {
+                  "A": "She is making a special effort to be recognized.",
+                  "B": "She has been living in Fayetteville for 25 years.",
+                  "C": "She has been driving a school bus ever since 2009.",
+                  "D": "She is the longest-serving bus driver in Fayetteville."
+                },
+                "raw_text": "1. A) She is making a special effort to be recognized.\nB) She has been living in Fayetteville for 25 years.\nC) She has been driving a school bus ever since 2009.\nD) She is the longest-serving bus driver in Fayetteville.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "She is the longest-serving bus driver in Fayetteville.",
+                  "evidence": [
+                    {
+                      "quote": "As part of the event, the city is celebrating its longest-serving driver on the force. That driver is Sherry Christian.",
+                      "reason": "The text explicitly identifies Sherry Christian as the city's longest-serving driver on the force."
+                    }
+                  ],
+                  "analysis": "The text directly states that the city is celebrating its longest-serving driver, who is Sherry Christian.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 2,
+                "stem": "What did city officials of Fayetteville want bus drivers to be aware of?",
+                "options": {
+                  "A": "The importance of their service to the city.",
+                  "B": "The number of riders they serve in the city.",
+                  "C": "The new proclamation issued early this week.",
+                  "D": "The significance of the event to take place March 18."
+                },
+                "raw_text": "2. A) The importance of their service to the city.\nB) The number of riders they serve in the city.\nC) The new proclamation issued early this week.\nD) The significance of the event to take place March 18.",
+                "answer": "A",
+                "answer_detail": {
+                  "correct_option_text": "The importance of their service to the city.",
+                  "evidence": [
+                    {
+                      "quote": "Officials said they want bus drivers to know how important they are to Fayetteville",
+                      "reason": "The text directly notes that officials want the drivers to know how important they are."
+                    }
+                  ],
+                  "analysis": "The transcript directly states that city officials want bus drivers to realize their importance to Fayetteville.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 2,
+              "actual_count": 2,
+              "is_complete": true
+            }
+          },
+          {
+            "group_id": "section_a_group_2",
+            "group_type": "news_report",
+            "question_range": {
+              "start": 3,
+              "end": 4,
+              "raw_text": "Questions 3 and 4 are based on the news report you have just heard."
+            },
+            "group_intro": "Questions 3 and 4 are based on the news report you have just heard.",
+            "material": {
+              "title": "News Report Two",
+              "transcript": "The Wilton School Board has proposed a 5.99% spending increase. If approved, it would be the largest jump in at least eight budget cycles. The 5.99% request more than doubles the highest previous year-over-year increase in the last eight years, which was 2.99% for the 2021-2022 school year. The biggest driver of the $91.8 proposed budget remains teacher salaries. These account for 64% of the total request at $59 million. The $59 million is up from the $56.7 million budgeted for the current school year. There are some factors that could affect the budget moving forward. One of those is total enrollment. The district will have a total enrollment of 3,742 students. Almost all of these students will be in kindergarten through high school, but 66 will be in prekindergarten and other programs. This represents 47 fewer students than the current year. Fewer students mean less federal and state funding."
+            },
+            "questions": [
+              {
+                "question_no": 3,
+                "stem": "What does the news report say the Wilton School Board has done?",
+                "options": {
+                  "A": "Budgeted $56.7 million for the coming school year.",
+                  "B": "Requested to raise teachers' salaries by 3 percent.",
+                  "C": "Proposed a spending increase by 5.99 percent.",
+                  "D": "Kept raising funds for at least 8 budget cycles."
+                },
+                "raw_text": "3. A) Budgeted $56.7 million for the coming school year.\nB) Requested to raise teachers' salaries by 3 percent.\nC) Proposed a spending increase by 5.99 percent.\nD) Kept raising funds for at least 8 budget cycles.",
+                "answer": "C",
+                "answer_detail": {
+                  "correct_option_text": "Proposed a spending increase by 5.99 percent.",
+                  "evidence": [
+                    {
+                      "quote": "The Wilton School Board has proposed a 5.99% spending increase.",
+                      "reason": "This is a direct matches with option C."
+                    }
+                  ],
+                  "analysis": "The opening sentence of the report explicitly states that the board proposed a 5.99% spending increase.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 4,
+                "stem": "What will a decline in the total enrollment lead to?",
+                "options": {
+                  "A": "Decrease in salaries for school administrators.",
+                  "B": "Reduction in federal and state funding.",
+                  "C": "Firing of less qualified faculty members.",
+                  "D": "Closing down of some less competitive schools."
+                },
+                "raw_text": "4. A) Decrease in salaries for school administrators.\nB) Reduction in federal and state funding.\nC) Firing of less qualified faculty members.\nD) Closing down of some less competitive schools.",
+                "answer": "B",
+                "answer_detail": {
+                  "correct_option_text": "Reduction in federal and state funding.",
+                  "evidence": [
+                    {
+                      "quote": "Fewer students mean less federal and state funding.",
+                      "reason": "'Fewer students' (decline in enrollment) leads to 'less federal and state funding' (reduction in funding)."
+                    }
+                  ],
+                  "analysis": "The transcript states that fewer students will directly lead to less funding from federal and state sources.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 2,
+              "actual_count": 2,
+              "is_complete": true
+            }
+          },
+          {
+            "group_id": "section_a_group_3",
+            "group_type": "news_report",
+            "question_range": {
+              "start": 5,
+              "end": 7,
+              "raw_text": "Questions 5 to 7 are based on the news report you have just heard."
+            },
+            "group_intro": "Questions 5 to 7 are based on the news report you have just heard.",
+            "material": {
+              "title": "News Report Three",
+              "transcript": "A rare thundersnow event has taken place in Scotland. And alarmed locals contacted police, thinking they had heard bombs going off. The phenomenon happens when thunder and lightning mix with a heavy snowstorm—sometimes causing loud claps that can be confused with explosions. One person described it as a loud boom, similar to a plane crash. Another person was woken up in the middle of the night by what he thought was early construction work starting. The noise was powerful enough to shake buildings and set off car alarms. The police were flooded with many calls from the public. And they sent out a message asking people to remain calm. The police assured everyone that it was just thunder and lightning rather than some military exercise. The weather was the coldest it had been for the season, so people were warned to be careful when traveling outside. In particular, dangerous conditions such as icy roads or wet ground could cause difficulty for drivers. The rail service also announced potential disruptions to trains due to the deep snow. Some roads were also closed because of the severe weather."
+            },
+            "questions": [
+              {
+                "question_no": 5,
+                "stem": "What do we learn about thundersnows from the report?",
+                "options": {
+                  "A": "They often take place in the Scottish highlands.",
+                  "B": "They usually happen in the middle of the night.",
+                  "C": "Their damage can be as serious as that of bombs.",
+                  "D": "Their loud claps can be confused with explosions."
+                },
+                "raw_text": "5. A) They often take place in the Scottish highlands.\nB) They usually happen in the middle of the night.\nC) Their damage can be as serious as that of bombs.\nD) Their loud claps can be confused with explosions.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "Their loud claps can be confused with explosions.",
+                  "evidence": [
+                    {
+                      "quote": "sometimes causing loud claps that can be confused with explosions.",
+                      "reason": "This is a direct match with option D."
+                    }
+                  ],
+                  "analysis": "The text directly states that the loud claps associated with thundersnows can be confused with explosions.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 6,
+                "stem": "What did the police do when they received the local residents' phone calls?",
+                "options": {
+                  "A": "They sent out a message to calm them down.",
+                  "B": "They promised to stop the construction work.",
+                  "C": "They told them the military exercise was over.",
+                  "D": "They set off to inspect the site of the plane crash."
+                },
+                "raw_text": "6. A) They sent out a message to calm them down.\nB) They promised to stop the construction work.\nC) They told them the military exercise was over.\nD) They set off to inspect the site of the plane crash.",
+                "answer": "A",
+                "answer_detail": {
+                  "correct_option_text": "They sent out a message to calm them down.",
+                  "evidence": [
+                    {
+                      "quote": "And they sent out a message asking people to remain calm.",
+                      "reason": "Asking people to remain calm means trying to calm them down."
+                    }
+                  ],
+                  "analysis": "The police sent out a message asking the alarmed public to remain calm.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 7,
+                "stem": "What were people advised to do when traveling outside?",
+                "options": {
+                  "A": "Keep warm.",
+                  "B": "Take caution.",
+                  "C": "Avoid driving.",
+                  "D": "Use rail service."
+                },
+                "raw_text": "7. A) Keep warm.\nB) Take caution.\nC) Avoid driving.\nD) Use rail service.",
+                "answer": "B",
+                "answer_detail": {
+                  "correct_option_text": "Take caution.",
+                  "evidence": [
+                    {
+                      "quote": "so people were warned to be careful when traveling outside.",
+                      "reason": "To 'be careful' is a direct paraphrase of taking caution."
+                    }
+                  ],
+                  "analysis": "The passage states people were warned to be careful, which corresponds to taking caution.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 3,
+              "actual_count": 3,
+              "is_complete": true
+            }
+          }
+        ],
+        "integrity": {
+          "group_count": 3,
+          "question_count": 7
+        }
+      },
+      {
+        "section_label": "Section B",
+        "directions": "In this section, you will hear two long conversations. At the end of each conversation, you will hear four questions. Both the conversation and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+        "groups": [
+          {
+            "group_id": "section_b_group_1",
+            "group_type": "conversation",
+            "question_range": {
+              "start": 8,
+              "end": 11,
+              "raw_text": "Questions 8 to 11 are based on the conversation you have just heard."
+            },
+            "group_intro": "Questions 8 to 11 are based on the conversation you have just heard.",
+            "material": {
+              "title": "Conversation One",
+              "transcript": "M: I'm going to the city centre to buy a new phone today.\nW: Didn't you buy a new phone just two months ago?\nM: It was three months ago, and I already know what you're going to say. You're thinking I shouldn't replace my phone this soon.\nW: No, actually, I was wondering how you could possibly afford a new phone. But now that you mention it, I do think getting another phone so soon is wasteful, regardless of the cost.\nM: Maybe you're right, but the thing is, everyone at the office has a nice, expensive phone, and I'm a little embarrassed by mine. I just got a credit card, so I thought I might as well buy a new phone.\nW: I don't think buying a phone on credit is a good idea. Look, you've only been working for five months now. People understand that you are a recent graduate, and I doubt anyone cares about your phone other than yourself.\nM: Maybe you're right, but the credit card has a very good special offer, where I don't pay any interest for six months. I'll be able to pay for the phone well before that period is over.\nW: I still think it's a bad idea to use a credit card for something you don't need. One of my colleagues bought a lot of things on credit during her first year of work, and it became a bad habit, and she accumulated a lot of debt.\nM: Well, I can see how that might happen to someone, and I'm sure she regrets it, but I know it won't happen to me."
+            },
+            "questions": [
+              {
+                "question_no": 8,
+                "stem": "What does the woman say she was actually wondering about?",
+                "options": {
+                  "A": "Why the man is so anxious to buy a new phone.",
+                  "B": "How the man could possibly afford a new phone.",
+                  "C": "How the man got into the habit of being wasteful.",
+                  "D": "Why the man is so fond of using his credit card."
+                },
+                "raw_text": "8. A) Why the man is so anxious to buy a new phone.\nB) How the man could possibly afford a new phone.\nC) How the man got into the habit of being wasteful.\nD) Why the man is so fond of using his credit card.",
+                "answer": "B",
+                "answer_detail": {
+                  "correct_option_text": "How the man could possibly afford a new phone.",
+                  "evidence": [
+                    {
+                      "quote": "I was wondering how you could possibly afford a new phone.",
+                      "reason": "The woman directly states what she was wondering about."
+                    }
+                  ],
+                  "analysis": "The woman explicitly states that she was wondering how the man could afford a new phone.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 9,
+                "stem": "Why is the man a little embarrassed by the phone he's using now?",
+                "options": {
+                  "A": "It is not in fashion any more.",
+                  "B": "It goes out of order frequently.",
+                  "C": "It is not as fancy as his colleagues'.",
+                  "D": "It lacks functions office work requires."
+                },
+                "raw_text": "9. A) It is not in fashion any more. C) It is not as fancy as his colleagues'.\nB) It goes out of order frequently. D) It lacks functions office work requires.",
+                "answer": "C",
+                "answer_detail": {
+                  "correct_option_text": "It is not as fancy as his colleagues'.",
+                  "evidence": [
+                    {
+                      "quote": "everyone at the office has a nice, expensive phone, and I'm a little embarrassed by mine.",
+                      "reason": "He is embarrassed because his phone is not nice and expensive (fancy) like his colleagues'."
+                    }
+                  ],
+                  "analysis": "The man explains his embarrassment is due to his colleagues having nicer, more expensive phones.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 10,
+                "stem": "What does the man say about the credit card he just got?",
+                "options": {
+                  "A": "It enables him to buy a new phone at a more favorable price.",
+                  "B": "It is a special offer to recent college graduates working in offices.",
+                  "C": "It is available to office workers who have a good enough credit score.",
+                  "D": "It allows him to borrow money without paying interest for six months."
+                },
+                "raw_text": "10. A) It enables him to buy a new phone at a more favorable price.\nB) It is a special offer to recent college graduates working in offices.\nC) It is available to office workers who have a good enough credit score.\nD) It allows him to borrow money without paying interest for six months.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "It allows him to borrow money without paying interest for six months.",
+                  "evidence": [
+                    {
+                      "quote": "the credit card has a very good special offer, where I don't pay any interest for six months.",
+                      "reason": "Not paying any interest for six months matches borrowing without interest for six months."
+                    }
+                  ],
+                  "analysis": "The man describes a special offer where he does not have to pay interest for six months.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 11,
+                "stem": "What do we learn about one of the woman's colleagues?",
+                "options": {
+                  "A": "She borrowed money to pay her debt.",
+                  "B": "She developed a habit of overspending.",
+                  "C": "She enjoys buying a lot of fancy things.",
+                  "D": "She regrets ignoring the woman's advice."
+                },
+                "raw_text": "11. A) She borrowed money to pay her debt.\nB) She developed a habit of overspending.\nC) She enjoys buying a lot of fancy things.\nD) She regrets ignoring the woman's advice.",
+                "answer": "B",
+                "answer_detail": {
+                  "correct_option_text": "She developed a habit of overspending.",
+                  "evidence": [
+                    {
+                      "quote": "bought a lot of things on credit... became a bad habit, and she accumulated a lot of debt.",
+                      "reason": "Buying many things on credit and accumulating debt constitutes a habit of overspending."
+                    }
+                  ],
+                  "analysis": "The colleague's habit of using credit to buy many unnecessary things represents a habit of overspending.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 4,
+              "actual_count": 4,
+              "is_complete": true
+            }
+          },
+          {
+            "group_id": "section_b_group_2",
+            "group_type": "conversation",
+            "question_range": {
+              "start": 12,
+              "end": 15,
+              "raw_text": "Questions 12 to 15 are based on the conversation you have just heard."
+            },
+            "group_intro": "Questions 12 to 15 are based on the conversation you have just heard.",
+            "material": {
+              "title": "Conversation Two",
+              "transcript": "W: Welcome to The Morning Show. Our guest today is a popular blog writer and a major figure in the tiny home community. Welcome, Bob Jones.\nM: Hi, Mary.\nW: Hi, Bob. You're an advocate of the tiny home movement. A lot of people don't know about this movement. Can you tell our audience what it's about?\nM: Well, it's mainly about increasing home ownership and protecting the environment.\nW: Of course, those are great goals. But I've seen your blog, and you write about houses that are as small as 20 square meters. That's not a realistic size for families.\nM: I do talk about very small homes, but there's no set definition of a tiny home. And other people include homes that are much larger, say, 60 square meters. And you'd be surprised many families of four are happy living in houses that are under 30 square meters.\nW: But I think most of us want spacious homes. The average new house in this area is 150 square meters. And that's what people dream of owning.\nM: Yes, but I think that dream needs to change, considering the cost of housing.\nW: Housing costs are high, but do people really save that much by having a smaller home?\nM: Absolutely. Many people who can only afford to rent a large home are able to buy a tiny home. In this city, the average home costs $200,000, and a tiny home costs just $50,000.\nW: Those are huge savings.\nM: So, tiny homes might not be for everyone, but they're a good option for many.\nW: You mentioned the environment earlier. How does this benefit the planet?\nM: Well, if people have smaller homes, they use less land and fewer resources to build them."
+            },
+            "questions": [
+              {
+                "question_no": 12,
+                "stem": "What does the tiny home movement mainly advocate?",
+                "options": {
+                  "A": "Blog writing and natural resources saving.",
+                  "B": "Joint efforts to improve the local community.",
+                  "C": "Audience participation in The Morning Show.",
+                  "D": "Home ownership and environmental protection."
+                },
+                "raw_text": "12. A) Blog writing and natural resources saving.\nB) Joint efforts to improve the local community.\nC) Audience participation in The Morning Show.\nD) Home ownership and environmental protection.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "Home ownership and environmental protection.",
+                  "evidence": [
+                    {
+                      "quote": "Well, it's mainly about increasing home ownership and protecting the environment.",
+                      "reason": "This directly matches option D."
+                    }
+                  ],
+                  "analysis": "The movement's core goals are directly stated as increasing home ownership and environmental protection.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 13,
+                "stem": "What does the woman say about houses as small as 20 square meters?",
+                "options": {
+                  "A": "Not a realistic size for families.",
+                  "B": "Not welcomed by most Americans.",
+                  "C": "Only fit for families of four or less.",
+                  "D": "Only suitable for renting to the poor."
+                },
+                "raw_text": "13. A) Not a realistic size for families.\nB) Not welcomed by most Americans.\nC) Only fit for families of four or less.\nD) Only suitable for renting to the poor.",
+                "answer": "A",
+                "answer_detail": {
+                  "correct_option_text": "Not a realistic size for families.",
+                  "evidence": [
+                    {
+                      "quote": "houses that are as small as 20 square meters. That's not a realistic size for families.",
+                      "reason": "Direct match of the text to option A."
+                    }
+                  ],
+                  "analysis": "The woman explicitly remarks that a 20-square-meter home is not a realistic size for families.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 14,
+                "stem": "What does the man think about the dream of owning a 150-square-meter house?",
+                "options": {
+                  "A": "It should be changed.",
+                  "B": "It isn't easy to realize.",
+                  "C": "It will come true sooner or later.",
+                  "D": "It doesn't appeal to average families."
+                },
+                "raw_text": "14. A) It should be changed.\nB) It isn't easy to realize.\nC) It will come true sooner or later.\nD) It doesn't appeal to average families.",
+                "answer": "A",
+                "answer_detail": {
+                  "correct_option_text": "It should be changed.",
+                  "evidence": [
+                    {
+                      "quote": "Yes, but I think that dream needs to change, considering the cost of housing.",
+                      "reason": "The man states that the dream needs to change, which is synonymous with 'It should be changed'."
+                    }
+                  ],
+                  "analysis": "The speaker clearly states that the dream of owning a large 150-square-meter home needs to change due to cost.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 15,
+                "stem": "What does the man say about tiny homes?",
+                "options": {
+                  "A": "They help to lower housing prices.",
+                  "B": "They help to save up for larger houses.",
+                  "C": "They are a good choice for many people.",
+                  "D": "They are vital to reducing waste worldwide."
+                },
+                "raw_text": "15. A) They help to lower housing prices.\nB) They help to save up for larger houses.\nC) They are a good choice for many people.\nD) They are vital to reducing waste worldwide.",
+                "answer": "C",
+                "answer_detail": {
+                  "correct_option_text": "They are a good choice for many people.",
+                  "evidence": [
+                    {
+                      "quote": "So, tiny homes might not be for everyone, but they're a good option for many.",
+                      "reason": "A 'good option' translates to a 'good choice' for many people."
+                    }
+                  ],
+                  "analysis": "The man explains that tiny homes are a good option (or choice) for many people.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 4,
+              "actual_count": 4,
+              "is_complete": true
+            }
+          }
+        ],
+        "integrity": {
+          "group_count": 2,
+          "question_count": 8
+        }
+      },
+      {
+        "section_label": "Section C",
+        "directions": "In this section, you will hear three passages. At the end of each passage, you will hear three or four questions. Both the passage and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+        "groups": [
+          {
+            "group_id": "section_c_group_1",
+            "group_type": "passage",
+            "question_range": {
+              "start": 16,
+              "end": 18,
+              "raw_text": "Questions 16 to 18 are based on the passage you have just heard."
+            },
+            "group_intro": "Questions 16 to 18 are based on the passage you have just heard.",
+            "material": {
+              "title": "Passage One",
+              "transcript": "Kids need time every day to run, jump, stretch and play. These experiences have been shown to build children's confidence and pleasure in physical activities, develop their motor skills, and even improve emotional well-being. To begin with, children seem to have a natural desire to overcome challenges and take risks. Taking healthy risks through physical movement builds children's confidence and ability to solve problems and persist through frustration. Secondly, movement activities build children's big body skills such as coordination and balance, as well as the fine motor skills they need for tasks like writing, tying their shoes, or throwing and catching a ball. Thirdly, according to the American Psychological Association, regular physical activity (and especially outdoor activity) reduces children's stress and depression, and improves their ability to focus and learn. Regular exercise can significantly improve self-regulation and decrease disciplinary consequences for negative behavior. Physical activity provides a positive outlet for frustration, anxiety, or anger and can become a healthy coping skill throughout life. Finally, we know that physical activity is important for our physical and mental health, and cultivating the habit of physical activity starts early. Children are more likely to develop a lifelong love of physical activity from frequent positive early experiences. Not every child enjoys competitive sports or playing with balls and that's OK. There are plenty of other options such as imaginative play, non-competitive games, and gardening or nature experiences."
+            },
+            "questions": [
+              {
+                "question_no": 16,
+                "stem": "What do children seem to have a natural desire to do?",
+                "options": {
+                  "A": "Play outdoors and enjoy themselves.",
+                  "B": "Beat challenges and take risks.",
+                  "C": "Take care of their well-being.",
+                  "D": "Grow up strong and healthy."
+                },
+                "raw_text": "16. A) Play outdoors and enjoy themselves. C) Take care of their well-being.\nB) Beat challenges and take risks. D) Grow up strong and healthy.",
+                "answer": "B",
+                "answer_detail": {
+                  "correct_option_text": "Beat challenges and take risks.",
+                  "evidence": [
+                    {
+                      "quote": "children seem to have a natural desire to overcome challenges and take risks.",
+                      "reason": "'overcome' is synonymous with 'beat' in this context."
+                    }
+                  ],
+                  "analysis": "The text states children have a natural desire to overcome (beat) challenges and take risks.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 17,
+                "stem": "According to the American Psychological Association, what does regular physical activity do to children?",
+                "options": {
+                  "A": "Enable them to develop their motor skills.",
+                  "B": "Help them to conceal their frustration.",
+                  "C": "Reduce their stress and depression.",
+                  "D": "Prevent them from feeling lonely."
+                },
+                "raw_text": "17. A) Enable them to develop their motor skills. C) Reduce their stress and depression.\nB) Help them to conceal their frustration. D) Prevent them from feeling lonely.",
+                "answer": "C",
+                "answer_detail": {
+                  "correct_option_text": "Reduce their stress and depression.",
+                  "evidence": [
+                    {
+                      "quote": "according to the American Psychological Association, regular physical activity (and especially outdoor activity) reduces children's stress and depression",
+                      "reason": "Direct match with option C."
+                    }
+                  ],
+                  "analysis": "The passage states that the APA links regular physical activity to a reduction in children's stress and depression.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 18,
+                "stem": "What does the passage say about cultivating the habit of physical activity?",
+                "options": {
+                  "A": "It begins early.",
+                  "B": "It proves demanding.",
+                  "C": "It calls for lifelong efforts.",
+                  "D": "It lies in nature experiences."
+                },
+                "raw_text": "18. A) It begins early. C) It calls for lifelong efforts.\nB) It proves demanding. D) It lies in nature experiences.",
+                "answer": "A",
+                "answer_detail": {
+                  "correct_option_text": "It begins early.",
+                  "evidence": [
+                    {
+                      "quote": "cultivating the habit of physical activity starts early.",
+                      "reason": "'starts early' corresponds to 'begins early'."
+                    }
+                  ],
+                  "analysis": "The text explicitly states that cultivating the habit of physical activity starts early.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 3,
+              "actual_count": 3,
+              "is_complete": true
+            }
+          },
+          {
+            "group_id": "section_c_group_2",
+            "group_type": "passage",
+            "question_range": {
+              "start": 19,
+              "end": 21,
+              "raw_text": "Questions 19 to 21 are based on the passage you have just heard."
+            },
+            "group_intro": "Questions 19 to 21 are based on the passage you have just heard.",
+            "material": {
+              "title": "Passage Two",
+              "transcript": "A new study finds that job seekers are even willing to explore jobs with lower salaries when companies are more diverse. It finds that sharing information about diversity makes job postings more attractive to job seekers, even when pay is lower. To conduct the study, the team partnered with an online job listings platform which emails postings relevant to individuals and their job search criteria. For the course of the 11-week study, the platform emailed job listings to some 180,000 users placed in one of two conditions. In the baseline condition, participants saw emails in the normal format, with no information on diversity; in the diversity condition, participants saw a diversity score for each listing: information about the race, gender, education, and language skills of a company's workforce compared to others in the same sector and location. Information was then gathered on whether the email was opened, and which job listings were clicked on by each user. Participants in the diversity condition tended to click on job listings from companies with slightly higher diversity scores than those in the baseline condition: that is, participants seemed to be paying attention to information about diversity, and using this when deciding whether to click on the listing. And the team also found that participants were willing to look at listings with lower salaries if they came from companies with a higher diversity score."
+            },
+            "questions": [
+              {
+                "question_no": 19,
+                "stem": "When are job seekers willing to explore jobs with lower salaries, according to a new study?",
+                "options": {
+                  "A": "When companies share their information online.",
+                  "B": "When their job search criteria are met fully.",
+                  "C": "When companies embrace greater diversity.",
+                  "D": "When they find job postings visually attractive."
+                },
+                "raw_text": "19. A) When companies share their information online.\nB) When their job search criteria are met fully.\nC) When companies embrace greater diversity.\nD) When they find job postings visually attractive.",
+                "answer": "C",
+                "answer_detail": {
+                  "correct_option_text": "When companies embrace greater diversity.",
+                  "evidence": [
+                    {
+                      "quote": "job seekers are even willing to explore jobs with lower salaries when companies are more diverse.",
+                      "reason": "The term 'more diverse' matches 'embrace greater diversity' in option C."
+                    }
+                  ],
+                  "analysis": "The study reveals that job seekers are willing to consider lower-paying jobs when the hiring company is more diverse.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 20,
+                "stem": "What did participants see in the baseline condition of the study?",
+                "options": {
+                  "A": "Emails in the normal format.",
+                  "B": "Major companies in one location.",
+                  "C": "All companies in the same sector.",
+                  "D": "Various aspects of a company's workforce."
+                },
+                "raw_text": "20. A) Emails in the normal format.\nB) Major companies in one location.\nC) All companies in the same sector.\nD) Various aspects of a company's workforce.",
+                "answer": "A",
+                "answer_detail": {
+                  "correct_option_text": "Emails in the normal format.",
+                  "evidence": [
+                    {
+                      "quote": "In the baseline condition, participants saw emails in the normal format",
+                      "reason": "Direct match."
+                    }
+                  ],
+                  "analysis": "The text explicitly states that participants in the baseline group saw emails in the normal format.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 21,
+                "stem": "What does the passage say participants seem to be paying attention to?",
+                "options": {
+                  "A": "Job security.",
+                  "B": "Potential pay raises.",
+                  "C": "Minimum base salary.",
+                  "D": "Information about diversity."
+                },
+                "raw_text": "21. A) Job security. C) Minimum base salary.\nB) Potential pay raises. D) Information about diversity.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "Information about diversity.",
+                  "evidence": [
+                    {
+                      "quote": "participants seemed to be paying attention to information about diversity",
+                      "reason": "Direct match."
+                    }
+                  ],
+                  "analysis": "The study concluded that job-seeking participants pay active attention to information regarding company diversity.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 3,
+              "actual_count": 3,
+              "is_complete": true
+            }
+          },
+          {
+            "group_id": "section_c_group_3",
+            "group_type": "passage",
+            "question_range": {
+              "start": 22,
+              "end": 25,
+              "raw_text": "Questions 22 to 25 are based on the passage you have just heard."
+            },
+            "group_intro": "Questions 22 to 25 are based on the passage you have just heard.",
+            "material": {
+              "title": "Passage Three",
+              "transcript": "A new study from Oregon State University found that dogs tend to match their behavior with the children in their family. The findings are important because there is a growing body of evidence that dogs can help children in many ways. These include helping with social development, increasing physical activity, managing anxiety or serving as a source of attachment in the face of changing family structures. Yet, very little research has focused on how dogs perceive and socially engage with children. \"The great news is that this study suggests dogs are paying a lot of attention to the kids that they live with,\" said Monique Udell, the lead author of the study. \"One interesting thing we have observed is that dogs are matching children's behavior, but less frequently than what we have seen between dogs and adults. This suggests that while dogs may view children as social companions, there are also some differences that we need to understand better.\" While research has found dogs can have a lot of positive impacts on a child's life, there are also risks associated with the dog-child relationship. For example, other studies have found dogs are more likely to bite children versus adults. \"We still have a lot to learn about the dog-child relationship, Udell said. But research does show that kids are very capable of training dogs.\""
+            },
+            "questions": [
+              {
+                "question_no": 22,
+                "stem": "What does the passage say about the findings of a new study from Oregon State University?",
+                "options": {
+                  "A": "Positive.",
+                  "B": "Original.",
+                  "C": "Important.",
+                  "D": "Surprising."
+                },
+                "raw_text": "22. A) Positive. C) Important.\nB) Original. D) Surprising.",
+                "answer": "C",
+                "answer_detail": {
+                  "correct_option_text": "Important.",
+                  "evidence": [
+                    {
+                      "quote": "The findings are important because there is a growing body of evidence...",
+                      "reason": "The author directly evaluates the findings as 'important'."
+                    }
+                  ],
+                  "analysis": "The text directly states that the findings of the study are important.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 23,
+                "stem": "What does a growing body of evidence show according to the passage?",
+                "options": {
+                  "A": "Dogs match their behavior with kids as much as with adults.",
+                  "B": "Kids and adults alike find in dogs a source of attachment.",
+                  "C": "Kids' attitude to dogs is influenced by adults.",
+                  "D": "Dogs can help kids in many ways."
+                },
+                "raw_text": "23. A) Dogs match their behavior with kids as much as with adults.\nB) Kids and adults alike find in dogs a source of attachment.\nC) Kids' attitude to dogs is influenced by adults.\nD) Dogs can help kids in many ways.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "Dogs can help kids in many ways.",
+                  "evidence": [
+                    {
+                      "quote": "there is a growing body of evidence that dogs can help children in many ways.",
+                      "reason": "'children' matches 'kids' in option D."
+                    }
+                  ],
+                  "analysis": "The passage explicitly notes a growing body of evidence showing dogs can help children (kids) in many ways.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 24,
+                "stem": "What did Monique Udell say their study suggests?",
+                "options": {
+                  "A": "Dogs pay much attention to the kids they live with.",
+                  "B": "Dogs view both adults and kids as social companions.",
+                  "C": "Kids differ from adults in their behavior towards dogs.",
+                  "D": "Kids need to be aware of the risks in playing with dogs."
+                },
+                "raw_text": "24. A) Dogs pay much attention to the kids they live with.\nB) Dogs view both adults and kids as social companions.\nC) Kids differ from adults in their behavior towards dogs.\nD) Kids need to be aware of the risks in playing with dogs.",
+                "answer": "A",
+                "answer_detail": {
+                  "correct_option_text": "Dogs pay much attention to the kids they live with.",
+                  "evidence": [
+                    {
+                      "quote": "this study suggests dogs are paying a lot of attention to the kids that they live with",
+                      "reason": "'paying a lot of attention' is paraphrased as 'pay much attention'."
+                    }
+                  ],
+                  "analysis": "Monique Udell directly quotes that the study suggests dogs pay a lot of attention to the kids they live with.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 25,
+                "stem": "What does research show kids are very capable of doing?",
+                "options": {
+                  "A": "Understanding dogs.",
+                  "B": "Training dogs.",
+                  "C": "Taking care of dogs.",
+                  "D": "Associating with dogs."
+                },
+                "raw_text": "25. A) Understanding dogs. C) Taking care of dogs.\nB) Training dogs. D) Associating with dogs.",
+                "answer": "B",
+                "answer_detail": {
+                  "correct_option_text": "Training dogs.",
+                  "evidence": [
+                    {
+                      "quote": "But research does show that kids are very capable of training dogs.",
+                      "reason": "Direct match."
+                    }
+                  ],
+                  "analysis": "The final sentence of the passage states that research shows kids are capable of training dogs.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 4,
+              "actual_count": 4,
+              "is_complete": true
+            }
+          }
+        ],
+        "integrity": {
+          "group_count": 3,
+          "question_count": 10
+        }
+      }
+    ]
+  },
+  "warnings": []
+}

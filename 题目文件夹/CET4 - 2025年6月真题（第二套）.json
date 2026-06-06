@@ -1,0 +1,815 @@
+{
+  "exam_meta": {
+    "exam_id": "2025.06-set-2",
+    "exam_date": "2025.06",
+    "set_id": 2,
+    "set_label": "第2套",
+    "source_type": "listening"
+  },
+  "answer_key": {
+    "1": "B",
+    "2": "D",
+    "3": "D",
+    "4": "A",
+    "5": "C",
+    "6": "D",
+    "7": "A",
+    "8": "C",
+    "9": "B",
+    "10": "C",
+    "11": "A",
+    "12": "C",
+    "13": "B",
+    "14": "B",
+    "15": "A",
+    "16": "B",
+    "17": "A",
+    "18": "D",
+    "19": "C",
+    "20": "D",
+    "21": "A",
+    "22": "B",
+    "23": "C",
+    "24": "D",
+    "25": "A"
+  },
+  "listening": {
+    "exists": true,
+    "sections": [
+      {
+        "section_label": "Section A",
+        "directions": "In this section, you will hear three news reports. At the end of each news report, you will hear two or three questions. Both the news report and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+        "groups": [
+          {
+            "group_id": "section_a_group_1",
+            "group_type": "news_report",
+            "question_range": {
+              "start": 1,
+              "end": 2,
+              "raw_text": "Questions 1 and 2 are based on the news report you have just heard."
+            },
+            "group_intro": "Questions 1 and 2 are based on the news report you have just heard.",
+            "material": {
+              "title": "News Report One",
+              "transcript": "A Florida teenager and an Atlanta woman won the overall men's and women's divisions Saturday at the annual 7 Mile Bridge Run. Vaclav Bursa, 15, of Big Pine Key, Florida, finished first overall. He completed the race in 41 minutes and 1 second and claimed the top spot in the men's division. Bursa won third place in the 2022 race. He is a student at Marathon High School. Joanna Stephens, 28, of Atlanta, completed the course in 41 minutes and 12 seconds. She won the women's division title and placed second overall. The race drew competitors from 41 US states. There were also runners from other countries, including Canada, the UK and Switzerland. The run closed the span between the Middle and Lower Keys to traffic for 3 hours Saturday. The April contest is one of the most popular running events in the southeastern United States. The race field filled within minutes after online registration opened in January."
+            },
+            "questions": [
+              {
+                "question_no": 1,
+                "stem": "What does the news report say about Vaclav Bursa and Joanna Stephens?",
+                "options": {
+                  "A": "They are young teenagers from Atlanta.",
+                  "B": "They won this year's 7 Mile Bridge Run.",
+                  "C": "They completed the race in less than 40 minutes.",
+                  "D": "They are both students at Marathon High School."
+                },
+                "raw_text": "1. A) They are young teenagers from Atlanta. B) They won this year's 7 Mile Bridge Run. C) They completed the race in less than 40 minutes. D) They are both students at Marathon High School.",
+                "answer": "B",
+                "answer_detail": {
+                  "correct_option_text": "They won this year's 7 Mile Bridge Run.",
+                  "evidence": [
+                    {
+                      "quote": "A Florida teenager and an Atlanta woman won the overall men's and women's divisions Saturday at the annual 7 Mile Bridge Run.",
+                      "reason": "The text directly states that Vaclav Bursa (the teenager) and Joanna Stephens (the woman) won the divisions of the annual 7 Mile Bridge Run."
+                    }
+                  ],
+                  "analysis": "The transcript directly states that the teenager and the woman won the divisions at the annual 7 Mile Bridge Run, matching option B.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 2,
+                "stem": "What do we learn about the April contest?",
+                "options": {
+                  "A": "It drew competitors from more than 40 countries.",
+                  "B": "It is watched live online by fans all over the world.",
+                  "C": "It closed the city of Big Pine Key to traffic for three hours.",
+                  "D": "It is one of the most popular running events in the southeastern U.S."
+                },
+                "raw_text": "2. A) It drew competitors from more than 40 countries. B) It is watched live online by fans all over the world. C) It closed the city of Big Pine Key to traffic for three hours. D) It is one of the most popular running events in the southeastern U.S.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "It is one of the most popular running events in the southeastern U.S.",
+                  "evidence": [
+                    {
+                      "quote": "The April contest is one of the most popular running events in the southeastern United States.",
+                      "reason": "The transcript directly asserts this fact about the April contest."
+                    }
+                  ],
+                  "analysis": "The answer directly matches the statement in the transcript that the April contest is one of the most popular running events in the southeastern United States.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 2,
+              "actual_count": 2,
+              "is_complete": true
+            }
+          },
+          {
+            "group_id": "section_a_group_2",
+            "group_type": "news_report",
+            "question_range": {
+              "start": 3,
+              "end": 4,
+              "raw_text": "Questions 3 and 4 are based on the news report you have just heard."
+            },
+            "group_intro": "Questions 3 and 4 are based on the news report you have just heard.",
+            "material": {
+              "title": "News Report Two",
+              "transcript": "British astronaut Tim Peake is stepping down permanently from his role as a European astronaut. He's going to take up a full-time position as ambassador for science and space instead—work he's been doing since 2019. The former British Army Air Corps helicopter pilot was selected as a European Space Agency astronaut in 2009. He flew to the space station for a 6-month tour in 2015. The tour saw him control a robot on earth remotely from orbit. He also helped dock two spacecraft. Tim said, \"Being an astronaut has been the most extraordinary experience. I've had the privilege of working with an exceptional team of individuals during the past 13 years with the agency. It has been incredibly exciting and rewarding. By assuming the role of an ambassador for human flights to space, I'll continue to support the European and the UK space agencies.\""
+            },
+            "questions": [
+              {
+                "question_no": 3,
+                "stem": "What do we learn from the news report about Tim Peake?",
+                "options": {
+                  "A": "He was once a full-time ambassador.",
+                  "B": "He was soon to retire from the army.",
+                  "C": "He became an astronaut in 2015.",
+                  "D": "He used to be a helicopter pilot."
+                },
+                "raw_text": "3. A) He was once a full-time ambassador. B) He was soon to retire from the army. C) He became an astronaut in 2015. D) He used to be a helicopter pilot.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "He used to be a helicopter pilot.",
+                  "evidence": [
+                    {
+                      "quote": "The former British Army Air Corps helicopter pilot was selected as a European Space Agency astronaut in 2009.",
+                      "reason": "The text describes him as a former British Army Air Corps helicopter pilot."
+                    }
+                  ],
+                  "analysis": "The transcript mentions he was a former helicopter pilot, which directly supports option D.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 4,
+                "stem": "What does Tim Peake say about his work with the European Space Agency?",
+                "options": {
+                  "A": "It has been unbelievably exciting and rewarding.",
+                  "B": "It has been extraordinarily tough and demanding.",
+                  "C": "It has contributed a great deal to human flights to space.",
+                  "D": "It has given him exceptional privilege as an ambassador."
+                },
+                "raw_text": "4. A) It has been unbelievably exciting and rewarding. B) It has been extraordinarily tough and demanding. C) It has contributed a great deal to human flights to space. D) It has given him exceptional privilege as an ambassador.",
+                "answer": "A",
+                "answer_detail": {
+                  "correct_option_text": "It has been unbelievably exciting and rewarding.",
+                  "evidence": [
+                    {
+                      "quote": "It has been incredibly exciting and rewarding.",
+                      "reason": "Tim describes his experience working with the agency as incredibly exciting and rewarding."
+                    }
+                  ],
+                  "analysis": "Option A is a direct paraphrase of the transcript phrase 'incredibly exciting and rewarding'.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 2,
+              "actual_count": 2,
+              "is_complete": true
+            }
+          },
+          {
+            "group_id": "section_a_group_3",
+            "group_type": "news_report",
+            "question_range": {
+              "start": 5,
+              "end": 7,
+              "raw_text": "Questions 5 to 7 are based on the news report you have just heard."
+            },
+            "group_intro": "Questions 5 to 7 are based on the news report you have just heard.",
+            "material": {
+              "title": "News Report Three",
+              "transcript": "An Asda store in Wales is now home to five cats after they wandered in and made themselves comfortable. The supermarket is known for its loyal customers, but now has a different kind of visitor that has appeared over the last year. Regular shoppers at the supermarket are familiar with the sight of several cats settling down in the shop aisles. The unusual situation started about 12 months ago, when one cat routinely started visiting the store. Local newspapers reported that puzzled customers posted on Facebook groups to try to find out if the cat was lost. But its owner assured the concerned customers it was very much loved and fed at home. It just enjoyed visiting the shop. Staff did their best to discourage the pet from hanging around. But instead of leaving and never coming back, it invited its friends round. There are now at least five different cats who come almost on a daily basis. They visit the store so much that staff have been forced to put up signs, asking their customers not to feed them."
+            },
+            "questions": [
+              {
+                "question_no": 5,
+                "stem": "What do we learn about the five cats seen in the Asda store?",
+                "options": {
+                  "A": "They are known for their loyalty to their owners.",
+                  "B": "They are brought in by the store's customers.",
+                  "C": "They are regular visitors to the store.",
+                  "D": "They are pets kept by the store staff."
+                },
+                "raw_text": "5. A) They are known for their loyalty to their owners. B) They are brought in by the store's customers. C) They are regular visitors to the store. D) They are pets kept by the store staff.",
+                "answer": "C",
+                "answer_detail": {
+                  "correct_option_text": "They are regular visitors to the store.",
+                  "evidence": [
+                    {
+                      "quote": "There are now at least five different cats who come almost on a daily basis.",
+                      "reason": "Coming almost on a daily basis makes them regular visitors."
+                    }
+                  ],
+                  "analysis": "The transcript describes the cats as coming to the store almost on a daily basis, which is paraphrased as regular visitors.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 6,
+                "stem": "What did some customers think when they saw the first cat routinely appear in the store?",
+                "options": {
+                  "A": "It might be a nuisance to the loyal shoppers.",
+                  "B": "It might have been abandoned by its owner.",
+                  "C": "It might be 12 months old.",
+                  "D": "It might have got lost."
+                },
+                "raw_text": "6. A) It might be a nuisance to the loyal shoppers. B) It might have been abandoned by its owner. C) It might be 12 months old. D) It might have got lost.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "It might have got lost.",
+                  "evidence": [
+                    {
+                      "quote": "puzzled customers posted on Facebook groups to try to find out if the cat was lost.",
+                      "reason": "Customers posted to check if the cat was lost, showing they thought it might have been lost."
+                    }
+                  ],
+                  "analysis": "The text states that puzzled customers posted on Facebook to find out if the cat was lost, matching option D.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 7,
+                "stem": "What are customers asked not to do?",
+                "options": {
+                  "A": "Feed the cats.",
+                  "B": "Remove any store signs.",
+                  "C": "Sit in the shop aisles.",
+                  "D": "Bring in pets with them."
+                },
+                "raw_text": "7. A) Feed the cats. B) Remove any store signs. C) Sit in the shop aisles. D) Bring in pets with them.",
+                "answer": "A",
+                "answer_detail": {
+                  "correct_option_text": "Feed the cats.",
+                  "evidence": [
+                    {
+                      "quote": "asking their customers not to feed them.",
+                      "reason": "Signs put up by staff specifically ask customers not to feed the cats."
+                    }
+                  ],
+                  "analysis": "The transcript directly states that customers were asked not to feed the cats.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 3,
+              "actual_count": 3,
+              "is_complete": true
+            }
+          }
+        ],
+        "integrity": {
+          "group_count": 3,
+          "question_count": 7
+        }
+      },
+      {
+        "section_label": "Section B",
+        "directions": "In this section, you will hear two long conversations. At the end of each conversation, you will hear four questions. Both the conversation and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+        "groups": [
+          {
+            "group_id": "section_b_group_1",
+            "group_type": "conversation",
+            "question_range": {
+              "start": 8,
+              "end": 11,
+              "raw_text": "Questions 8 to 11 are based on the conversation you have just heard."
+            },
+            "group_intro": "Questions 8 to 11 are based on the conversation you have just heard.",
+            "material": {
+              "title": "Conversation One",
+              "transcript": "W: I've been thinking about moving off campus next semester.\nM: Hmm.. I don't know if that's a good idea as your mother and I would worry about you living all by yourself in an apartment so far from home. And then there's the expense, too. I'm not sure we can afford it.\nW: Well, I wouldn't be alone, actually. Three of my friends from the dormitory would share the place with me. And with four of us, it wouldn't cost any more than living in the dorm.\nM: Are you sure about that? Rents in big cities are high, and then there's the cost of electricity and gas. Have you factored those in?\nW: We've budgeted for those, and for Internet and transportation. And if we move far enough from the city center, the rent is low enough for us to afford all of it.\nM: What's about the commute to and from campus? It sounds like you'll be wasting several hours every day on the road instead of studying.\nW: It's about an hour to campus, but there's no reason I can't study on the bus. After all, I did that during high school and my commute was even longer then.\nM: That's true. But I'm not sure why you want to leave campus and go through all that trouble when the cost is the same.\nW: For a lot of reasons. We'd have a kitchen, so we could cook ourselves. And we'd each have our own bedroom, where we could study instead of going to the library. We just have more space and privacy.\nM: I'm not convinced that the benefits are greater than the disadvantages, but I'll discuss this with your mother."
+            },
+            "questions": [
+              {
+                "question_no": 8,
+                "stem": "What has the woman been thinking of doing next semester?",
+                "options": {
+                  "A": "Sharing her room with friends.",
+                  "B": "Cutting down her living expenses.",
+                  "C": "Living off campus.",
+                  "D": "Moving to the city center."
+                },
+                "raw_text": "8. A) Sharing her room with friends. B) Cutting down her living expenses. C) Living off campus. D) Moving to the city center.",
+                "answer": "C",
+                "answer_detail": {
+                  "correct_option_text": "Living off campus.",
+                  "evidence": [
+                    {
+                      "quote": "W: I've been thinking about moving off campus next semester.",
+                      "reason": "The woman explicitly states she wants to move off campus."
+                    }
+                  ],
+                  "analysis": "The woman starts the conversation by stating she is thinking of moving off campus, matching option C.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 9,
+                "stem": "What does the man suggest the woman take into consideration?",
+                "options": {
+                  "A": "The facilities available.",
+                  "B": "Various costs involved.",
+                  "C": "Changes in living conditions.",
+                  "D": "The distance to her home."
+                },
+                "raw_text": "9. A) The facilities available. B) Various costs involved. C) Changes in living conditions. D) The distance to her home.",
+                "answer": "B",
+                "answer_detail": {
+                  "correct_option_text": "Various costs involved.",
+                  "evidence": [
+                    {
+                      "quote": "M: Are you sure about that? Rents in big cities are high, and then there's the cost of electricity and gas. Have you factored those in?",
+                      "reason": "The man warns her about rents and utility costs (electricity and gas)."
+                    }
+                  ],
+                  "analysis": "The man questions whether she has factored in rents, electricity, and gas, which represent various costs involved in living off-campus.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 10,
+                "stem": "What does the woman say she did during high school?",
+                "options": {
+                  "A": "Went through much trouble.",
+                  "B": "Commuted to save money.",
+                  "C": "Studied on the bus.",
+                  "D": "Lived on campus."
+                },
+                "raw_text": "10. A) Went through much trouble. B) Commuted to save money. C) Studied on the bus. D) Lived on campus.",
+                "answer": "C",
+                "answer_detail": {
+                  "correct_option_text": "Studied on the bus.",
+                  "evidence": [
+                    {
+                      "quote": "W: It's about an hour to campus, but there's no reason I can't study on the bus. After all, I did that during high school and my commute was even longer then.",
+                      "reason": "The woman mentions she studied on the bus during high school."
+                    }
+                  ],
+                  "analysis": "The woman explains she can study on the bus, stating 'I did that during high school', matching option C.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 11,
+                "stem": "What does the man say he'll do at the end of the conversation?",
+                "options": {
+                  "A": "Discuss the matter with the woman's mother.",
+                  "B": "Make a decision within a few days.",
+                  "C": "Try his best to persuade his wife.",
+                  "D": "Weigh the benefits against the disadvantages."
+                },
+                "raw_text": "11. A) Discuss the matter with the woman's mother. B) Make a decision within a few days. C) Try his best to persuade his wife. D) Weigh the benefits against the disadvantages.",
+                "answer": "A",
+                "answer_detail": {
+                  "correct_option_text": "Discuss the matter with the woman's mother.",
+                  "evidence": [
+                    {
+                      "quote": "M: ...but I'll discuss this with your mother.",
+                      "reason": "The man concludes by saying he will discuss the matter with her mother."
+                    }
+                  ],
+                  "analysis": "The man directly says at the end of the conversation that he will discuss the matter with the woman's mother.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 4,
+              "actual_count": 4,
+              "is_complete": true
+            }
+          },
+          {
+            "group_id": "section_b_group_2",
+            "group_type": "conversation",
+            "question_range": {
+              "start": 12,
+              "end": 15,
+              "raw_text": "Questions 12 to 15 are based on the conversation you have just heard."
+            },
+            "group_intro": "Questions 12 to 15 are based on the conversation you have just heard.",
+            "material": {
+              "title": "Conversation Two",
+              "transcript": "W: Good morning. I'm looking for a present for my nephew, Lawrence.\nM: Hi. Do you have anything in mind?\nW: I'm not sure. No. Do you know what boys aged around ten typically like?\nM: For that age group, our biggest seller this year has been this action figure. It's called Bobo Man, and it's incredibly popular.\nW: Does it do anything?\nM: Not by itself. It has no batteries, if that's what you mean. There's a Bobo Man cartoon popular amongst young children, you see. And this toy is the lead character from the show.\nW: Oh, I understand now. I've never heard of it, but I do know little Lawrence loves cartoons. Do you have any other popular toys? Perhaps something educational.\nM: Yes, of course. Right over here, we have dozens of puzzles for children of all ages. They are fun, great for exercising the mind and can be played either alone or in groups.\nW: I like this sort of idea. Lawrence has a sister who is slightly older, so maybe a game that they can play together would be good.\nM: What do you think of Battleships, then? It's a total classic. It has been around since the 1930s.\nW: Oh, yeah. We had one of those when growing up.\nM: Of course you did. Everyone did. And kids enjoy it just as much today as you and I did when we were young. Some games just never get old.\nW: I suppose you are right. I have fond memories playing Battleships when it was raining outside and we had to stay indoors. That's decided then. How much?\nM: 19 pounds and 90 pence, please.\nW: There you are. Have a nice day. M:Thank you. You too."
+            },
+            "questions": [
+              {
+                "question_no": 12,
+                "stem": "What is the woman doing?",
+                "options": {
+                  "A": "Interviewing the man.",
+                  "B": "Looking for Lawrence.",
+                  "C": "Choosing a present for her nephew.",
+                  "D": "Helping the man with his shopping."
+                },
+                "raw_text": "12. A) Interviewing the man. B) Looking for Lawrence. C) Choosing a present for her nephew. D) Helping the man with his shopping.",
+                "answer": "C",
+                "answer_detail": {
+                  "correct_option_text": "Choosing a present for her nephew.",
+                  "evidence": [
+                    {
+                      "quote": "W: Good morning. I'm looking for a present for my nephew, Lawrence.",
+                      "reason": "She clearly states she is looking for a present for Lawrence, her nephew."
+                    }
+                  ],
+                  "analysis": "The woman states she is looking for a present for her nephew Lawrence, which corresponds directly to option C.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 13,
+                "stem": "How does the man describe Bobo Man, the action figure?",
+                "options": {
+                  "A": "Quite educational.",
+                  "B": "Incredibly popular.",
+                  "C": "Driven by batteries.",
+                  "D": "Obviously childish."
+                },
+                "raw_text": "13. A) Quite educational. B) Incredibly popular. C) Driven by batteries. D) Obviously childish.",
+                "answer": "B",
+                "answer_detail": {
+                  "correct_option_text": "Incredibly popular.",
+                  "evidence": [
+                    {
+                      "quote": "M: ...It's called Bobo Man, and it's incredibly popular.",
+                      "reason": "The seller describes Bobo Man as incredibly popular."
+                    }
+                  ],
+                  "analysis": "The seller directly states that the toy is incredibly popular, matching option B.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 14,
+                "stem": "What kind of game does the woman think would be good for Lawrence?",
+                "options": {
+                  "A": "One he loves for helping exercise his mind.",
+                  "B": "One he can play together with his sister.",
+                  "C": "One he finds interesting and challenging.",
+                  "D": "One he can play either alone or in a group."
+                },
+                "raw_text": "14. A) One he loves for helping exercise his mind. B) One he can play together with his sister. C) One he finds interesting and challenging. D) One he can play either alone or in a group.",
+                "answer": "B",
+                "answer_detail": {
+                  "correct_option_text": "One he can play together with his sister.",
+                  "evidence": [
+                    {
+                      "quote": "W: ...Lawrence has a sister who is slightly older, so maybe a game that they can play together would be good.",
+                      "reason": "She wants a game Lawrence can play together with his sister."
+                    }
+                  ],
+                  "analysis": "The woman notes Lawrence has an older sister and wants a game they can play together, matching option B.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 15,
+                "stem": "What do we learn from the conversation about the game Battleships?",
+                "options": {
+                  "A": "It has been enjoyed by kids for decades.",
+                  "B": "It always reminds people of times of war.",
+                  "C": "It has been played both indoors and outdoors.",
+                  "D": "It distinguishes itself as one of the oldest games."
+                },
+                "raw_text": "15. A) It has been enjoyed by kids for decades. B) It always reminds people of times of war. C) It has been played both indoors and outdoors. D) It distinguishes itself as one of the oldest games.",
+                "answer": "A",
+                "answer_detail": {
+                  "correct_option_text": "It has been enjoyed by kids for decades.",
+                  "evidence": [
+                    {
+                      "quote": "M: ...It has been around since the 1930s. ... And kids enjoy it just as much today as you and I did when we were young.",
+                      "reason": "The game has been around since the 1930s and enjoyed across generations."
+                    }
+                  ],
+                  "analysis": "Because the game has been around since the 1930s and continues to be enjoyed, it has been enjoyed by kids for decades.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 4,
+              "actual_count": 4,
+              "is_complete": true
+            }
+          }
+        ],
+        "integrity": {
+          "group_count": 2,
+          "question_count": 8
+        }
+      },
+      {
+        "section_label": "Section C",
+        "directions": "In this section, you will hear three passages. At the end of each passage, you will hear three or four questions. Both the passage and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+        "groups": [
+          {
+            "group_id": "section_c_group_1",
+            "group_type": "passage",
+            "question_range": {
+              "start": 16,
+              "end": 18,
+              "raw_text": "Questions 16 to 18 are based on the passage you have just heard."
+            },
+            "group_intro": "Questions 16 to 18 are based on the passage you have just heard.",
+            "material": {
+              "title": "Passage One",
+              "transcript": "We assume that if we offer our customers more choices, then they'll be more likely to buy our products. But here's the paradox of choice: if a person is presented with too many choices, they are actually less likely to buy. In 2012, psychologists published a study about jams. On a regular day at a local food market, people would find a display table with 24 different kinds of jams. Then on another day, at that same food market, people were given only 6 different types of jam choices. Guess which display table led to more sales?\nThe study found that while the bigger display table created more interest, people were almost 10 times less likely to purchase a jar of jam than in the case of the smaller display. Customer satisfaction takes a hit as well. In the study, the bigger display of jams leads to lower customer satisfaction than the smaller display. In an extensive study published in 2015, researchers analyzed a total of 99 choice studies and specifically looked at those cases in which reducing choices helped to boost sales. They found four rules that motivate consumers to buy: when people want to make a quick and easy choice, when the product is complex, when it's difficult to compare alternatives, and when consumers don't have clear preferences. So as you can see, when it comes to choices, less is more."
+            },
+            "questions": [
+              {
+                "question_no": 16,
+                "stem": "What do we learn from the passage about the paradox of choice?",
+                "options": {
+                  "A": "A display of a variety of products increases consumers' interest.",
+                  "B": "Too many choices decrease one's desire to buy.",
+                  "C": "Fewer choices lead to lower customer satisfaction.",
+                  "D": "Customers given more choices are more likely to get confused."
+                },
+                "raw_text": "16. A) A display of a variety of products increases consumers' interest. B) Too many choices decrease one's desire to buy. C) Fewer choices lead to lower customer satisfaction. D) Customers given more choices are more likely to get confused.",
+                "answer": "B",
+                "answer_detail": {
+                  "correct_option_text": "Too many choices decrease one's desire to buy.",
+                  "evidence": [
+                    {
+                      "quote": "But here's the paradox of choice: if a person is presented with too many choices, they are actually less likely to buy.",
+                      "reason": "The paradox of choice explains that having too many choices makes people less likely to buy."
+                    }
+                  ],
+                  "analysis": "The text directly states that too many choices make people 'less likely to buy', which matches option B.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 17,
+                "stem": "What did the psychologists want to find out in their 2012 study about jams?",
+                "options": {
+                  "A": "What kind of display results in more sales.",
+                  "B": "What kind of display creates more interest.",
+                  "C": "What kind of display attracts a greater crowd of customers.",
+                  "D": "What kind of display leads to greater customer satisfaction."
+                },
+                "raw_text": "17. A) What kind of display results in more sales. B) What kind of display creates more interest. C) What kind of display attracts a greater crowd of customers. D) What kind of display leads to greater customer satisfaction.",
+                "answer": "A",
+                "answer_detail": {
+                  "correct_option_text": "What kind of display results in more sales.",
+                  "evidence": [
+                    {
+                      "quote": "Guess which display table led to more sales?",
+                      "reason": "The study was designed to compare the sales results of a table with 24 jams versus a table with 6 jams."
+                    }
+                  ],
+                  "analysis": "The prompt 'Guess which display table led to more sales?' shows the core inquiry was which display results in more sales.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 18,
+                "stem": "What is the finding of an extensive study published in 2015?",
+                "options": {
+                  "A": "There are situations where customers buy nothing.",
+                  "B": "There are tricks to increase customer satisfaction.",
+                  "C": "There are ways to predict customer preferences.",
+                  "D": "There are rules that motivate customers to buy."
+                },
+                "raw_text": "18. A) There are situations where customers buy nothing. B) There are tricks to increase customer satisfaction. C) There are ways to predict customer preferences. D) There are rules that motivate customers to buy.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "There are rules that motivate customers to buy.",
+                  "evidence": [
+                    {
+                      "quote": "They found four rules that motivate consumers to buy...",
+                      "reason": "The 2015 study identified four rules that motivate consumers to buy."
+                    }
+                  ],
+                  "analysis": "The text explicitly states that researchers 'found four rules that motivate consumers to buy', directly matching option D.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 3,
+              "actual_count": 3,
+              "is_complete": true
+            }
+          },
+          {
+            "group_id": "section_c_group_2",
+            "group_type": "passage",
+            "question_range": {
+              "start": 19,
+              "end": 21,
+              "raw_text": "Questions 19 to 21 are based on the passage you have just heard."
+            },
+            "group_intro": "Questions 19 to 21 are based on the passage you have just heard.",
+            "material": {
+              "title": "Passage Two",
+              "transcript": "The New Year has come and gone, and many may have already forgotten what they had resolved to do on January 1st. But if that resolution was to volunteer more, now is the best time to start. Volunteering can drop after the holiday season, and by February, some organizations lack the volunteers they had in surplus just a month ago. According to one survey, only 26% of Americans volunteered, despite reports that many Americans view volunteering as worthwhile.\nWhy such a disconnect? Most people cite time and conflicting work schedules as major barriers, but employees and employers would actually benefit if companies made employee volunteering part of the job. Researchers have found donating our time and talent to others can lower blood pressure, boost happiness and improve mental and physical health. Studies have also linked employee volunteer programs with more productive employees. With so much emphasis on employee wellness these days, company volunteer programs could be the perfect 2025 resolution. But for volunteering to benefit employees and the workplace, the entire organization needs to be involved. By allowing employees to donate their time during work hours, the workplace becomes an outlet for personal fulfillment without affecting personal time. In one survey, 89% of employees perceived companies that sponsored volunteer activities as creating a better working environment, and 75% said volunteering was critical to their well-being."
+            },
+            "questions": [
+              {
+                "question_no": 19,
+                "stem": "What do many Americans think of volunteering?",
+                "options": {
+                  "A": "Stressful.",
+                  "B": "Burdensome.",
+                  "C": "Worthwhile.",
+                  "D": "Energy-boosting."
+                },
+                "raw_text": "19. A) Stressful. B) Burdensome. C) Worthwhile. D) Energy-boosting.",
+                "answer": "C",
+                "answer_detail": {
+                  "correct_option_text": "Worthwhile.",
+                  "evidence": [
+                    {
+                      "quote": "...despite reports that many Americans view volunteering as worthwhile.",
+                      "reason": "The text directly states that many Americans view volunteering as worthwhile."
+                    }
+                  ],
+                  "analysis": "The transcript directly states that many Americans view volunteering as worthwhile, matching option C.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 20,
+                "stem": "How could companies ensure both employees and employers benefit from volunteering?",
+                "options": {
+                  "A": "By linking it with employees' salary.",
+                  "B": "By taking it as the New Year resolution.",
+                  "C": "By improving work schedules.",
+                  "D": "By making it part of the job."
+                },
+                "raw_text": "20. A) By linking it with employees' salary. B) By taking it as the New Year resolution. C) By improving work schedules. D) By making it part of the job.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "By making it part of the job.",
+                  "evidence": [
+                    {
+                      "quote": "...but employees and employers would actually benefit if companies made employee volunteering part of the job.",
+                      "reason": "The text suggests that both parties benefit if volunteering is made part of the job."
+                    }
+                  ],
+                  "analysis": "The transcript explicitly suggests companies make volunteering 'part of the job' for employees and employers to benefit.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 21,
+                "stem": "What did 75% of employees say about volunteering in a survey?",
+                "options": {
+                  "A": "It was very important to their well-being.",
+                  "B": "It had taken little of their spare time.",
+                  "C": "It was an outlet for their personal fulfillment.",
+                  "D": "It helped improve their working environment."
+                },
+                "raw_text": "21. A) It was very important to their well-being. B) It had taken little of their spare time. C) It was an outlet for their personal fulfillment. D) It helped improve their working environment.",
+                "answer": "A",
+                "answer_detail": {
+                  "correct_option_text": "It was very important to their well-being.",
+                  "evidence": [
+                    {
+                      "quote": "...and 75% said volunteering was critical to their well-being.",
+                      "reason": "Saying volunteering is 'critical to their well-being' equates to it being 'very important'."
+                    }
+                  ],
+                  "analysis": "The text states that 75% said volunteering was critical to their well-being, which is paraphrased as very important in option A.",
+                  "mapping_confidence": "high"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 3,
+              "actual_count": 3,
+              "is_complete": true
+            }
+          },
+          {
+            "group_id": "section_c_group_3",
+            "group_type": "passage",
+            "question_range": {
+              "start": 22,
+              "end": 25,
+              "raw_text": "Questions 22 to 25 are based on the passage you have just heard."
+            },
+            "group_intro": "Questions 22 to 25 are based on the passage you have just heard.",
+            "material": {
+              "title": "Passage Three",
+              "transcript": "The vast majority of the UK's 200,000 tonnes of retail sectors annual food waste comes from supermarkets. But it's a problem that impacts independent luxury food suppliers too. The scale is small. It's estimated at less than one per cent of the UK's food waste total. But the quality from these suppliers is high. Everything from specialist cheeses to sought-after coffee beans gets thrown away every day in the current food system.\nThis is where French entrepreneur Sophie Andre comes in. In 2016 she moved to London and began by setting up a business delivering luxury hand-made food across the city. \"Food delivery seems to be a big thing here,\" She says. \"So I started delivering products by bicycle. Talking with local producers I learned that a small part of the production is sometimes wasted due to problems with size or shape, but the quality of the products remains unchanged.\" Unlike many food waste projects that have sprung up in recent years, the idea is not simply to redistribute waste food, but to provide a high-quality product. André's company Elysia offers breakfasts and snacks specifically aimed at business meetings and events. Once sourced, Elysia uses waste products to create \"simple, natural, straightforward\" meals and snacks. Perhaps unlike other waste food, the supply is regular. Suppliers will always have a certain amount of surplus. So the menus remain regular too. André believes this benefits both her business and her customers."
+            },
+            "questions": [
+              {
+                "question_no": 22,
+                "stem": "What do we learn about the UK's retail sector of food waste?",
+                "options": {
+                  "A": "It amounts to 2,000 tons daily.",
+                  "B": "It mostly comes from supermarkets.",
+                  "C": "It is estimated at 11% of the UK's total food supply.",
+                  "D": "It has a lot to do with independent luxury food suppliers."
+                },
+                "raw_text": "22. A) It amounts to 2,000 tons daily. B) It mostly comes from supermarkets. C) It is estimated at 11% of the UK's total food supply. D) It has a lot to do with independent luxury food suppliers.",
+                "answer": "B",
+                "answer_detail": {
+                  "correct_option_text": "It mostly comes from supermarkets.",
+                  "evidence": [
+                    {
+                      "quote": "The vast majority of the UK's 200,000 tonnes of retail sectors annual food waste comes from supermarkets.",
+                      "reason": "The text states the vast majority of retail food waste comes from supermarkets."
+                    }
+                  ],
+                  "analysis": "The text specifies that the 'vast majority' comes from supermarkets, which matches 'mostly comes from supermarkets'.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 23,
+                "stem": "What does Sophie Andre's business do in London?",
+                "options": {
+                  "A": "It rents bicycles to deliver food.",
+                  "B": "It sells sought-after coffee beans.",
+                  "C": "It delivers luxury hand-made food.",
+                  "D": "It recycles waste food from the city."
+                },
+                "raw_text": "23. A) It rents bicycles to deliver food. B) It sells sought-after coffee beans. C) It delivers luxury hand-made food. D) It recycles waste food from the city.",
+                "answer": "C",
+                "answer_detail": {
+                  "correct_option_text": "It delivers luxury hand-made food.",
+                  "evidence": [
+                    {
+                      "quote": "...began by setting up a business delivering luxury hand-made food across the city.",
+                      "reason": "Her business focuses on delivering luxury hand-made food in London."
+                    }
+                  ],
+                  "analysis": "The text explicitly states her business delivers luxury hand-made food across the city.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 24,
+                "stem": "In what way does Sophie Andre's business differ from many food waste projects?",
+                "options": {
+                  "A": "It pays special attention to the size and shape of its products.",
+                  "B": "It tries to escape the constraints of the current food system.",
+                  "C": "It cooperates closely with local producers.",
+                  "D": "It aims to provide high-quality products."
+                },
+                "raw_text": "24. A) It pays special attention to the size and shape of its products. B) It tries to escape the constraints of the current food system. C) It cooperates closely with local producers. D) It aims to provide high-quality products.",
+                "answer": "D",
+                "answer_detail": {
+                  "correct_option_text": "It aims to provide high-quality products.",
+                  "evidence": [
+                    {
+                      "quote": "Unlike many food waste projects that have sprung up in recent years, the idea is not simply to redistribute waste food, but to provide a high-quality product.",
+                      "reason": "Her project differs because the goal is to provide a high-quality product."
+                    }
+                  ],
+                  "analysis": "The transcript explicitly contrasts Elysia with other food waste projects by noting her goal is to 'provide a high-quality product'.",
+                  "mapping_confidence": "high"
+                }
+              },
+              {
+                "question_no": 25,
+                "stem": "Why will suppliers always have a certain amount of surplus?",
+                "options": {
+                  "A": "To ensure a regular supply.",
+                  "B": "To maintain a unique menu.",
+                  "C": "To make up for the waste products.",
+                  "D": "To meet customers' urgent demand."
+                },
+                "raw_text": "25. A) To ensure a regular supply. B) To maintain a unique menu. C) To make up for the waste products. D) To meet customers' urgent demand.",
+                "answer": "A",
+                "answer_detail": {
+                  "correct_option_text": "To ensure a regular supply.",
+                  "evidence": [
+                    {
+                      "quote": "Perhaps unlike other waste food, the supply is regular. Suppliers will always have a certain amount of surplus. So the menus remain regular too.",
+                      "reason": "The surplus allows suppliers to keep the menus regular, implying ensuring a regular supply."
+                    }
+                  ],
+                  "analysis": "The text explains that the supply of waste food is regular because suppliers always have a surplus, thereby ensuring a regular supply.",
+                  "mapping_confidence": "medium"
+                }
+              }
+            ],
+            "integrity": {
+              "expected_count": 4,
+              "actual_count": 4,
+              "is_complete": true
+            }
+          }
+        ],
+        "integrity": {
+          "group_count": 3,
+          "question_count": 10
+        }
+      }
+    ]
+  },
+  "warnings": []
+}
